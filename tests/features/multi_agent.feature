@@ -24,11 +24,13 @@ Feature: Approach B - coordinator with three specialists
     Then each specialist returned at most 5 Findings
     And every Finding has a claim, a confidence and citations
 
-  Scenario: Each specialist respects its budget
+  Scenario: The multi-agent graph has the same total tool budget as the single agent
     Given every specialist's fake LLM keeps requesting tool calls forever
+    And the specialists' findings conflict so a follow-up happens
     When the multi-agent graph triages the incident
-    Then no specialist executed more than 6 tool calls
-    And the total across the graph is at most 15 plus the follow-up allowance
+    Then no specialist executed more than 4 tool calls in its first pass
+    And the follow-up executed at most 3 tool calls
+    And the total across the graph is at most 15, the same as the single agent
 
   Scenario: The coordinator reconciles findings into a diagnosis
     When the multi-agent graph triages the incident

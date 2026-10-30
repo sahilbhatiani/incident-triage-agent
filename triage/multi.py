@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
-SPECIALIST_BUDGET = 6
+TOTAL_BUDGET = 15  # same as the single agent
+SPECIALIST_BUDGET = 4  # x3 specialists = 12
+FOLLOWUP_BUDGET = 3  # 12 + 3 = 15
 MAX_FINDINGS = 5
 MAX_FOLLOWUPS = 1
 
