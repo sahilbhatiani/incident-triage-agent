@@ -1,0 +1,10 @@
+{
+  "incident_id": "std-03a",
+  "fault": "downstream_timeout",
+  "service": "payments",
+  "onset_min": 15,
+  "severity": 0.9,
+  "red_herrings": [],
+  "noise": 0.1,
+  "seed": 120
+}

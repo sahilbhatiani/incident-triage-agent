@@ -1,0 +1,10 @@
+{
+  "incident_id": "std-02a",
+  "fault": "db_pool_saturation",
+  "service": "postgres",
+  "onset_min": 15,
+  "severity": 0.9,
+  "red_herrings": [],
+  "noise": 0.1,
+  "seed": 110
+}

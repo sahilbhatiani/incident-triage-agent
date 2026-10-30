@@ -1,0 +1,16 @@
+{
+  "incident_id": "std-01c",
+  "fault": "bad_deploy",
+  "service": "inventory",
+  "onset_min": 28,
+  "severity": 0.5,
+  "red_herrings": [
+    {
+      "kind": "unrelated_deploy",
+      "service": "payments",
+      "at_min": 14
+    }
+  ],
+  "noise": 0.2,
+  "seed": 102
+}

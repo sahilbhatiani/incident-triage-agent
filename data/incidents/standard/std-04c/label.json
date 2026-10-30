@@ -1,0 +1,9 @@
+{
+  "fault": "memory_leak",
+  "service": "inventory",
+  "onset_ts": 1680,
+  "key_evidence_ids": [
+    "L000325",
+    "L000332"
+  ]
+}
