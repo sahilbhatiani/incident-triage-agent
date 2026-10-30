@@ -1,0 +1,641 @@
+{"id": "L000001", "t": 13, "time": "2026-10-30T09:00:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 23ms"}
+{"id": "L000002", "t": 14, "time": "2026-10-30T09:00:14Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 67ms"}
+{"id": "L000003", "t": 18, "time": "2026-10-30T09:00:18Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 14ms"}
+{"id": "L000004", "t": 20, "time": "2026-10-30T09:00:20Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 118ms"}
+{"id": "L000005", "t": 24, "time": "2026-10-30T09:00:24Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 39ms"}
+{"id": "L000006", "t": 27, "time": "2026-10-30T09:00:27Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 36ms"}
+{"id": "L000007", "t": 58, "time": "2026-10-30T09:00:58Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 43ms"}
+{"id": "L000008", "t": 60, "time": "2026-10-30T09:01:00Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 25ms"}
+{"id": "L000009", "t": 71, "time": "2026-10-30T09:01:11Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 39ms"}
+{"id": "L000010", "t": 79, "time": "2026-10-30T09:01:19Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 74ms"}
+{"id": "L000011", "t": 81, "time": "2026-10-30T09:01:21Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 7ms"}
+{"id": "L000012", "t": 82, "time": "2026-10-30T09:01:22Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 38ms"}
+{"id": "L000013", "t": 108, "time": "2026-10-30T09:01:48Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 53ms"}
+{"id": "L000014", "t": 113, "time": "2026-10-30T09:01:53Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 49ms"}
+{"id": "L000015", "t": 127, "time": "2026-10-30T09:02:07Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 103ms"}
+{"id": "L000016", "t": 148, "time": "2026-10-30T09:02:28Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 6ms"}
+{"id": "L000017", "t": 150, "time": "2026-10-30T09:02:30Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 106ms"}
+{"id": "L000018", "t": 152, "time": "2026-10-30T09:02:32Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 119ms"}
+{"id": "L000019", "t": 158, "time": "2026-10-30T09:02:38Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 41ms"}
+{"id": "L000020", "t": 166, "time": "2026-10-30T09:02:46Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 59ms"}
+{"id": "L000021", "t": 179, "time": "2026-10-30T09:02:59Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 39ms"}
+{"id": "L000022", "t": 189, "time": "2026-10-30T09:03:09Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 80ms"}
+{"id": "L000023", "t": 207, "time": "2026-10-30T09:03:27Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 96ms"}
+{"id": "L000024", "t": 216, "time": "2026-10-30T09:03:36Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 64ms"}
+{"id": "L000025", "t": 228, "time": "2026-10-30T09:03:48Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 88ms"}
+{"id": "L000026", "t": 230, "time": "2026-10-30T09:03:50Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 74ms"}
+{"id": "L000027", "t": 233, "time": "2026-10-30T09:03:53Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 58ms"}
+{"id": "L000028", "t": 265, "time": "2026-10-30T09:04:25Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 119ms"}
+{"id": "L000029", "t": 270, "time": "2026-10-30T09:04:30Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 34ms"}
+{"id": "L000030", "t": 288, "time": "2026-10-30T09:04:48Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 44ms"}
+{"id": "L000031", "t": 292, "time": "2026-10-30T09:04:52Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 9ms"}
+{"id": "L000032", "t": 294, "time": "2026-10-30T09:04:54Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 72ms"}
+{"id": "L000033", "t": 308, "time": "2026-10-30T09:05:08Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 58ms"}
+{"id": "L000034", "t": 334, "time": "2026-10-30T09:05:34Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 5ms"}
+{"id": "L000035", "t": 341, "time": "2026-10-30T09:05:41Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 76ms"}
+{"id": "L000036", "t": 342, "time": "2026-10-30T09:05:42Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 66ms"}
+{"id": "L000037", "t": 363, "time": "2026-10-30T09:06:03Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 53ms"}
+{"id": "L000038", "t": 367, "time": "2026-10-30T09:06:07Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 64ms"}
+{"id": "L000039", "t": 367, "time": "2026-10-30T09:06:07Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 101ms"}
+{"id": "L000040", "t": 383, "time": "2026-10-30T09:06:23Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 96ms"}
+{"id": "L000041", "t": 403, "time": "2026-10-30T09:06:43Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 13ms"}
+{"id": "L000042", "t": 409, "time": "2026-10-30T09:06:49Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 118ms"}
+{"id": "L000043", "t": 410, "time": "2026-10-30T09:06:50Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 48ms"}
+{"id": "L000044", "t": 416, "time": "2026-10-30T09:06:56Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 59ms"}
+{"id": "L000045", "t": 442, "time": "2026-10-30T09:07:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 70ms"}
+{"id": "L000046", "t": 452, "time": "2026-10-30T09:07:32Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 33ms"}
+{"id": "L000047", "t": 454, "time": "2026-10-30T09:07:34Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 62ms"}
+{"id": "L000048", "t": 470, "time": "2026-10-30T09:07:50Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 94ms"}
+{"id": "L000049", "t": 480, "time": "2026-10-30T09:08:00Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 77ms"}
+{"id": "L000050", "t": 484, "time": "2026-10-30T09:08:04Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 48ms"}
+{"id": "L000051", "t": 495, "time": "2026-10-30T09:08:15Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 22ms"}
+{"id": "L000052", "t": 500, "time": "2026-10-30T09:08:20Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 92ms"}
+{"id": "L000053", "t": 500, "time": "2026-10-30T09:08:20Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 64ms"}
+{"id": "L000054", "t": 538, "time": "2026-10-30T09:08:58Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 48ms"}
+{"id": "L000055", "t": 538, "time": "2026-10-30T09:08:58Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 7ms"}
+{"id": "L000056", "t": 539, "time": "2026-10-30T09:08:59Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 75ms"}
+{"id": "L000057", "t": 545, "time": "2026-10-30T09:09:05Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 65ms"}
+{"id": "L000058", "t": 553, "time": "2026-10-30T09:09:13Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 25ms"}
+{"id": "L000059", "t": 559, "time": "2026-10-30T09:09:19Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 46ms"}
+{"id": "L000060", "t": 579, "time": "2026-10-30T09:09:39Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 58ms"}
+{"id": "L000061", "t": 581, "time": "2026-10-30T09:09:41Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 99ms"}
+{"id": "L000062", "t": 588, "time": "2026-10-30T09:09:48Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 10ms"}
+{"id": "L000063", "t": 608, "time": "2026-10-30T09:10:08Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 11ms"}
+{"id": "L000064", "t": 616, "time": "2026-10-30T09:10:16Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 39ms"}
+{"id": "L000065", "t": 628, "time": "2026-10-30T09:10:28Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 66ms"}
+{"id": "L000066", "t": 630, "time": "2026-10-30T09:10:30Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 11ms"}
+{"id": "L000067", "t": 651, "time": "2026-10-30T09:10:51Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 8ms"}
+{"id": "L000068", "t": 665, "time": "2026-10-30T09:11:05Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 63ms"}
+{"id": "L000069", "t": 670, "time": "2026-10-30T09:11:10Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 58ms"}
+{"id": "L000070", "t": 681, "time": "2026-10-30T09:11:21Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 21ms"}
+{"id": "L000071", "t": 684, "time": "2026-10-30T09:11:24Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 115ms"}
+{"id": "L000072", "t": 702, "time": "2026-10-30T09:11:42Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 14ms"}
+{"id": "L000073", "t": 704, "time": "2026-10-30T09:11:44Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 95ms"}
+{"id": "L000074", "t": 718, "time": "2026-10-30T09:11:58Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 47ms"}
+{"id": "L000075", "t": 721, "time": "2026-10-30T09:12:01Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 66ms"}
+{"id": "L000076", "t": 725, "time": "2026-10-30T09:12:05Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 119ms"}
+{"id": "L000077", "t": 725, "time": "2026-10-30T09:12:05Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 21ms"}
+{"id": "L000078", "t": 761, "time": "2026-10-30T09:12:41Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 67ms"}
+{"id": "L000079", "t": 762, "time": "2026-10-30T09:12:42Z", "service": "payments", "level": "WARN", "msg": "slow request POST /api/payments/charge took 412ms"}
+{"id": "L000080", "t": 763, "time": "2026-10-30T09:12:43Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 72ms"}
+{"id": "L000081", "t": 770, "time": "2026-10-30T09:12:50Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 44ms"}
+{"id": "L000082", "t": 779, "time": "2026-10-30T09:12:59Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 34ms"}
+{"id": "L000083", "t": 782, "time": "2026-10-30T09:13:02Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 47ms"}
+{"id": "L000084", "t": 785, "time": "2026-10-30T09:13:05Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 54ms"}
+{"id": "L000085", "t": 817, "time": "2026-10-30T09:13:37Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 115ms"}
+{"id": "L000086", "t": 828, "time": "2026-10-30T09:13:48Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 48ms"}
+{"id": "L000087", "t": 836, "time": "2026-10-30T09:13:56Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 41ms"}
+{"id": "L000088", "t": 838, "time": "2026-10-30T09:13:58Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 69ms"}
+{"id": "L000089", "t": 847, "time": "2026-10-30T09:14:07Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 111ms"}
+{"id": "L000090", "t": 857, "time": "2026-10-30T09:14:17Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 56ms"}
+{"id": "L000091", "t": 881, "time": "2026-10-30T09:14:41Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 36ms"}
+{"id": "L000092", "t": 882, "time": "2026-10-30T09:14:42Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 51ms"}
+{"id": "L000093", "t": 898, "time": "2026-10-30T09:14:58Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 65ms"}
+{"id": "L000094", "t": 900, "time": "2026-10-30T09:15:00Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 68ms"}
+{"id": "L000095", "t": 909, "time": "2026-10-30T09:15:09Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 75ms"}
+{"id": "L000096", "t": 920, "time": "2026-10-30T09:15:20Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 96ms"}
+{"id": "L000097", "t": 931, "time": "2026-10-30T09:15:31Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 69ms"}
+{"id": "L000098", "t": 940, "time": "2026-10-30T09:15:40Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000099", "t": 941, "time": "2026-10-30T09:15:41Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 71ms"}
+{"id": "L000100", "t": 949, "time": "2026-10-30T09:15:49Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 84ms"}
+{"id": "L000101", "t": 960, "time": "2026-10-30T09:16:00Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000102", "t": 962, "time": "2026-10-30T09:16:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 113ms"}
+{"id": "L000103", "t": 968, "time": "2026-10-30T09:16:08Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 74ms"}
+{"id": "L000104", "t": 978, "time": "2026-10-30T09:16:18Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 90ms"}
+{"id": "L000105", "t": 982, "time": "2026-10-30T09:16:22Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000106", "t": 985, "time": "2026-10-30T09:16:25Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000107", "t": 990, "time": "2026-10-30T09:16:30Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 65ms"}
+{"id": "L000108", "t": 1003, "time": "2026-10-30T09:16:43Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 79ms"}
+{"id": "L000109", "t": 1007, "time": "2026-10-30T09:16:47Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000110", "t": 1007, "time": "2026-10-30T09:16:47Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000111", "t": 1014, "time": "2026-10-30T09:16:54Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 66ms"}
+{"id": "L000112", "t": 1014, "time": "2026-10-30T09:16:54Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 18ms"}
+{"id": "L000113", "t": 1015, "time": "2026-10-30T09:16:55Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000114", "t": 1026, "time": "2026-10-30T09:17:06Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 6ms"}
+{"id": "L000115", "t": 1031, "time": "2026-10-30T09:17:11Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000116", "t": 1040, "time": "2026-10-30T09:17:20Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 57ms"}
+{"id": "L000117", "t": 1052, "time": "2026-10-30T09:17:32Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000118", "t": 1054, "time": "2026-10-30T09:17:34Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000119", "t": 1055, "time": "2026-10-30T09:17:35Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 71ms"}
+{"id": "L000120", "t": 1060, "time": "2026-10-30T09:17:40Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000121", "t": 1065, "time": "2026-10-30T09:17:45Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 95ms"}
+{"id": "L000122", "t": 1069, "time": "2026-10-30T09:17:49Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000123", "t": 1073, "time": "2026-10-30T09:17:53Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000124", "t": 1082, "time": "2026-10-30T09:18:02Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 67ms"}
+{"id": "L000125", "t": 1092, "time": "2026-10-30T09:18:12Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 92ms"}
+{"id": "L000126", "t": 1092, "time": "2026-10-30T09:18:12Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 81ms"}
+{"id": "L000127", "t": 1094, "time": "2026-10-30T09:18:14Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000128", "t": 1101, "time": "2026-10-30T09:18:21Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 83ms"}
+{"id": "L000129", "t": 1111, "time": "2026-10-30T09:18:31Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000130", "t": 1114, "time": "2026-10-30T09:18:34Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 106ms"}
+{"id": "L000131", "t": 1115, "time": "2026-10-30T09:18:35Z", "service": "redis", "level": "WARN", "msg": "slow request GET session:* took 419ms"}
+{"id": "L000132", "t": 1118, "time": "2026-10-30T09:18:38Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 84ms"}
+{"id": "L000133", "t": 1118, "time": "2026-10-30T09:18:38Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000134", "t": 1126, "time": "2026-10-30T09:18:46Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000135", "t": 1137, "time": "2026-10-30T09:18:57Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000136", "t": 1142, "time": "2026-10-30T09:19:02Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 53ms"}
+{"id": "L000137", "t": 1142, "time": "2026-10-30T09:19:02Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000138", "t": 1156, "time": "2026-10-30T09:19:16Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000139", "t": 1159, "time": "2026-10-30T09:19:19Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 48ms"}
+{"id": "L000140", "t": 1168, "time": "2026-10-30T09:19:28Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 74ms"}
+{"id": "L000141", "t": 1168, "time": "2026-10-30T09:19:28Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 13ms"}
+{"id": "L000142", "t": 1180, "time": "2026-10-30T09:19:40Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000143", "t": 1182, "time": "2026-10-30T09:19:42Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 17ms"}
+{"id": "L000144", "t": 1183, "time": "2026-10-30T09:19:43Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 92ms"}
+{"id": "L000145", "t": 1183, "time": "2026-10-30T09:19:43Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000146", "t": 1183, "time": "2026-10-30T09:19:43Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 108ms"}
+{"id": "L000147", "t": 1197, "time": "2026-10-30T09:19:57Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000148", "t": 1198, "time": "2026-10-30T09:19:58Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000149", "t": 1202, "time": "2026-10-30T09:20:02Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000150", "t": 1213, "time": "2026-10-30T09:20:13Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 47ms"}
+{"id": "L000151", "t": 1213, "time": "2026-10-30T09:20:13Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000152", "t": 1228, "time": "2026-10-30T09:20:28Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 45ms"}
+{"id": "L000153", "t": 1236, "time": "2026-10-30T09:20:36Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000154", "t": 1236, "time": "2026-10-30T09:20:36Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 109ms"}
+{"id": "L000155", "t": 1237, "time": "2026-10-30T09:20:37Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 29ms"}
+{"id": "L000156", "t": 1248, "time": "2026-10-30T09:20:48Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 17ms"}
+{"id": "L000157", "t": 1251, "time": "2026-10-30T09:20:51Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 71ms"}
+{"id": "L000158", "t": 1260, "time": "2026-10-30T09:21:00Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000159", "t": 1267, "time": "2026-10-30T09:21:07Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000160", "t": 1280, "time": "2026-10-30T09:21:20Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000161", "t": 1282, "time": "2026-10-30T09:21:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 118ms"}
+{"id": "L000162", "t": 1283, "time": "2026-10-30T09:21:23Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 28ms"}
+{"id": "L000163", "t": 1283, "time": "2026-10-30T09:21:23Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000164", "t": 1286, "time": "2026-10-30T09:21:26Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000165", "t": 1286, "time": "2026-10-30T09:21:26Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000166", "t": 1287, "time": "2026-10-30T09:21:27Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 24ms"}
+{"id": "L000167", "t": 1292, "time": "2026-10-30T09:21:32Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000168", "t": 1295, "time": "2026-10-30T09:21:35Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 25ms"}
+{"id": "L000169", "t": 1306, "time": "2026-10-30T09:21:46Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 22ms"}
+{"id": "L000170", "t": 1309, "time": "2026-10-30T09:21:49Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000171", "t": 1315, "time": "2026-10-30T09:21:55Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 96ms"}
+{"id": "L000172", "t": 1319, "time": "2026-10-30T09:21:59Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000173", "t": 1331, "time": "2026-10-30T09:22:11Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 97ms"}
+{"id": "L000174", "t": 1341, "time": "2026-10-30T09:22:21Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 119ms"}
+{"id": "L000175", "t": 1342, "time": "2026-10-30T09:22:22Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 19ms"}
+{"id": "L000176", "t": 1348, "time": "2026-10-30T09:22:28Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000177", "t": 1350, "time": "2026-10-30T09:22:30Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 43ms"}
+{"id": "L000178", "t": 1362, "time": "2026-10-30T09:22:42Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000179", "t": 1362, "time": "2026-10-30T09:22:42Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000180", "t": 1366, "time": "2026-10-30T09:22:46Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000181", "t": 1373, "time": "2026-10-30T09:22:53Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000182", "t": 1373, "time": "2026-10-30T09:22:53Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 6ms"}
+{"id": "L000183", "t": 1380, "time": "2026-10-30T09:23:00Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 30ms"}
+{"id": "L000184", "t": 1383, "time": "2026-10-30T09:23:03Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 37ms"}
+{"id": "L000185", "t": 1383, "time": "2026-10-30T09:23:03Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 11ms"}
+{"id": "L000186", "t": 1390, "time": "2026-10-30T09:23:10Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000187", "t": 1395, "time": "2026-10-30T09:23:15Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000188", "t": 1397, "time": "2026-10-30T09:23:17Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000189", "t": 1401, "time": "2026-10-30T09:23:21Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 57ms"}
+{"id": "L000190", "t": 1407, "time": "2026-10-30T09:23:27Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000191", "t": 1416, "time": "2026-10-30T09:23:36Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 33ms"}
+{"id": "L000192", "t": 1420, "time": "2026-10-30T09:23:40Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 58ms"}
+{"id": "L000193", "t": 1421, "time": "2026-10-30T09:23:41Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000194", "t": 1429, "time": "2026-10-30T09:23:49Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 15ms"}
+{"id": "L000195", "t": 1432, "time": "2026-10-30T09:23:52Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000196", "t": 1433, "time": "2026-10-30T09:23:53Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 116ms"}
+{"id": "L000197", "t": 1435, "time": "2026-10-30T09:23:55Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000198", "t": 1436, "time": "2026-10-30T09:23:56Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000199", "t": 1449, "time": "2026-10-30T09:24:09Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000200", "t": 1455, "time": "2026-10-30T09:24:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 96ms"}
+{"id": "L000201", "t": 1463, "time": "2026-10-30T09:24:23Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 40ms"}
+{"id": "L000202", "t": 1465, "time": "2026-10-30T09:24:25Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 60ms"}
+{"id": "L000203", "t": 1466, "time": "2026-10-30T09:24:26Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000204", "t": 1474, "time": "2026-10-30T09:24:34Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 32ms"}
+{"id": "L000205", "t": 1484, "time": "2026-10-30T09:24:44Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000206", "t": 1484, "time": "2026-10-30T09:24:44Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 107ms"}
+{"id": "L000207", "t": 1485, "time": "2026-10-30T09:24:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 66ms"}
+{"id": "L000208", "t": 1495, "time": "2026-10-30T09:24:55Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000209", "t": 1496, "time": "2026-10-30T09:24:56Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000210", "t": 1506, "time": "2026-10-30T09:25:06Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 39ms"}
+{"id": "L000211", "t": 1510, "time": "2026-10-30T09:25:10Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000212", "t": 1513, "time": "2026-10-30T09:25:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 62ms"}
+{"id": "L000213", "t": 1515, "time": "2026-10-30T09:25:15Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000214", "t": 1516, "time": "2026-10-30T09:25:16Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000215", "t": 1519, "time": "2026-10-30T09:25:19Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 73ms"}
+{"id": "L000216", "t": 1523, "time": "2026-10-30T09:25:23Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 37ms"}
+{"id": "L000217", "t": 1530, "time": "2026-10-30T09:25:30Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000218", "t": 1537, "time": "2026-10-30T09:25:37Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 73ms"}
+{"id": "L000219", "t": 1542, "time": "2026-10-30T09:25:42Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000220", "t": 1545, "time": "2026-10-30T09:25:45Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000221", "t": 1548, "time": "2026-10-30T09:25:48Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 117ms"}
+{"id": "L000222", "t": 1549, "time": "2026-10-30T09:25:49Z", "service": "inventory", "level": "WARN", "msg": "slow request GET /api/inventory/sku took 793ms"}
+{"id": "L000223", "t": 1550, "time": "2026-10-30T09:25:50Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 68ms"}
+{"id": "L000224", "t": 1555, "time": "2026-10-30T09:25:55Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000225", "t": 1565, "time": "2026-10-30T09:26:05Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000226", "t": 1577, "time": "2026-10-30T09:26:17Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 28ms"}
+{"id": "L000227", "t": 1579, "time": "2026-10-30T09:26:19Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000228", "t": 1580, "time": "2026-10-30T09:26:20Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 102ms"}
+{"id": "L000229", "t": 1587, "time": "2026-10-30T09:26:27Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 21ms"}
+{"id": "L000230", "t": 1588, "time": "2026-10-30T09:26:28Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 118ms"}
+{"id": "L000231", "t": 1595, "time": "2026-10-30T09:26:35Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000232", "t": 1596, "time": "2026-10-30T09:26:36Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000233", "t": 1607, "time": "2026-10-30T09:26:47Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 101ms"}
+{"id": "L000234", "t": 1610, "time": "2026-10-30T09:26:50Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000235", "t": 1611, "time": "2026-10-30T09:26:51Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 51ms"}
+{"id": "L000236", "t": 1611, "time": "2026-10-30T09:26:51Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000237", "t": 1626, "time": "2026-10-30T09:27:06Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000238", "t": 1627, "time": "2026-10-30T09:27:07Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000239", "t": 1642, "time": "2026-10-30T09:27:22Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000240", "t": 1643, "time": "2026-10-30T09:27:23Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000241", "t": 1651, "time": "2026-10-30T09:27:31Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 102ms"}
+{"id": "L000242", "t": 1652, "time": "2026-10-30T09:27:32Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 43ms"}
+{"id": "L000243", "t": 1652, "time": "2026-10-30T09:27:32Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000244", "t": 1657, "time": "2026-10-30T09:27:37Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 67ms"}
+{"id": "L000245", "t": 1661, "time": "2026-10-30T09:27:41Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 52ms"}
+{"id": "L000246", "t": 1663, "time": "2026-10-30T09:27:43Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 40ms"}
+{"id": "L000247", "t": 1670, "time": "2026-10-30T09:27:50Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000248", "t": 1684, "time": "2026-10-30T09:28:04Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 82ms"}
+{"id": "L000249", "t": 1688, "time": "2026-10-30T09:28:08Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000250", "t": 1695, "time": "2026-10-30T09:28:15Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000251", "t": 1709, "time": "2026-10-30T09:28:29Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 107ms"}
+{"id": "L000252", "t": 1714, "time": "2026-10-30T09:28:34Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000253", "t": 1715, "time": "2026-10-30T09:28:35Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 100ms"}
+{"id": "L000254", "t": 1715, "time": "2026-10-30T09:28:35Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 5ms"}
+{"id": "L000255", "t": 1720, "time": "2026-10-30T09:28:40Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 89ms"}
+{"id": "L000256", "t": 1723, "time": "2026-10-30T09:28:43Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000257", "t": 1732, "time": "2026-10-30T09:28:52Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 49ms"}
+{"id": "L000258", "t": 1734, "time": "2026-10-30T09:28:54Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000259", "t": 1738, "time": "2026-10-30T09:28:58Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000260", "t": 1750, "time": "2026-10-30T09:29:10Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000261", "t": 1758, "time": "2026-10-30T09:29:18Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 118ms"}
+{"id": "L000262", "t": 1763, "time": "2026-10-30T09:29:23Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 5ms"}
+{"id": "L000263", "t": 1767, "time": "2026-10-30T09:29:27Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 112ms"}
+{"id": "L000264", "t": 1769, "time": "2026-10-30T09:29:29Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000265", "t": 1773, "time": "2026-10-30T09:29:33Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000266", "t": 1780, "time": "2026-10-30T09:29:40Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000267", "t": 1781, "time": "2026-10-30T09:29:41Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 26ms"}
+{"id": "L000268", "t": 1783, "time": "2026-10-30T09:29:43Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000269", "t": 1785, "time": "2026-10-30T09:29:45Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 35ms"}
+{"id": "L000270", "t": 1796, "time": "2026-10-30T09:29:56Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 102ms"}
+{"id": "L000271", "t": 1808, "time": "2026-10-30T09:30:08Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000272", "t": 1816, "time": "2026-10-30T09:30:16Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 98ms"}
+{"id": "L000273", "t": 1819, "time": "2026-10-30T09:30:19Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 16ms"}
+{"id": "L000274", "t": 1819, "time": "2026-10-30T09:30:19Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000275", "t": 1828, "time": "2026-10-30T09:30:28Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000276", "t": 1832, "time": "2026-10-30T09:30:32Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000277", "t": 1836, "time": "2026-10-30T09:30:36Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000278", "t": 1836, "time": "2026-10-30T09:30:36Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000279", "t": 1838, "time": "2026-10-30T09:30:38Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 91ms"}
+{"id": "L000280", "t": 1841, "time": "2026-10-30T09:30:41Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000281", "t": 1841, "time": "2026-10-30T09:30:41Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 23ms"}
+{"id": "L000282", "t": 1844, "time": "2026-10-30T09:30:44Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 60ms"}
+{"id": "L000283", "t": 1846, "time": "2026-10-30T09:30:46Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 107ms"}
+{"id": "L000284", "t": 1859, "time": "2026-10-30T09:30:59Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000285", "t": 1867, "time": "2026-10-30T09:31:07Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 105ms"}
+{"id": "L000286", "t": 1881, "time": "2026-10-30T09:31:21Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000287", "t": 1884, "time": "2026-10-30T09:31:24Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 20ms"}
+{"id": "L000288", "t": 1892, "time": "2026-10-30T09:31:32Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 36ms"}
+{"id": "L000289", "t": 1895, "time": "2026-10-30T09:31:35Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000290", "t": 1899, "time": "2026-10-30T09:31:39Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000291", "t": 1902, "time": "2026-10-30T09:31:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 72ms"}
+{"id": "L000292", "t": 1903, "time": "2026-10-30T09:31:43Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 57ms"}
+{"id": "L000293", "t": 1904, "time": "2026-10-30T09:31:44Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 35ms"}
+{"id": "L000294", "t": 1905, "time": "2026-10-30T09:31:45Z", "service": "payments", "level": "WARN", "msg": "slow request POST /api/payments/charge took 400ms"}
+{"id": "L000295", "t": 1914, "time": "2026-10-30T09:31:54Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000296", "t": 1918, "time": "2026-10-30T09:31:58Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000297", "t": 1924, "time": "2026-10-30T09:32:04Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000298", "t": 1926, "time": "2026-10-30T09:32:06Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 112ms"}
+{"id": "L000299", "t": 1935, "time": "2026-10-30T09:32:15Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000300", "t": 1946, "time": "2026-10-30T09:32:26Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000301", "t": 1947, "time": "2026-10-30T09:32:27Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 49ms"}
+{"id": "L000302", "t": 1951, "time": "2026-10-30T09:32:31Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 75ms"}
+{"id": "L000303", "t": 1952, "time": "2026-10-30T09:32:32Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000304", "t": 1961, "time": "2026-10-30T09:32:41Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000305", "t": 1961, "time": "2026-10-30T09:32:41Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 97ms"}
+{"id": "L000306", "t": 1964, "time": "2026-10-30T09:32:44Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 73ms"}
+{"id": "L000307", "t": 1967, "time": "2026-10-30T09:32:47Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 35ms"}
+{"id": "L000308", "t": 1977, "time": "2026-10-30T09:32:57Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 26ms"}
+{"id": "L000309", "t": 1985, "time": "2026-10-30T09:33:05Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000310", "t": 1987, "time": "2026-10-30T09:33:07Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000311", "t": 1996, "time": "2026-10-30T09:33:16Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 99ms"}
+{"id": "L000312", "t": 2001, "time": "2026-10-30T09:33:21Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000313", "t": 2002, "time": "2026-10-30T09:33:22Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 5ms"}
+{"id": "L000314", "t": 2002, "time": "2026-10-30T09:33:22Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000315", "t": 2016, "time": "2026-10-30T09:33:36Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 61ms"}
+{"id": "L000316", "t": 2018, "time": "2026-10-30T09:33:38Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 99ms"}
+{"id": "L000317", "t": 2022, "time": "2026-10-30T09:33:42Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000318", "t": 2022, "time": "2026-10-30T09:33:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 43ms"}
+{"id": "L000319", "t": 2023, "time": "2026-10-30T09:33:43Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 44ms"}
+{"id": "L000320", "t": 2026, "time": "2026-10-30T09:33:46Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000321", "t": 2027, "time": "2026-10-30T09:33:47Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000322", "t": 2040, "time": "2026-10-30T09:34:00Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000323", "t": 2045, "time": "2026-10-30T09:34:05Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 36ms"}
+{"id": "L000324", "t": 2055, "time": "2026-10-30T09:34:15Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000325", "t": 2065, "time": "2026-10-30T09:34:25Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000326", "t": 2068, "time": "2026-10-30T09:34:28Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000327", "t": 2070, "time": "2026-10-30T09:34:30Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000328", "t": 2072, "time": "2026-10-30T09:34:32Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 73ms"}
+{"id": "L000329", "t": 2072, "time": "2026-10-30T09:34:32Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000330", "t": 2074, "time": "2026-10-30T09:34:34Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 42ms"}
+{"id": "L000331", "t": 2085, "time": "2026-10-30T09:34:45Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000332", "t": 2086, "time": "2026-10-30T09:34:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 66ms"}
+{"id": "L000333", "t": 2086, "time": "2026-10-30T09:34:46Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 20ms"}
+{"id": "L000334", "t": 2092, "time": "2026-10-30T09:34:52Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 9ms"}
+{"id": "L000335", "t": 2093, "time": "2026-10-30T09:34:53Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000336", "t": 2107, "time": "2026-10-30T09:35:07Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000337", "t": 2110, "time": "2026-10-30T09:35:10Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 5ms"}
+{"id": "L000338", "t": 2117, "time": "2026-10-30T09:35:17Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 91ms"}
+{"id": "L000339", "t": 2123, "time": "2026-10-30T09:35:23Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000340", "t": 2134, "time": "2026-10-30T09:35:34Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000341", "t": 2142, "time": "2026-10-30T09:35:42Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000342", "t": 2143, "time": "2026-10-30T09:35:43Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 76ms"}
+{"id": "L000343", "t": 2146, "time": "2026-10-30T09:35:46Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 110ms"}
+{"id": "L000344", "t": 2149, "time": "2026-10-30T09:35:49Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 99ms"}
+{"id": "L000345", "t": 2158, "time": "2026-10-30T09:35:58Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000346", "t": 2159, "time": "2026-10-30T09:35:59Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000347", "t": 2159, "time": "2026-10-30T09:35:59Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 25ms"}
+{"id": "L000348", "t": 2162, "time": "2026-10-30T09:36:02Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000349", "t": 2172, "time": "2026-10-30T09:36:12Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000350", "t": 2179, "time": "2026-10-30T09:36:19Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 119ms"}
+{"id": "L000351", "t": 2183, "time": "2026-10-30T09:36:23Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 10ms"}
+{"id": "L000352", "t": 2186, "time": "2026-10-30T09:36:26Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000353", "t": 2200, "time": "2026-10-30T09:36:40Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000354", "t": 2201, "time": "2026-10-30T09:36:41Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 93ms"}
+{"id": "L000355", "t": 2207, "time": "2026-10-30T09:36:47Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000356", "t": 2210, "time": "2026-10-30T09:36:50Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 83ms"}
+{"id": "L000357", "t": 2211, "time": "2026-10-30T09:36:51Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000358", "t": 2215, "time": "2026-10-30T09:36:55Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 74ms"}
+{"id": "L000359", "t": 2225, "time": "2026-10-30T09:37:05Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000360", "t": 2228, "time": "2026-10-30T09:37:08Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 10ms"}
+{"id": "L000361", "t": 2230, "time": "2026-10-30T09:37:10Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 71ms"}
+{"id": "L000362", "t": 2234, "time": "2026-10-30T09:37:14Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000363", "t": 2237, "time": "2026-10-30T09:37:17Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000364", "t": 2245, "time": "2026-10-30T09:37:25Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000365", "t": 2254, "time": "2026-10-30T09:37:34Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000366", "t": 2258, "time": "2026-10-30T09:37:38Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 50ms"}
+{"id": "L000367", "t": 2265, "time": "2026-10-30T09:37:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 56ms"}
+{"id": "L000368", "t": 2270, "time": "2026-10-30T09:37:50Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000369", "t": 2273, "time": "2026-10-30T09:37:53Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 79ms"}
+{"id": "L000370", "t": 2274, "time": "2026-10-30T09:37:54Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000371", "t": 2278, "time": "2026-10-30T09:37:58Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000372", "t": 2279, "time": "2026-10-30T09:37:59Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 81ms"}
+{"id": "L000373", "t": 2285, "time": "2026-10-30T09:38:05Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 56ms"}
+{"id": "L000374", "t": 2307, "time": "2026-10-30T09:38:27Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000375", "t": 2309, "time": "2026-10-30T09:38:29Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 117ms"}
+{"id": "L000376", "t": 2328, "time": "2026-10-30T09:38:48Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 62ms"}
+{"id": "L000377", "t": 2331, "time": "2026-10-30T09:38:51Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000378", "t": 2333, "time": "2026-10-30T09:38:53Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000379", "t": 2333, "time": "2026-10-30T09:38:53Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000380", "t": 2334, "time": "2026-10-30T09:38:54Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000381", "t": 2335, "time": "2026-10-30T09:38:55Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 98ms"}
+{"id": "L000382", "t": 2337, "time": "2026-10-30T09:38:57Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 72ms"}
+{"id": "L000383", "t": 2339, "time": "2026-10-30T09:38:59Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 28ms"}
+{"id": "L000384", "t": 2342, "time": "2026-10-30T09:39:02Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000385", "t": 2353, "time": "2026-10-30T09:39:13Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000386", "t": 2355, "time": "2026-10-30T09:39:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 88ms"}
+{"id": "L000387", "t": 2374, "time": "2026-10-30T09:39:34Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 77ms"}
+{"id": "L000388", "t": 2376, "time": "2026-10-30T09:39:36Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000389", "t": 2378, "time": "2026-10-30T09:39:38Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 8ms"}
+{"id": "L000390", "t": 2379, "time": "2026-10-30T09:39:39Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000391", "t": 2382, "time": "2026-10-30T09:39:42Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 61ms"}
+{"id": "L000392", "t": 2391, "time": "2026-10-30T09:39:51Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000393", "t": 2393, "time": "2026-10-30T09:39:53Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 68ms"}
+{"id": "L000394", "t": 2397, "time": "2026-10-30T09:39:57Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000395", "t": 2400, "time": "2026-10-30T09:40:00Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000396", "t": 2403, "time": "2026-10-30T09:40:03Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000397", "t": 2406, "time": "2026-10-30T09:40:06Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 19ms"}
+{"id": "L000398", "t": 2409, "time": "2026-10-30T09:40:09Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 107ms"}
+{"id": "L000399", "t": 2416, "time": "2026-10-30T09:40:16Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000400", "t": 2432, "time": "2026-10-30T09:40:32Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000401", "t": 2442, "time": "2026-10-30T09:40:42Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000402", "t": 2443, "time": "2026-10-30T09:40:43Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 10ms"}
+{"id": "L000403", "t": 2450, "time": "2026-10-30T09:40:50Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 66ms"}
+{"id": "L000404", "t": 2450, "time": "2026-10-30T09:40:50Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000405", "t": 2459, "time": "2026-10-30T09:40:59Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 39ms"}
+{"id": "L000406", "t": 2462, "time": "2026-10-30T09:41:02Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 22ms"}
+{"id": "L000407", "t": 2464, "time": "2026-10-30T09:41:04Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000408", "t": 2468, "time": "2026-10-30T09:41:08Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 82ms"}
+{"id": "L000409", "t": 2470, "time": "2026-10-30T09:41:10Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000410", "t": 2471, "time": "2026-10-30T09:41:11Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000411", "t": 2478, "time": "2026-10-30T09:41:18Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 78ms"}
+{"id": "L000412", "t": 2489, "time": "2026-10-30T09:41:29Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000413", "t": 2499, "time": "2026-10-30T09:41:39Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 22ms"}
+{"id": "L000414", "t": 2509, "time": "2026-10-30T09:41:49Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000415", "t": 2514, "time": "2026-10-30T09:41:54Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000416", "t": 2521, "time": "2026-10-30T09:42:01Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 67ms"}
+{"id": "L000417", "t": 2521, "time": "2026-10-30T09:42:01Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000418", "t": 2521, "time": "2026-10-30T09:42:01Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 58ms"}
+{"id": "L000419", "t": 2525, "time": "2026-10-30T09:42:05Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 67ms"}
+{"id": "L000420", "t": 2526, "time": "2026-10-30T09:42:06Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 47ms"}
+{"id": "L000421", "t": 2529, "time": "2026-10-30T09:42:09Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000422", "t": 2545, "time": "2026-10-30T09:42:25Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 47ms"}
+{"id": "L000423", "t": 2546, "time": "2026-10-30T09:42:26Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000424", "t": 2547, "time": "2026-10-30T09:42:27Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000425", "t": 2548, "time": "2026-10-30T09:42:28Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000426", "t": 2555, "time": "2026-10-30T09:42:35Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 19ms"}
+{"id": "L000427", "t": 2558, "time": "2026-10-30T09:42:38Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000428", "t": 2567, "time": "2026-10-30T09:42:47Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000429", "t": 2571, "time": "2026-10-30T09:42:51Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000430", "t": 2578, "time": "2026-10-30T09:42:58Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 110ms"}
+{"id": "L000431", "t": 2579, "time": "2026-10-30T09:42:59Z", "service": "redis", "level": "WARN", "msg": "slow request GET session:* took 443ms"}
+{"id": "L000432", "t": 2583, "time": "2026-10-30T09:43:03Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 108ms"}
+{"id": "L000433", "t": 2583, "time": "2026-10-30T09:43:03Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 39ms"}
+{"id": "L000434", "t": 2590, "time": "2026-10-30T09:43:10Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000435", "t": 2600, "time": "2026-10-30T09:43:20Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 14ms"}
+{"id": "L000436", "t": 2607, "time": "2026-10-30T09:43:27Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 53ms"}
+{"id": "L000437", "t": 2608, "time": "2026-10-30T09:43:28Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000438", "t": 2620, "time": "2026-10-30T09:43:40Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000439", "t": 2622, "time": "2026-10-30T09:43:42Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000440", "t": 2622, "time": "2026-10-30T09:43:42Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000441", "t": 2624, "time": "2026-10-30T09:43:44Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 33ms"}
+{"id": "L000442", "t": 2632, "time": "2026-10-30T09:43:52Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 93ms"}
+{"id": "L000443", "t": 2634, "time": "2026-10-30T09:43:54Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000444", "t": 2635, "time": "2026-10-30T09:43:55Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 32ms"}
+{"id": "L000445", "t": 2637, "time": "2026-10-30T09:43:57Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000446", "t": 2647, "time": "2026-10-30T09:44:07Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000447", "t": 2649, "time": "2026-10-30T09:44:09Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 75ms"}
+{"id": "L000448", "t": 2660, "time": "2026-10-30T09:44:20Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000449", "t": 2671, "time": "2026-10-30T09:44:31Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000450", "t": 2672, "time": "2026-10-30T09:44:32Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 40ms"}
+{"id": "L000451", "t": 2674, "time": "2026-10-30T09:44:34Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 113ms"}
+{"id": "L000452", "t": 2674, "time": "2026-10-30T09:44:34Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 47ms"}
+{"id": "L000453", "t": 2696, "time": "2026-10-30T09:44:56Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 67ms"}
+{"id": "L000454", "t": 2696, "time": "2026-10-30T09:44:56Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000455", "t": 2702, "time": "2026-10-30T09:45:02Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 73ms"}
+{"id": "L000456", "t": 2702, "time": "2026-10-30T09:45:02Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000457", "t": 2706, "time": "2026-10-30T09:45:06Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000458", "t": 2719, "time": "2026-10-30T09:45:19Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 39ms"}
+{"id": "L000459", "t": 2721, "time": "2026-10-30T09:45:21Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000460", "t": 2722, "time": "2026-10-30T09:45:22Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000461", "t": 2726, "time": "2026-10-30T09:45:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 34ms"}
+{"id": "L000462", "t": 2730, "time": "2026-10-30T09:45:30Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000463", "t": 2744, "time": "2026-10-30T09:45:44Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000464", "t": 2746, "time": "2026-10-30T09:45:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 87ms"}
+{"id": "L000465", "t": 2748, "time": "2026-10-30T09:45:48Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 89ms"}
+{"id": "L000466", "t": 2753, "time": "2026-10-30T09:45:53Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 43ms"}
+{"id": "L000467", "t": 2759, "time": "2026-10-30T09:45:59Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000468", "t": 2762, "time": "2026-10-30T09:46:02Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 73ms"}
+{"id": "L000469", "t": 2768, "time": "2026-10-30T09:46:08Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000470", "t": 2777, "time": "2026-10-30T09:46:17Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000471", "t": 2777, "time": "2026-10-30T09:46:17Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000472", "t": 2785, "time": "2026-10-30T09:46:25Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 96ms"}
+{"id": "L000473", "t": 2796, "time": "2026-10-30T09:46:36Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000474", "t": 2798, "time": "2026-10-30T09:46:38Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 94ms"}
+{"id": "L000475", "t": 2804, "time": "2026-10-30T09:46:44Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000476", "t": 2808, "time": "2026-10-30T09:46:48Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 34ms"}
+{"id": "L000477", "t": 2814, "time": "2026-10-30T09:46:54Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000478", "t": 2817, "time": "2026-10-30T09:46:57Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 77ms"}
+{"id": "L000479", "t": 2818, "time": "2026-10-30T09:46:58Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000480", "t": 2826, "time": "2026-10-30T09:47:06Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 66ms"}
+{"id": "L000481", "t": 2833, "time": "2026-10-30T09:47:13Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000482", "t": 2835, "time": "2026-10-30T09:47:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 20ms"}
+{"id": "L000483", "t": 2836, "time": "2026-10-30T09:47:16Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000484", "t": 2841, "time": "2026-10-30T09:47:21Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 43ms"}
+{"id": "L000485", "t": 2849, "time": "2026-10-30T09:47:29Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000486", "t": 2860, "time": "2026-10-30T09:47:40Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000487", "t": 2865, "time": "2026-10-30T09:47:45Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 63ms"}
+{"id": "L000488", "t": 2875, "time": "2026-10-30T09:47:55Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000489", "t": 2879, "time": "2026-10-30T09:47:59Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 67ms"}
+{"id": "L000490", "t": 2880, "time": "2026-10-30T09:48:00Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 106ms"}
+{"id": "L000491", "t": 2885, "time": "2026-10-30T09:48:05Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000492", "t": 2886, "time": "2026-10-30T09:48:06Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 109ms"}
+{"id": "L000493", "t": 2891, "time": "2026-10-30T09:48:11Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 7ms"}
+{"id": "L000494", "t": 2891, "time": "2026-10-30T09:48:11Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000495", "t": 2899, "time": "2026-10-30T09:48:19Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000496", "t": 2907, "time": "2026-10-30T09:48:27Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000497", "t": 2911, "time": "2026-10-30T09:48:31Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 13ms"}
+{"id": "L000498", "t": 2915, "time": "2026-10-30T09:48:35Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000499", "t": 2923, "time": "2026-10-30T09:48:43Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000500", "t": 2929, "time": "2026-10-30T09:48:49Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 10ms"}
+{"id": "L000501", "t": 2930, "time": "2026-10-30T09:48:50Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 52ms"}
+{"id": "L000502", "t": 2938, "time": "2026-10-30T09:48:58Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 71ms"}
+{"id": "L000503", "t": 2939, "time": "2026-10-30T09:48:59Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 51ms"}
+{"id": "L000504", "t": 2944, "time": "2026-10-30T09:49:04Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 36ms"}
+{"id": "L000505", "t": 2945, "time": "2026-10-30T09:49:05Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000506", "t": 2949, "time": "2026-10-30T09:49:09Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000507", "t": 2961, "time": "2026-10-30T09:49:21Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000508", "t": 2975, "time": "2026-10-30T09:49:35Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000509", "t": 2978, "time": "2026-10-30T09:49:38Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000510", "t": 2978, "time": "2026-10-30T09:49:38Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 22ms"}
+{"id": "L000511", "t": 2986, "time": "2026-10-30T09:49:46Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 5ms"}
+{"id": "L000512", "t": 2990, "time": "2026-10-30T09:49:50Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000513", "t": 2993, "time": "2026-10-30T09:49:53Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000514", "t": 2997, "time": "2026-10-30T09:49:57Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 14ms"}
+{"id": "L000515", "t": 3001, "time": "2026-10-30T09:50:01Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000516", "t": 3004, "time": "2026-10-30T09:50:04Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 36ms"}
+{"id": "L000517", "t": 3006, "time": "2026-10-30T09:50:06Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 71ms"}
+{"id": "L000518", "t": 3010, "time": "2026-10-30T09:50:10Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 41ms"}
+{"id": "L000519", "t": 3019, "time": "2026-10-30T09:50:19Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000520", "t": 3025, "time": "2026-10-30T09:50:25Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000521", "t": 3026, "time": "2026-10-30T09:50:26Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000522", "t": 3034, "time": "2026-10-30T09:50:34Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000523", "t": 3038, "time": "2026-10-30T09:50:38Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 83ms"}
+{"id": "L000524", "t": 3039, "time": "2026-10-30T09:50:39Z", "service": "inventory", "level": "WARN", "msg": "slow request GET /api/inventory/sku took 566ms"}
+{"id": "L000525", "t": 3046, "time": "2026-10-30T09:50:46Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000526", "t": 3052, "time": "2026-10-30T09:50:52Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000527", "t": 3062, "time": "2026-10-30T09:51:02Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000528", "t": 3062, "time": "2026-10-30T09:51:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 46ms"}
+{"id": "L000529", "t": 3063, "time": "2026-10-30T09:51:03Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 11ms"}
+{"id": "L000530", "t": 3066, "time": "2026-10-30T09:51:06Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 64ms"}
+{"id": "L000531", "t": 3067, "time": "2026-10-30T09:51:07Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 98ms"}
+{"id": "L000532", "t": 3076, "time": "2026-10-30T09:51:16Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 75ms"}
+{"id": "L000533", "t": 3078, "time": "2026-10-30T09:51:18Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000534", "t": 3083, "time": "2026-10-30T09:51:23Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000535", "t": 3095, "time": "2026-10-30T09:51:35Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 60ms"}
+{"id": "L000536", "t": 3096, "time": "2026-10-30T09:51:36Z", "service": "inventory", "level": "WARN", "msg": "slow request GET /api/inventory/sku took 796ms"}
+{"id": "L000537", "t": 3100, "time": "2026-10-30T09:51:40Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000538", "t": 3102, "time": "2026-10-30T09:51:42Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000539", "t": 3108, "time": "2026-10-30T09:51:48Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 19ms"}
+{"id": "L000540", "t": 3110, "time": "2026-10-30T09:51:50Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000541", "t": 3111, "time": "2026-10-30T09:51:51Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 6ms"}
+{"id": "L000542", "t": 3118, "time": "2026-10-30T09:51:58Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 42ms"}
+{"id": "L000543", "t": 3119, "time": "2026-10-30T09:51:59Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000544", "t": 3137, "time": "2026-10-30T09:52:17Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 26ms"}
+{"id": "L000545", "t": 3139, "time": "2026-10-30T09:52:19Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000546", "t": 3142, "time": "2026-10-30T09:52:22Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000547", "t": 3143, "time": "2026-10-30T09:52:23Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 24ms"}
+{"id": "L000548", "t": 3144, "time": "2026-10-30T09:52:24Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 10ms"}
+{"id": "L000549", "t": 3160, "time": "2026-10-30T09:52:40Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000550", "t": 3162, "time": "2026-10-30T09:52:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 34ms"}
+{"id": "L000551", "t": 3163, "time": "2026-10-30T09:52:43Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000552", "t": 3163, "time": "2026-10-30T09:52:43Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000553", "t": 3166, "time": "2026-10-30T09:52:46Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 115ms"}
+{"id": "L000554", "t": 3175, "time": "2026-10-30T09:52:55Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 109ms"}
+{"id": "L000555", "t": 3183, "time": "2026-10-30T09:53:03Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000556", "t": 3187, "time": "2026-10-30T09:53:07Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 89ms"}
+{"id": "L000557", "t": 3194, "time": "2026-10-30T09:53:14Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 98ms"}
+{"id": "L000558", "t": 3203, "time": "2026-10-30T09:53:23Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 60ms"}
+{"id": "L000559", "t": 3204, "time": "2026-10-30T09:53:24Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 5ms"}
+{"id": "L000560", "t": 3205, "time": "2026-10-30T09:53:25Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000561", "t": 3207, "time": "2026-10-30T09:53:27Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000562", "t": 3220, "time": "2026-10-30T09:53:40Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000563", "t": 3229, "time": "2026-10-30T09:53:49Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000564", "t": 3237, "time": "2026-10-30T09:53:57Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 90ms"}
+{"id": "L000565", "t": 3243, "time": "2026-10-30T09:54:03Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000566", "t": 3244, "time": "2026-10-30T09:54:04Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 115ms"}
+{"id": "L000567", "t": 3246, "time": "2026-10-30T09:54:06Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 76ms"}
+{"id": "L000568", "t": 3246, "time": "2026-10-30T09:54:06Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000569", "t": 3261, "time": "2026-10-30T09:54:21Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 111ms"}
+{"id": "L000570", "t": 3269, "time": "2026-10-30T09:54:29Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000571", "t": 3274, "time": "2026-10-30T09:54:34Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000572", "t": 3278, "time": "2026-10-30T09:54:38Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 103ms"}
+{"id": "L000573", "t": 3280, "time": "2026-10-30T09:54:40Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 115ms"}
+{"id": "L000574", "t": 3290, "time": "2026-10-30T09:54:50Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000575", "t": 3293, "time": "2026-10-30T09:54:53Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000576", "t": 3294, "time": "2026-10-30T09:54:54Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000577", "t": 3305, "time": "2026-10-30T09:55:05Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 9ms"}
+{"id": "L000578", "t": 3306, "time": "2026-10-30T09:55:06Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 28ms"}
+{"id": "L000579", "t": 3309, "time": "2026-10-30T09:55:09Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000580", "t": 3314, "time": "2026-10-30T09:55:14Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 119ms"}
+{"id": "L000581", "t": 3314, "time": "2026-10-30T09:55:14Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000582", "t": 3316, "time": "2026-10-30T09:55:16Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 86ms"}
+{"id": "L000583", "t": 3318, "time": "2026-10-30T09:55:18Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 94ms"}
+{"id": "L000584", "t": 3321, "time": "2026-10-30T09:55:21Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 50ms"}
+{"id": "L000585", "t": 3323, "time": "2026-10-30T09:55:23Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000586", "t": 3330, "time": "2026-10-30T09:55:30Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000587", "t": 3333, "time": "2026-10-30T09:55:33Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000588", "t": 3348, "time": "2026-10-30T09:55:48Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000589", "t": 3350, "time": "2026-10-30T09:55:50Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 58ms"}
+{"id": "L000590", "t": 3351, "time": "2026-10-30T09:55:51Z", "service": "payments", "level": "WARN", "msg": "slow request POST /api/payments/charge took 647ms"}
+{"id": "L000591", "t": 3361, "time": "2026-10-30T09:56:01Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000592", "t": 3365, "time": "2026-10-30T09:56:05Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 83ms"}
+{"id": "L000593", "t": 3370, "time": "2026-10-30T09:56:10Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000594", "t": 3377, "time": "2026-10-30T09:56:17Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 38ms"}
+{"id": "L000595", "t": 3381, "time": "2026-10-30T09:56:21Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 42ms"}
+{"id": "L000596", "t": 3381, "time": "2026-10-30T09:56:21Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000597", "t": 3383, "time": "2026-10-30T09:56:23Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 83ms"}
+{"id": "L000598", "t": 3393, "time": "2026-10-30T09:56:33Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 19ms"}
+{"id": "L000599", "t": 3396, "time": "2026-10-30T09:56:36Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 37ms"}
+{"id": "L000600", "t": 3402, "time": "2026-10-30T09:56:42Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000601", "t": 3403, "time": "2026-10-30T09:56:43Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000602", "t": 3415, "time": "2026-10-30T09:56:55Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000603", "t": 3423, "time": "2026-10-30T09:57:03Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000604", "t": 3426, "time": "2026-10-30T09:57:06Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000605", "t": 3427, "time": "2026-10-30T09:57:07Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 9ms"}
+{"id": "L000606", "t": 3434, "time": "2026-10-30T09:57:14Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000607", "t": 3435, "time": "2026-10-30T09:57:15Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000608", "t": 3436, "time": "2026-10-30T09:57:16Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 47ms"}
+{"id": "L000609", "t": 3440, "time": "2026-10-30T09:57:20Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 62ms"}
+{"id": "L000610", "t": 3441, "time": "2026-10-30T09:57:21Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 87ms"}
+{"id": "L000611", "t": 3442, "time": "2026-10-30T09:57:22Z", "service": "orders", "level": "WARN", "msg": "slow request POST /api/orders took 674ms"}
+{"id": "L000612", "t": 3443, "time": "2026-10-30T09:57:23Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 99ms"}
+{"id": "L000613", "t": 3447, "time": "2026-10-30T09:57:27Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000614", "t": 3457, "time": "2026-10-30T09:57:37Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 108ms"}
+{"id": "L000615", "t": 3464, "time": "2026-10-30T09:57:44Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000616", "t": 3480, "time": "2026-10-30T09:58:00Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000617", "t": 3481, "time": "2026-10-30T09:58:01Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 49ms"}
+{"id": "L000618", "t": 3492, "time": "2026-10-30T09:58:12Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000619", "t": 3500, "time": "2026-10-30T09:58:20Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000620", "t": 3506, "time": "2026-10-30T09:58:26Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000621", "t": 3508, "time": "2026-10-30T09:58:28Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000622", "t": 3509, "time": "2026-10-30T09:58:29Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000623", "t": 3510, "time": "2026-10-30T09:58:30Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 94ms"}
+{"id": "L000624", "t": 3515, "time": "2026-10-30T09:58:35Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 46ms"}
+{"id": "L000625", "t": 3515, "time": "2026-10-30T09:58:35Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 114ms"}
+{"id": "L000626", "t": 3519, "time": "2026-10-30T09:58:39Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 74ms"}
+{"id": "L000627", "t": 3519, "time": "2026-10-30T09:58:39Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 55ms"}
+{"id": "L000628", "t": 3524, "time": "2026-10-30T09:58:44Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 20ms"}
+{"id": "L000629", "t": 3530, "time": "2026-10-30T09:58:50Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000630", "t": 3536, "time": "2026-10-30T09:58:56Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000631", "t": 3555, "time": "2026-10-30T09:59:15Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000632", "t": 3560, "time": "2026-10-30T09:59:20Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 109ms"}
+{"id": "L000633", "t": 3561, "time": "2026-10-30T09:59:21Z", "service": "payments", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000634", "t": 3568, "time": "2026-10-30T09:59:28Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 15ms"}
+{"id": "L000635", "t": 3568, "time": "2026-10-30T09:59:28Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 99ms"}
+{"id": "L000636", "t": 3573, "time": "2026-10-30T09:59:33Z", "service": "inventory", "level": "ERROR", "msg": "call to postgres failed: 504 Gateway Timeout"}
+{"id": "L000637", "t": 3576, "time": "2026-10-30T09:59:36Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 37ms"}
+{"id": "L000638", "t": 3579, "time": "2026-10-30T09:59:39Z", "service": "postgres", "level": "ERROR", "msg": "remaining connection slots are reserved; timeout acquiring connection after 5000ms (pool 100/100 in use)"}
+{"id": "L000639", "t": 3585, "time": "2026-10-30T09:59:45Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 64ms"}
+{"id": "L000640", "t": 3587, "time": "2026-10-30T09:59:47Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 504 Gateway Timeout"}
+{"id": "L000641", "t": 3592, "time": "2026-10-30T09:59:52Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 119ms"}

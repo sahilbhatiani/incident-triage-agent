@@ -1,0 +1,10 @@
+{
+  "incident_id": "std-04a",
+  "fault": "memory_leak",
+  "service": "payments",
+  "onset_min": 15,
+  "severity": 0.9,
+  "red_herrings": [],
+  "noise": 0.1,
+  "seed": 130
+}

@@ -1,0 +1,520 @@
+{"id": "L000001", "t": 8, "time": "2026-10-30T09:00:08Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 53ms"}
+{"id": "L000002", "t": 9, "time": "2026-10-30T09:00:09Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 62ms"}
+{"id": "L000003", "t": 19, "time": "2026-10-30T09:00:19Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 34ms"}
+{"id": "L000004", "t": 19, "time": "2026-10-30T09:00:19Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 10ms"}
+{"id": "L000005", "t": 23, "time": "2026-10-30T09:00:23Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 94ms"}
+{"id": "L000006", "t": 25, "time": "2026-10-30T09:00:25Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 29ms"}
+{"id": "L000007", "t": 51, "time": "2026-10-30T09:00:51Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 95ms"}
+{"id": "L000008", "t": 63, "time": "2026-10-30T09:01:03Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 47ms"}
+{"id": "L000009", "t": 69, "time": "2026-10-30T09:01:09Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 77ms"}
+{"id": "L000010", "t": 70, "time": "2026-10-30T09:01:10Z", "service": "gateway", "level": "WARN", "msg": "slow request GET /api/cart took 648ms"}
+{"id": "L000011", "t": 75, "time": "2026-10-30T09:01:15Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 100ms"}
+{"id": "L000012", "t": 81, "time": "2026-10-30T09:01:21Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 77ms"}
+{"id": "L000013", "t": 95, "time": "2026-10-30T09:01:35Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 79ms"}
+{"id": "L000014", "t": 105, "time": "2026-10-30T09:01:45Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 43ms"}
+{"id": "L000015", "t": 112, "time": "2026-10-30T09:01:52Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 37ms"}
+{"id": "L000016", "t": 113, "time": "2026-10-30T09:01:53Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 99ms"}
+{"id": "L000017", "t": 126, "time": "2026-10-30T09:02:06Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 45ms"}
+{"id": "L000018", "t": 140, "time": "2026-10-30T09:02:20Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 16ms"}
+{"id": "L000019", "t": 148, "time": "2026-10-30T09:02:28Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 50ms"}
+{"id": "L000020", "t": 176, "time": "2026-10-30T09:02:56Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 63ms"}
+{"id": "L000021", "t": 181, "time": "2026-10-30T09:03:01Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 100ms"}
+{"id": "L000022", "t": 183, "time": "2026-10-30T09:03:03Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 40ms"}
+{"id": "L000023", "t": 191, "time": "2026-10-30T09:03:11Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 103ms"}
+{"id": "L000024", "t": 196, "time": "2026-10-30T09:03:16Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 38ms"}
+{"id": "L000025", "t": 222, "time": "2026-10-30T09:03:42Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 32ms"}
+{"id": "L000026", "t": 227, "time": "2026-10-30T09:03:47Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 63ms"}
+{"id": "L000027", "t": 245, "time": "2026-10-30T09:04:05Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 92ms"}
+{"id": "L000028", "t": 248, "time": "2026-10-30T09:04:08Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 13ms"}
+{"id": "L000029", "t": 260, "time": "2026-10-30T09:04:20Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 111ms"}
+{"id": "L000030", "t": 269, "time": "2026-10-30T09:04:29Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 9ms"}
+{"id": "L000031", "t": 289, "time": "2026-10-30T09:04:49Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 6ms"}
+{"id": "L000032", "t": 296, "time": "2026-10-30T09:04:56Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 109ms"}
+{"id": "L000033", "t": 313, "time": "2026-10-30T09:05:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 22ms"}
+{"id": "L000034", "t": 316, "time": "2026-10-30T09:05:16Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 16ms"}
+{"id": "L000035", "t": 317, "time": "2026-10-30T09:05:17Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 34ms"}
+{"id": "L000036", "t": 319, "time": "2026-10-30T09:05:19Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 94ms"}
+{"id": "L000037", "t": 347, "time": "2026-10-30T09:05:47Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 61ms"}
+{"id": "L000038", "t": 358, "time": "2026-10-30T09:05:58Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 105ms"}
+{"id": "L000039", "t": 361, "time": "2026-10-30T09:06:01Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 37ms"}
+{"id": "L000040", "t": 374, "time": "2026-10-30T09:06:14Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 83ms"}
+{"id": "L000041", "t": 377, "time": "2026-10-30T09:06:17Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 19ms"}
+{"id": "L000042", "t": 378, "time": "2026-10-30T09:06:18Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 62ms"}
+{"id": "L000043", "t": 405, "time": "2026-10-30T09:06:45Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 73ms"}
+{"id": "L000044", "t": 415, "time": "2026-10-30T09:06:55Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 70ms"}
+{"id": "L000045", "t": 420, "time": "2026-10-30T09:07:00Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 44ms"}
+{"id": "L000046", "t": 425, "time": "2026-10-30T09:07:05Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 43ms"}
+{"id": "L000047", "t": 434, "time": "2026-10-30T09:07:14Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 63ms"}
+{"id": "L000048", "t": 435, "time": "2026-10-30T09:07:15Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 11ms"}
+{"id": "L000049", "t": 436, "time": "2026-10-30T09:07:16Z", "service": "inventory", "level": "WARN", "msg": "slow request GET /api/inventory/sku took 594ms"}
+{"id": "L000050", "t": 446, "time": "2026-10-30T09:07:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 95ms"}
+{"id": "L000051", "t": 456, "time": "2026-10-30T09:07:36Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 84ms"}
+{"id": "L000052", "t": 482, "time": "2026-10-30T09:08:02Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 113ms"}
+{"id": "L000053", "t": 494, "time": "2026-10-30T09:08:14Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 94ms"}
+{"id": "L000054", "t": 495, "time": "2026-10-30T09:08:15Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 49ms"}
+{"id": "L000055", "t": 499, "time": "2026-10-30T09:08:19Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 116ms"}
+{"id": "L000056", "t": 499, "time": "2026-10-30T09:08:19Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 12ms"}
+{"id": "L000057", "t": 508, "time": "2026-10-30T09:08:28Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 90ms"}
+{"id": "L000058", "t": 509, "time": "2026-10-30T09:08:29Z", "service": "inventory", "level": "WARN", "msg": "slow request GET /api/inventory/sku took 861ms"}
+{"id": "L000059", "t": 524, "time": "2026-10-30T09:08:44Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 45ms"}
+{"id": "L000060", "t": 548, "time": "2026-10-30T09:09:08Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 6ms"}
+{"id": "L000061", "t": 554, "time": "2026-10-30T09:09:14Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 24ms"}
+{"id": "L000062", "t": 555, "time": "2026-10-30T09:09:15Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 113ms"}
+{"id": "L000063", "t": 557, "time": "2026-10-30T09:09:17Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 38ms"}
+{"id": "L000064", "t": 566, "time": "2026-10-30T09:09:26Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 77ms"}
+{"id": "L000065", "t": 575, "time": "2026-10-30T09:09:35Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 63ms"}
+{"id": "L000066", "t": 599, "time": "2026-10-30T09:09:59Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 69ms"}
+{"id": "L000067", "t": 604, "time": "2026-10-30T09:10:04Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 110ms"}
+{"id": "L000068", "t": 609, "time": "2026-10-30T09:10:09Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 87ms"}
+{"id": "L000069", "t": 619, "time": "2026-10-30T09:10:19Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 112ms"}
+{"id": "L000070", "t": 621, "time": "2026-10-30T09:10:21Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 85ms"}
+{"id": "L000071", "t": 622, "time": "2026-10-30T09:10:22Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 66ms"}
+{"id": "L000072", "t": 656, "time": "2026-10-30T09:10:56Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 46ms"}
+{"id": "L000073", "t": 661, "time": "2026-10-30T09:11:01Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 105ms"}
+{"id": "L000074", "t": 666, "time": "2026-10-30T09:11:06Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 18ms"}
+{"id": "L000075", "t": 678, "time": "2026-10-30T09:11:18Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 18ms"}
+{"id": "L000076", "t": 680, "time": "2026-10-30T09:11:20Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 13ms"}
+{"id": "L000077", "t": 685, "time": "2026-10-30T09:11:25Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 17ms"}
+{"id": "L000078", "t": 724, "time": "2026-10-30T09:12:04Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 118ms"}
+{"id": "L000079", "t": 725, "time": "2026-10-30T09:12:05Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 30ms"}
+{"id": "L000080", "t": 728, "time": "2026-10-30T09:12:08Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 118ms"}
+{"id": "L000081", "t": 729, "time": "2026-10-30T09:12:09Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 29ms"}
+{"id": "L000082", "t": 751, "time": "2026-10-30T09:12:31Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 56ms"}
+{"id": "L000083", "t": 763, "time": "2026-10-30T09:12:43Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 30ms"}
+{"id": "L000084", "t": 776, "time": "2026-10-30T09:12:56Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 52ms"}
+{"id": "L000085", "t": 783, "time": "2026-10-30T09:13:03Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 110ms"}
+{"id": "L000086", "t": 791, "time": "2026-10-30T09:13:11Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 45ms"}
+{"id": "L000087", "t": 803, "time": "2026-10-30T09:13:23Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 9ms"}
+{"id": "L000088", "t": 812, "time": "2026-10-30T09:13:32Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 21ms"}
+{"id": "L000089", "t": 821, "time": "2026-10-30T09:13:41Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 105ms"}
+{"id": "L000090", "t": 830, "time": "2026-10-30T09:13:50Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 112ms"}
+{"id": "L000091", "t": 840, "time": "2026-10-30T09:14:00Z", "service": "payments", "level": "INFO", "msg": "Deployment payments@v1.62.0 rolled out (2/2 pods ready)"}
+{"id": "L000092", "t": 857, "time": "2026-10-30T09:14:17Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 51ms"}
+{"id": "L000093", "t": 857, "time": "2026-10-30T09:14:17Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 109ms"}
+{"id": "L000094", "t": 862, "time": "2026-10-30T09:14:22Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 24ms"}
+{"id": "L000095", "t": 879, "time": "2026-10-30T09:14:39Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 70ms"}
+{"id": "L000096", "t": 880, "time": "2026-10-30T09:14:40Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 107ms"}
+{"id": "L000097", "t": 881, "time": "2026-10-30T09:14:41Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 46ms"}
+{"id": "L000098", "t": 914, "time": "2026-10-30T09:15:14Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 49ms"}
+{"id": "L000099", "t": 924, "time": "2026-10-30T09:15:24Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 54ms"}
+{"id": "L000100", "t": 925, "time": "2026-10-30T09:15:25Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 86ms"}
+{"id": "L000101", "t": 926, "time": "2026-10-30T09:15:26Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 30ms"}
+{"id": "L000102", "t": 928, "time": "2026-10-30T09:15:28Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 99ms"}
+{"id": "L000103", "t": 931, "time": "2026-10-30T09:15:31Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 22ms"}
+{"id": "L000104", "t": 960, "time": "2026-10-30T09:16:00Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 56ms"}
+{"id": "L000105", "t": 971, "time": "2026-10-30T09:16:11Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 82ms"}
+{"id": "L000106", "t": 977, "time": "2026-10-30T09:16:17Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 22ms"}
+{"id": "L000107", "t": 986, "time": "2026-10-30T09:16:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 85ms"}
+{"id": "L000108", "t": 988, "time": "2026-10-30T09:16:28Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 24ms"}
+{"id": "L000109", "t": 999, "time": "2026-10-30T09:16:39Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 5ms"}
+{"id": "L000110", "t": 1021, "time": "2026-10-30T09:17:01Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 11ms"}
+{"id": "L000111", "t": 1039, "time": "2026-10-30T09:17:19Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 58ms"}
+{"id": "L000112", "t": 1040, "time": "2026-10-30T09:17:20Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 110ms"}
+{"id": "L000113", "t": 1045, "time": "2026-10-30T09:17:25Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 56ms"}
+{"id": "L000114", "t": 1063, "time": "2026-10-30T09:17:43Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 100ms"}
+{"id": "L000115", "t": 1072, "time": "2026-10-30T09:17:52Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 90ms"}
+{"id": "L000116", "t": 1080, "time": "2026-10-30T09:18:00Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 79ms"}
+{"id": "L000117", "t": 1099, "time": "2026-10-30T09:18:19Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 47ms"}
+{"id": "L000118", "t": 1106, "time": "2026-10-30T09:18:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 75ms"}
+{"id": "L000119", "t": 1110, "time": "2026-10-30T09:18:30Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 102ms"}
+{"id": "L000120", "t": 1133, "time": "2026-10-30T09:18:53Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 30ms"}
+{"id": "L000121", "t": 1139, "time": "2026-10-30T09:18:59Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 61ms"}
+{"id": "L000122", "t": 1145, "time": "2026-10-30T09:19:05Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 78ms"}
+{"id": "L000123", "t": 1150, "time": "2026-10-30T09:19:10Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 116ms"}
+{"id": "L000124", "t": 1154, "time": "2026-10-30T09:19:14Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 25ms"}
+{"id": "L000125", "t": 1172, "time": "2026-10-30T09:19:32Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 17ms"}
+{"id": "L000126", "t": 1183, "time": "2026-10-30T09:19:43Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 65ms"}
+{"id": "L000127", "t": 1200, "time": "2026-10-30T09:20:00Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 57ms"}
+{"id": "L000128", "t": 1203, "time": "2026-10-30T09:20:03Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 118ms"}
+{"id": "L000129", "t": 1209, "time": "2026-10-30T09:20:09Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 64ms"}
+{"id": "L000130", "t": 1214, "time": "2026-10-30T09:20:14Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 96ms"}
+{"id": "L000131", "t": 1218, "time": "2026-10-30T09:20:18Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 79ms"}
+{"id": "L000132", "t": 1244, "time": "2026-10-30T09:20:44Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 118ms"}
+{"id": "L000133", "t": 1252, "time": "2026-10-30T09:20:52Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 104ms"}
+{"id": "L000134", "t": 1261, "time": "2026-10-30T09:21:01Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 100ms"}
+{"id": "L000135", "t": 1262, "time": "2026-10-30T09:21:02Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 36ms"}
+{"id": "L000136", "t": 1269, "time": "2026-10-30T09:21:09Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 70ms"}
+{"id": "L000137", "t": 1275, "time": "2026-10-30T09:21:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 7ms"}
+{"id": "L000138", "t": 1297, "time": "2026-10-30T09:21:37Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 35ms"}
+{"id": "L000139", "t": 1299, "time": "2026-10-30T09:21:39Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 17ms"}
+{"id": "L000140", "t": 1309, "time": "2026-10-30T09:21:49Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 9ms"}
+{"id": "L000141", "t": 1318, "time": "2026-10-30T09:21:58Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 107ms"}
+{"id": "L000142", "t": 1319, "time": "2026-10-30T09:21:59Z", "service": "orders", "level": "WARN", "msg": "slow request POST /api/orders took 606ms"}
+{"id": "L000143", "t": 1331, "time": "2026-10-30T09:22:11Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 40ms"}
+{"id": "L000144", "t": 1333, "time": "2026-10-30T09:22:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 77ms"}
+{"id": "L000145", "t": 1349, "time": "2026-10-30T09:22:29Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 53ms"}
+{"id": "L000146", "t": 1366, "time": "2026-10-30T09:22:46Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 85ms"}
+{"id": "L000147", "t": 1371, "time": "2026-10-30T09:22:51Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 52ms"}
+{"id": "L000148", "t": 1376, "time": "2026-10-30T09:22:56Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 105ms"}
+{"id": "L000149", "t": 1381, "time": "2026-10-30T09:23:01Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 89ms"}
+{"id": "L000150", "t": 1404, "time": "2026-10-30T09:23:24Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 101ms"}
+{"id": "L000151", "t": 1414, "time": "2026-10-30T09:23:34Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 96ms"}
+{"id": "L000152", "t": 1420, "time": "2026-10-30T09:23:40Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 95ms"}
+{"id": "L000153", "t": 1426, "time": "2026-10-30T09:23:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 57ms"}
+{"id": "L000154", "t": 1428, "time": "2026-10-30T09:23:48Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 81ms"}
+{"id": "L000155", "t": 1429, "time": "2026-10-30T09:23:49Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 35ms"}
+{"id": "L000156", "t": 1448, "time": "2026-10-30T09:24:08Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 104ms"}
+{"id": "L000157", "t": 1470, "time": "2026-10-30T09:24:30Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 84ms"}
+{"id": "L000158", "t": 1470, "time": "2026-10-30T09:24:30Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 116ms"}
+{"id": "L000159", "t": 1479, "time": "2026-10-30T09:24:39Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 22ms"}
+{"id": "L000160", "t": 1484, "time": "2026-10-30T09:24:44Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 115ms"}
+{"id": "L000161", "t": 1495, "time": "2026-10-30T09:24:55Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 81ms"}
+{"id": "L000162", "t": 1508, "time": "2026-10-30T09:25:08Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 49ms"}
+{"id": "L000163", "t": 1526, "time": "2026-10-30T09:25:26Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 93ms"}
+{"id": "L000164", "t": 1529, "time": "2026-10-30T09:25:29Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 119ms"}
+{"id": "L000165", "t": 1545, "time": "2026-10-30T09:25:45Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 71ms"}
+{"id": "L000166", "t": 1556, "time": "2026-10-30T09:25:56Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 43ms"}
+{"id": "L000167", "t": 1556, "time": "2026-10-30T09:25:56Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 17ms"}
+{"id": "L000168", "t": 1571, "time": "2026-10-30T09:26:11Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 32ms"}
+{"id": "L000169", "t": 1578, "time": "2026-10-30T09:26:18Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 65ms"}
+{"id": "L000170", "t": 1589, "time": "2026-10-30T09:26:29Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 44ms"}
+{"id": "L000171", "t": 1603, "time": "2026-10-30T09:26:43Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 99ms"}
+{"id": "L000172", "t": 1604, "time": "2026-10-30T09:26:44Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 57ms"}
+{"id": "L000173", "t": 1622, "time": "2026-10-30T09:27:02Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 19ms"}
+{"id": "L000174", "t": 1624, "time": "2026-10-30T09:27:04Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 55ms"}
+{"id": "L000175", "t": 1645, "time": "2026-10-30T09:27:25Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 116ms"}
+{"id": "L000176", "t": 1656, "time": "2026-10-30T09:27:36Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 80ms"}
+{"id": "L000177", "t": 1661, "time": "2026-10-30T09:27:41Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 31ms"}
+{"id": "L000178", "t": 1667, "time": "2026-10-30T09:27:47Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 24ms"}
+{"id": "L000179", "t": 1687, "time": "2026-10-30T09:28:07Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 77ms"}
+{"id": "L000180", "t": 1702, "time": "2026-10-30T09:28:22Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 49ms"}
+{"id": "L000181", "t": 1713, "time": "2026-10-30T09:28:33Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 54ms"}
+{"id": "L000182", "t": 1714, "time": "2026-10-30T09:28:34Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 47ms"}
+{"id": "L000183", "t": 1714, "time": "2026-10-30T09:28:34Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 101ms"}
+{"id": "L000184", "t": 1720, "time": "2026-10-30T09:28:40Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 70ms"}
+{"id": "L000185", "t": 1725, "time": "2026-10-30T09:28:45Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000186", "t": 1751, "time": "2026-10-30T09:29:11Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000187", "t": 1757, "time": "2026-10-30T09:29:17Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 53ms"}
+{"id": "L000188", "t": 1764, "time": "2026-10-30T09:29:24Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000189", "t": 1765, "time": "2026-10-30T09:29:25Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000190", "t": 1766, "time": "2026-10-30T09:29:26Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 5ms"}
+{"id": "L000191", "t": 1773, "time": "2026-10-30T09:29:33Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 111ms"}
+{"id": "L000192", "t": 1775, "time": "2026-10-30T09:29:35Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 85ms"}
+{"id": "L000193", "t": 1777, "time": "2026-10-30T09:29:37Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 101ms"}
+{"id": "L000194", "t": 1789, "time": "2026-10-30T09:29:49Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000195", "t": 1792, "time": "2026-10-30T09:29:52Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 18ms"}
+{"id": "L000196", "t": 1798, "time": "2026-10-30T09:29:58Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 7ms"}
+{"id": "L000197", "t": 1809, "time": "2026-10-30T09:30:09Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000198", "t": 1820, "time": "2026-10-30T09:30:20Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 39ms"}
+{"id": "L000199", "t": 1827, "time": "2026-10-30T09:30:27Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 94ms"}
+{"id": "L000200", "t": 1828, "time": "2026-10-30T09:30:28Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000201", "t": 1829, "time": "2026-10-30T09:30:29Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 49ms"}
+{"id": "L000202", "t": 1836, "time": "2026-10-30T09:30:36Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000203", "t": 1838, "time": "2026-10-30T09:30:38Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 43ms"}
+{"id": "L000204", "t": 1840, "time": "2026-10-30T09:30:40Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000205", "t": 1842, "time": "2026-10-30T09:30:42Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 78ms"}
+{"id": "L000206", "t": 1854, "time": "2026-10-30T09:30:54Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000207", "t": 1856, "time": "2026-10-30T09:30:56Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 103ms"}
+{"id": "L000208", "t": 1863, "time": "2026-10-30T09:31:03Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000209", "t": 1868, "time": "2026-10-30T09:31:08Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 33ms"}
+{"id": "L000210", "t": 1869, "time": "2026-10-30T09:31:09Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000211", "t": 1883, "time": "2026-10-30T09:31:23Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000212", "t": 1884, "time": "2026-10-30T09:31:24Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 14ms"}
+{"id": "L000213", "t": 1889, "time": "2026-10-30T09:31:29Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 29ms"}
+{"id": "L000214", "t": 1897, "time": "2026-10-30T09:31:37Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 42ms"}
+{"id": "L000215", "t": 1897, "time": "2026-10-30T09:31:37Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 33ms"}
+{"id": "L000216", "t": 1906, "time": "2026-10-30T09:31:46Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000217", "t": 1907, "time": "2026-10-30T09:31:47Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000218", "t": 1915, "time": "2026-10-30T09:31:55Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 99ms"}
+{"id": "L000219", "t": 1929, "time": "2026-10-30T09:32:09Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000220", "t": 1936, "time": "2026-10-30T09:32:16Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000221", "t": 1942, "time": "2026-10-30T09:32:22Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 60ms"}
+{"id": "L000222", "t": 1947, "time": "2026-10-30T09:32:27Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000223", "t": 1948, "time": "2026-10-30T09:32:28Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000224", "t": 1951, "time": "2026-10-30T09:32:31Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 45ms"}
+{"id": "L000225", "t": 1955, "time": "2026-10-30T09:32:35Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 92ms"}
+{"id": "L000226", "t": 1962, "time": "2026-10-30T09:32:42Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 73ms"}
+{"id": "L000227", "t": 1964, "time": "2026-10-30T09:32:44Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 107ms"}
+{"id": "L000228", "t": 1969, "time": "2026-10-30T09:32:49Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000229", "t": 1983, "time": "2026-10-30T09:33:03Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 117ms"}
+{"id": "L000230", "t": 1992, "time": "2026-10-30T09:33:12Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000231", "t": 2002, "time": "2026-10-30T09:33:22Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 97ms"}
+{"id": "L000232", "t": 2003, "time": "2026-10-30T09:33:23Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 38ms"}
+{"id": "L000233", "t": 2007, "time": "2026-10-30T09:33:27Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000234", "t": 2007, "time": "2026-10-30T09:33:27Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 70ms"}
+{"id": "L000235", "t": 2011, "time": "2026-10-30T09:33:31Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 109ms"}
+{"id": "L000236", "t": 2017, "time": "2026-10-30T09:33:37Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000237", "t": 2017, "time": "2026-10-30T09:33:37Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 71ms"}
+{"id": "L000238", "t": 2021, "time": "2026-10-30T09:33:41Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000239", "t": 2045, "time": "2026-10-30T09:34:05Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000240", "t": 2052, "time": "2026-10-30T09:34:12Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 78ms"}
+{"id": "L000241", "t": 2053, "time": "2026-10-30T09:34:13Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000242", "t": 2057, "time": "2026-10-30T09:34:17Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 92ms"}
+{"id": "L000243", "t": 2063, "time": "2026-10-30T09:34:23Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 42ms"}
+{"id": "L000244", "t": 2064, "time": "2026-10-30T09:34:24Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 10ms"}
+{"id": "L000245", "t": 2065, "time": "2026-10-30T09:34:25Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 32ms"}
+{"id": "L000246", "t": 2070, "time": "2026-10-30T09:34:30Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000247", "t": 2071, "time": "2026-10-30T09:34:31Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 49ms"}
+{"id": "L000248", "t": 2086, "time": "2026-10-30T09:34:46Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000249", "t": 2098, "time": "2026-10-30T09:34:58Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000250", "t": 2099, "time": "2026-10-30T09:34:59Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000251", "t": 2100, "time": "2026-10-30T09:35:00Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 76ms"}
+{"id": "L000252", "t": 2115, "time": "2026-10-30T09:35:15Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 51ms"}
+{"id": "L000253", "t": 2115, "time": "2026-10-30T09:35:15Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 114ms"}
+{"id": "L000254", "t": 2122, "time": "2026-10-30T09:35:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 39ms"}
+{"id": "L000255", "t": 2128, "time": "2026-10-30T09:35:28Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000256", "t": 2132, "time": "2026-10-30T09:35:32Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 92ms"}
+{"id": "L000257", "t": 2139, "time": "2026-10-30T09:35:39Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 73ms"}
+{"id": "L000258", "t": 2150, "time": "2026-10-30T09:35:50Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 87ms"}
+{"id": "L000259", "t": 2155, "time": "2026-10-30T09:35:55Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000260", "t": 2163, "time": "2026-10-30T09:36:03Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 89ms"}
+{"id": "L000261", "t": 2164, "time": "2026-10-30T09:36:04Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000262", "t": 2168, "time": "2026-10-30T09:36:08Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 68ms"}
+{"id": "L000263", "t": 2178, "time": "2026-10-30T09:36:18Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000264", "t": 2178, "time": "2026-10-30T09:36:18Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 20ms"}
+{"id": "L000265", "t": 2189, "time": "2026-10-30T09:36:29Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 77ms"}
+{"id": "L000266", "t": 2190, "time": "2026-10-30T09:36:30Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000267", "t": 2190, "time": "2026-10-30T09:36:30Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 38ms"}
+{"id": "L000268", "t": 2200, "time": "2026-10-30T09:36:40Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000269", "t": 2205, "time": "2026-10-30T09:36:45Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000270", "t": 2212, "time": "2026-10-30T09:36:52Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000271", "t": 2215, "time": "2026-10-30T09:36:55Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 7ms"}
+{"id": "L000272", "t": 2218, "time": "2026-10-30T09:36:58Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 44ms"}
+{"id": "L000273", "t": 2219, "time": "2026-10-30T09:36:59Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 33ms"}
+{"id": "L000274", "t": 2237, "time": "2026-10-30T09:37:17Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 39ms"}
+{"id": "L000275", "t": 2240, "time": "2026-10-30T09:37:20Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000276", "t": 2252, "time": "2026-10-30T09:37:32Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 36ms"}
+{"id": "L000277", "t": 2255, "time": "2026-10-30T09:37:35Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 42ms"}
+{"id": "L000278", "t": 2268, "time": "2026-10-30T09:37:48Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000279", "t": 2275, "time": "2026-10-30T09:37:55Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000280", "t": 2277, "time": "2026-10-30T09:37:57Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 83ms"}
+{"id": "L000281", "t": 2281, "time": "2026-10-30T09:38:01Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000282", "t": 2283, "time": "2026-10-30T09:38:03Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 6ms"}
+{"id": "L000283", "t": 2284, "time": "2026-10-30T09:38:04Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000284", "t": 2291, "time": "2026-10-30T09:38:11Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 111ms"}
+{"id": "L000285", "t": 2293, "time": "2026-10-30T09:38:13Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 7ms"}
+{"id": "L000286", "t": 2298, "time": "2026-10-30T09:38:18Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 109ms"}
+{"id": "L000287", "t": 2308, "time": "2026-10-30T09:38:28Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000288", "t": 2311, "time": "2026-10-30T09:38:31Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 113ms"}
+{"id": "L000289", "t": 2316, "time": "2026-10-30T09:38:36Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000290", "t": 2317, "time": "2026-10-30T09:38:37Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000291", "t": 2329, "time": "2026-10-30T09:38:49Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 81ms"}
+{"id": "L000292", "t": 2334, "time": "2026-10-30T09:38:54Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 33ms"}
+{"id": "L000293", "t": 2344, "time": "2026-10-30T09:39:04Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000294", "t": 2350, "time": "2026-10-30T09:39:10Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 38ms"}
+{"id": "L000295", "t": 2353, "time": "2026-10-30T09:39:13Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 22ms"}
+{"id": "L000296", "t": 2360, "time": "2026-10-30T09:39:20Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000297", "t": 2363, "time": "2026-10-30T09:39:23Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 75ms"}
+{"id": "L000298", "t": 2364, "time": "2026-10-30T09:39:24Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000299", "t": 2369, "time": "2026-10-30T09:39:29Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000300", "t": 2370, "time": "2026-10-30T09:39:30Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 117ms"}
+{"id": "L000301", "t": 2386, "time": "2026-10-30T09:39:46Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 68ms"}
+{"id": "L000302", "t": 2391, "time": "2026-10-30T09:39:51Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000303", "t": 2393, "time": "2026-10-30T09:39:53Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 53ms"}
+{"id": "L000304", "t": 2406, "time": "2026-10-30T09:40:06Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 26ms"}
+{"id": "L000305", "t": 2411, "time": "2026-10-30T09:40:11Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000306", "t": 2414, "time": "2026-10-30T09:40:14Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000307", "t": 2416, "time": "2026-10-30T09:40:16Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 5ms"}
+{"id": "L000308", "t": 2420, "time": "2026-10-30T09:40:20Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 61ms"}
+{"id": "L000309", "t": 2428, "time": "2026-10-30T09:40:28Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000310", "t": 2429, "time": "2026-10-30T09:40:29Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 46ms"}
+{"id": "L000311", "t": 2435, "time": "2026-10-30T09:40:35Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 65ms"}
+{"id": "L000312", "t": 2446, "time": "2026-10-30T09:40:46Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000313", "t": 2449, "time": "2026-10-30T09:40:49Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 7ms"}
+{"id": "L000314", "t": 2460, "time": "2026-10-30T09:41:00Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 89ms"}
+{"id": "L000315", "t": 2467, "time": "2026-10-30T09:41:07Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 114ms"}
+{"id": "L000316", "t": 2474, "time": "2026-10-30T09:41:14Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000317", "t": 2477, "time": "2026-10-30T09:41:17Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000318", "t": 2479, "time": "2026-10-30T09:41:19Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 58ms"}
+{"id": "L000319", "t": 2480, "time": "2026-10-30T09:41:20Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 94ms"}
+{"id": "L000320", "t": 2483, "time": "2026-10-30T09:41:23Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 68ms"}
+{"id": "L000321", "t": 2494, "time": "2026-10-30T09:41:34Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000322", "t": 2505, "time": "2026-10-30T09:41:45Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000323", "t": 2513, "time": "2026-10-30T09:41:53Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 6ms"}
+{"id": "L000324", "t": 2518, "time": "2026-10-30T09:41:58Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 44ms"}
+{"id": "L000325", "t": 2526, "time": "2026-10-30T09:42:06Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000326", "t": 2539, "time": "2026-10-30T09:42:19Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 45ms"}
+{"id": "L000327", "t": 2544, "time": "2026-10-30T09:42:24Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 90ms"}
+{"id": "L000328", "t": 2547, "time": "2026-10-30T09:42:27Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000329", "t": 2550, "time": "2026-10-30T09:42:30Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000330", "t": 2554, "time": "2026-10-30T09:42:34Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 114ms"}
+{"id": "L000331", "t": 2558, "time": "2026-10-30T09:42:38Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 86ms"}
+{"id": "L000332", "t": 2561, "time": "2026-10-30T09:42:41Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000333", "t": 2562, "time": "2026-10-30T09:42:42Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000334", "t": 2569, "time": "2026-10-30T09:42:49Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 20ms"}
+{"id": "L000335", "t": 2578, "time": "2026-10-30T09:42:58Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 28ms"}
+{"id": "L000336", "t": 2580, "time": "2026-10-30T09:43:00Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000337", "t": 2588, "time": "2026-10-30T09:43:08Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000338", "t": 2594, "time": "2026-10-30T09:43:14Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 63ms"}
+{"id": "L000339", "t": 2596, "time": "2026-10-30T09:43:16Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000340", "t": 2598, "time": "2026-10-30T09:43:18Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 87ms"}
+{"id": "L000341", "t": 2599, "time": "2026-10-30T09:43:19Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 66ms"}
+{"id": "L000342", "t": 2604, "time": "2026-10-30T09:43:24Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000343", "t": 2607, "time": "2026-10-30T09:43:27Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000344", "t": 2610, "time": "2026-10-30T09:43:30Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 53ms"}
+{"id": "L000345", "t": 2613, "time": "2026-10-30T09:43:33Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 48ms"}
+{"id": "L000346", "t": 2626, "time": "2026-10-30T09:43:46Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000347", "t": 2626, "time": "2026-10-30T09:43:46Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 117ms"}
+{"id": "L000348", "t": 2641, "time": "2026-10-30T09:44:01Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 60ms"}
+{"id": "L000349", "t": 2646, "time": "2026-10-30T09:44:06Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000350", "t": 2669, "time": "2026-10-30T09:44:29Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000351", "t": 2671, "time": "2026-10-30T09:44:31Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000352", "t": 2675, "time": "2026-10-30T09:44:35Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 93ms"}
+{"id": "L000353", "t": 2676, "time": "2026-10-30T09:44:36Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 107ms"}
+{"id": "L000354", "t": 2680, "time": "2026-10-30T09:44:40Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 30ms"}
+{"id": "L000355", "t": 2685, "time": "2026-10-30T09:44:45Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 50ms"}
+{"id": "L000356", "t": 2689, "time": "2026-10-30T09:44:49Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 112ms"}
+{"id": "L000357", "t": 2690, "time": "2026-10-30T09:44:50Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 52ms"}
+{"id": "L000358", "t": 2700, "time": "2026-10-30T09:45:00Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000359", "t": 2701, "time": "2026-10-30T09:45:01Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000360", "t": 2715, "time": "2026-10-30T09:45:15Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000361", "t": 2726, "time": "2026-10-30T09:45:26Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 18ms"}
+{"id": "L000362", "t": 2732, "time": "2026-10-30T09:45:32Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 103ms"}
+{"id": "L000363", "t": 2740, "time": "2026-10-30T09:45:40Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000364", "t": 2741, "time": "2026-10-30T09:45:41Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 116ms"}
+{"id": "L000365", "t": 2749, "time": "2026-10-30T09:45:49Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 70ms"}
+{"id": "L000366", "t": 2753, "time": "2026-10-30T09:45:53Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 118ms"}
+{"id": "L000367", "t": 2757, "time": "2026-10-30T09:45:57Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000368", "t": 2761, "time": "2026-10-30T09:46:01Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000369", "t": 2764, "time": "2026-10-30T09:46:04Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 92ms"}
+{"id": "L000370", "t": 2773, "time": "2026-10-30T09:46:13Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 96ms"}
+{"id": "L000371", "t": 2774, "time": "2026-10-30T09:46:14Z", "service": "orders", "level": "WARN", "msg": "slow request POST /api/orders took 561ms"}
+{"id": "L000372", "t": 2786, "time": "2026-10-30T09:46:26Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 55ms"}
+{"id": "L000373", "t": 2790, "time": "2026-10-30T09:46:30Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000374", "t": 2793, "time": "2026-10-30T09:46:33Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000375", "t": 2806, "time": "2026-10-30T09:46:46Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 93ms"}
+{"id": "L000376", "t": 2807, "time": "2026-10-30T09:46:47Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 41ms"}
+{"id": "L000377", "t": 2810, "time": "2026-10-30T09:46:50Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 14ms"}
+{"id": "L000378", "t": 2819, "time": "2026-10-30T09:46:59Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000379", "t": 2819, "time": "2026-10-30T09:46:59Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000380", "t": 2825, "time": "2026-10-30T09:47:05Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 54ms"}
+{"id": "L000381", "t": 2826, "time": "2026-10-30T09:47:06Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 100ms"}
+{"id": "L000382", "t": 2831, "time": "2026-10-30T09:47:11Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 89ms"}
+{"id": "L000383", "t": 2839, "time": "2026-10-30T09:47:19Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000384", "t": 2853, "time": "2026-10-30T09:47:33Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000385", "t": 2859, "time": "2026-10-30T09:47:39Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 92ms"}
+{"id": "L000386", "t": 2862, "time": "2026-10-30T09:47:42Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 91ms"}
+{"id": "L000387", "t": 2872, "time": "2026-10-30T09:47:52Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 96ms"}
+{"id": "L000388", "t": 2874, "time": "2026-10-30T09:47:54Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 90ms"}
+{"id": "L000389", "t": 2874, "time": "2026-10-30T09:47:54Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 57ms"}
+{"id": "L000390", "t": 2875, "time": "2026-10-30T09:47:55Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 66ms"}
+{"id": "L000391", "t": 2876, "time": "2026-10-30T09:47:56Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000392", "t": 2900, "time": "2026-10-30T09:48:20Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000393", "t": 2910, "time": "2026-10-30T09:48:30Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000394", "t": 2922, "time": "2026-10-30T09:48:42Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000395", "t": 2925, "time": "2026-10-30T09:48:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 98ms"}
+{"id": "L000396", "t": 2930, "time": "2026-10-30T09:48:50Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 105ms"}
+{"id": "L000397", "t": 2932, "time": "2026-10-30T09:48:52Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000398", "t": 2935, "time": "2026-10-30T09:48:55Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 86ms"}
+{"id": "L000399", "t": 2937, "time": "2026-10-30T09:48:57Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 37ms"}
+{"id": "L000400", "t": 2937, "time": "2026-10-30T09:48:57Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 59ms"}
+{"id": "L000401", "t": 2938, "time": "2026-10-30T09:48:58Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 39ms"}
+{"id": "L000402", "t": 2951, "time": "2026-10-30T09:49:11Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000403", "t": 2966, "time": "2026-10-30T09:49:26Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 71ms"}
+{"id": "L000404", "t": 2970, "time": "2026-10-30T09:49:30Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000405", "t": 2971, "time": "2026-10-30T09:49:31Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 22ms"}
+{"id": "L000406", "t": 2981, "time": "2026-10-30T09:49:41Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 13ms"}
+{"id": "L000407", "t": 2987, "time": "2026-10-30T09:49:47Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 43ms"}
+{"id": "L000408", "t": 2992, "time": "2026-10-30T09:49:52Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000409", "t": 2994, "time": "2026-10-30T09:49:54Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000410", "t": 2999, "time": "2026-10-30T09:49:59Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 54ms"}
+{"id": "L000411", "t": 3006, "time": "2026-10-30T09:50:06Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000412", "t": 3012, "time": "2026-10-30T09:50:12Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 67ms"}
+{"id": "L000413", "t": 3018, "time": "2026-10-30T09:50:18Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000414", "t": 3021, "time": "2026-10-30T09:50:21Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 111ms"}
+{"id": "L000415", "t": 3027, "time": "2026-10-30T09:50:27Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000416", "t": 3036, "time": "2026-10-30T09:50:36Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 51ms"}
+{"id": "L000417", "t": 3047, "time": "2026-10-30T09:50:47Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 41ms"}
+{"id": "L000418", "t": 3053, "time": "2026-10-30T09:50:53Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 13ms"}
+{"id": "L000419", "t": 3055, "time": "2026-10-30T09:50:55Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000420", "t": 3062, "time": "2026-10-30T09:51:02Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 69ms"}
+{"id": "L000421", "t": 3071, "time": "2026-10-30T09:51:11Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000422", "t": 3077, "time": "2026-10-30T09:51:17Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 37ms"}
+{"id": "L000423", "t": 3083, "time": "2026-10-30T09:51:23Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 39ms"}
+{"id": "L000424", "t": 3086, "time": "2026-10-30T09:51:26Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000425", "t": 3087, "time": "2026-10-30T09:51:27Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000426", "t": 3100, "time": "2026-10-30T09:51:40Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 117ms"}
+{"id": "L000427", "t": 3102, "time": "2026-10-30T09:51:42Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000428", "t": 3111, "time": "2026-10-30T09:51:51Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 78ms"}
+{"id": "L000429", "t": 3112, "time": "2026-10-30T09:51:52Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 92ms"}
+{"id": "L000430", "t": 3117, "time": "2026-10-30T09:51:57Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000431", "t": 3128, "time": "2026-10-30T09:52:08Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 96ms"}
+{"id": "L000432", "t": 3129, "time": "2026-10-30T09:52:09Z", "service": "gateway", "level": "WARN", "msg": "slow request GET /api/cart took 741ms"}
+{"id": "L000433", "t": 3136, "time": "2026-10-30T09:52:16Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000434", "t": 3147, "time": "2026-10-30T09:52:27Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 34ms"}
+{"id": "L000435", "t": 3148, "time": "2026-10-30T09:52:28Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000436", "t": 3156, "time": "2026-10-30T09:52:36Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000437", "t": 3156, "time": "2026-10-30T09:52:36Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 35ms"}
+{"id": "L000438", "t": 3158, "time": "2026-10-30T09:52:38Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 90ms"}
+{"id": "L000439", "t": 3167, "time": "2026-10-30T09:52:47Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000440", "t": 3175, "time": "2026-10-30T09:52:55Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 105ms"}
+{"id": "L000441", "t": 3176, "time": "2026-10-30T09:52:56Z", "service": "postgres", "level": "WARN", "msg": "slow request SELECT orders took 705ms"}
+{"id": "L000442", "t": 3185, "time": "2026-10-30T09:53:05Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000443", "t": 3185, "time": "2026-10-30T09:53:05Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 93ms"}
+{"id": "L000444", "t": 3196, "time": "2026-10-30T09:53:16Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 73ms"}
+{"id": "L000445", "t": 3204, "time": "2026-10-30T09:53:24Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 25ms"}
+{"id": "L000446", "t": 3205, "time": "2026-10-30T09:53:25Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 106ms"}
+{"id": "L000447", "t": 3210, "time": "2026-10-30T09:53:30Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 26ms"}
+{"id": "L000448", "t": 3211, "time": "2026-10-30T09:53:31Z", "service": "redis", "level": "WARN", "msg": "slow request GET session:* took 771ms"}
+{"id": "L000449", "t": 3218, "time": "2026-10-30T09:53:38Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000450", "t": 3222, "time": "2026-10-30T09:53:42Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000451", "t": 3230, "time": "2026-10-30T09:53:50Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 66ms"}
+{"id": "L000452", "t": 3234, "time": "2026-10-30T09:53:54Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000453", "t": 3239, "time": "2026-10-30T09:53:59Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000454", "t": 3239, "time": "2026-10-30T09:53:59Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 57ms"}
+{"id": "L000455", "t": 3248, "time": "2026-10-30T09:54:08Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 91ms"}
+{"id": "L000456", "t": 3248, "time": "2026-10-30T09:54:08Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 88ms"}
+{"id": "L000457", "t": 3257, "time": "2026-10-30T09:54:17Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000458", "t": 3258, "time": "2026-10-30T09:54:18Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 67ms"}
+{"id": "L000459", "t": 3270, "time": "2026-10-30T09:54:30Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 37ms"}
+{"id": "L000460", "t": 3274, "time": "2026-10-30T09:54:34Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000461", "t": 3278, "time": "2026-10-30T09:54:38Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 65ms"}
+{"id": "L000462", "t": 3284, "time": "2026-10-30T09:54:44Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000463", "t": 3292, "time": "2026-10-30T09:54:52Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000464", "t": 3293, "time": "2026-10-30T09:54:53Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 79ms"}
+{"id": "L000465", "t": 3306, "time": "2026-10-30T09:55:06Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000466", "t": 3308, "time": "2026-10-30T09:55:08Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 74ms"}
+{"id": "L000467", "t": 3309, "time": "2026-10-30T09:55:09Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 61ms"}
+{"id": "L000468", "t": 3312, "time": "2026-10-30T09:55:12Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 14ms"}
+{"id": "L000469", "t": 3316, "time": "2026-10-30T09:55:16Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000470", "t": 3331, "time": "2026-10-30T09:55:31Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000471", "t": 3331, "time": "2026-10-30T09:55:31Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 13ms"}
+{"id": "L000472", "t": 3344, "time": "2026-10-30T09:55:44Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000473", "t": 3351, "time": "2026-10-30T09:55:51Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 85ms"}
+{"id": "L000474", "t": 3358, "time": "2026-10-30T09:55:58Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 103ms"}
+{"id": "L000475", "t": 3361, "time": "2026-10-30T09:56:01Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 43ms"}
+{"id": "L000476", "t": 3365, "time": "2026-10-30T09:56:05Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000477", "t": 3371, "time": "2026-10-30T09:56:11Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 88ms"}
+{"id": "L000478", "t": 3377, "time": "2026-10-30T09:56:17Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 18ms"}
+{"id": "L000479", "t": 3385, "time": "2026-10-30T09:56:25Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000480", "t": 3393, "time": "2026-10-30T09:56:33Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000481", "t": 3400, "time": "2026-10-30T09:56:40Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 118ms"}
+{"id": "L000482", "t": 3411, "time": "2026-10-30T09:56:51Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000483", "t": 3413, "time": "2026-10-30T09:56:53Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000484", "t": 3414, "time": "2026-10-30T09:56:54Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 25ms"}
+{"id": "L000485", "t": 3418, "time": "2026-10-30T09:56:58Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 7ms"}
+{"id": "L000486", "t": 3420, "time": "2026-10-30T09:57:00Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 78ms"}
+{"id": "L000487", "t": 3425, "time": "2026-10-30T09:57:05Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 39ms"}
+{"id": "L000488", "t": 3433, "time": "2026-10-30T09:57:13Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000489", "t": 3436, "time": "2026-10-30T09:57:16Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000490", "t": 3442, "time": "2026-10-30T09:57:22Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 68ms"}
+{"id": "L000491", "t": 3449, "time": "2026-10-30T09:57:29Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000492", "t": 3463, "time": "2026-10-30T09:57:43Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 66ms"}
+{"id": "L000493", "t": 3466, "time": "2026-10-30T09:57:46Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 79ms"}
+{"id": "L000494", "t": 3469, "time": "2026-10-30T09:57:49Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000495", "t": 3476, "time": "2026-10-30T09:57:56Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 75ms"}
+{"id": "L000496", "t": 3483, "time": "2026-10-30T09:58:03Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000497", "t": 3483, "time": "2026-10-30T09:58:03Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 10ms"}
+{"id": "L000498", "t": 3488, "time": "2026-10-30T09:58:08Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000499", "t": 3498, "time": "2026-10-30T09:58:18Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 70ms"}
+{"id": "L000500", "t": 3503, "time": "2026-10-30T09:58:23Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 78ms"}
+{"id": "L000501", "t": 3508, "time": "2026-10-30T09:58:28Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 88ms"}
+{"id": "L000502", "t": 3508, "time": "2026-10-30T09:58:28Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000503", "t": 3511, "time": "2026-10-30T09:58:31Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000504", "t": 3512, "time": "2026-10-30T09:58:32Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 89ms"}
+{"id": "L000505", "t": 3530, "time": "2026-10-30T09:58:50Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000506", "t": 3530, "time": "2026-10-30T09:58:50Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 112ms"}
+{"id": "L000507", "t": 3541, "time": "2026-10-30T09:59:01Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 60ms"}
+{"id": "L000508", "t": 3548, "time": "2026-10-30T09:59:08Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 23ms"}
+{"id": "L000509", "t": 3548, "time": "2026-10-30T09:59:08Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000510", "t": 3549, "time": "2026-10-30T09:59:09Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 118ms"}
+{"id": "L000511", "t": 3551, "time": "2026-10-30T09:59:11Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 504 Gateway Timeout"}
+{"id": "L000512", "t": 3561, "time": "2026-10-30T09:59:21Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 110ms"}
+{"id": "L000513", "t": 3567, "time": "2026-10-30T09:59:27Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 119ms"}
+{"id": "L000514", "t": 3571, "time": "2026-10-30T09:59:31Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000515", "t": 3574, "time": "2026-10-30T09:59:34Z", "service": "orders", "level": "ERROR", "msg": "call to inventory failed: 504 Gateway Timeout"}
+{"id": "L000516", "t": 3588, "time": "2026-10-30T09:59:48Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 109ms"}
+{"id": "L000517", "t": 3592, "time": "2026-10-30T09:59:52Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 27ms"}
+{"id": "L000518", "t": 3593, "time": "2026-10-30T09:59:53Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 60ms"}
+{"id": "L000519", "t": 3598, "time": "2026-10-30T09:59:58Z", "service": "inventory", "level": "ERROR", "msg": "handler timed out after 5000ms (worker pool 64/64 busy)"}
+{"id": "L000520", "t": 3598, "time": "2026-10-30T09:59:58Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 85ms"}

@@ -1,0 +1,21 @@
+{
+  "incident_id": "std-02c",
+  "fault": "db_pool_saturation",
+  "service": "postgres",
+  "onset_min": 28,
+  "severity": 0.5,
+  "red_herrings": [
+    {
+      "kind": "cpu_spike",
+      "service": "inventory",
+      "at_min": 12
+    },
+    {
+      "kind": "unrelated_deploy",
+      "service": "payments",
+      "at_min": 14
+    }
+  ],
+  "noise": 0.2,
+  "seed": 112
+}

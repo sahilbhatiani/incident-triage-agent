@@ -1,0 +1,537 @@
+{"id": "L000001", "t": 0, "time": "2026-10-30T09:00:00Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 33ms"}
+{"id": "L000002", "t": 9, "time": "2026-10-30T09:00:09Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 9ms"}
+{"id": "L000003", "t": 18, "time": "2026-10-30T09:00:18Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 115ms"}
+{"id": "L000004", "t": 20, "time": "2026-10-30T09:00:20Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 100ms"}
+{"id": "L000005", "t": 22, "time": "2026-10-30T09:00:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 98ms"}
+{"id": "L000006", "t": 26, "time": "2026-10-30T09:00:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 115ms"}
+{"id": "L000007", "t": 51, "time": "2026-10-30T09:00:51Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 59ms"}
+{"id": "L000008", "t": 57, "time": "2026-10-30T09:00:57Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 79ms"}
+{"id": "L000009", "t": 66, "time": "2026-10-30T09:01:06Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 53ms"}
+{"id": "L000010", "t": 79, "time": "2026-10-30T09:01:19Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 71ms"}
+{"id": "L000011", "t": 82, "time": "2026-10-30T09:01:22Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 83ms"}
+{"id": "L000012", "t": 91, "time": "2026-10-30T09:01:31Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 61ms"}
+{"id": "L000013", "t": 104, "time": "2026-10-30T09:01:44Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 83ms"}
+{"id": "L000014", "t": 116, "time": "2026-10-30T09:01:56Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 54ms"}
+{"id": "L000015", "t": 121, "time": "2026-10-30T09:02:01Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 70ms"}
+{"id": "L000016", "t": 122, "time": "2026-10-30T09:02:02Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 110ms"}
+{"id": "L000017", "t": 133, "time": "2026-10-30T09:02:13Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 97ms"}
+{"id": "L000018", "t": 135, "time": "2026-10-30T09:02:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 52ms"}
+{"id": "L000019", "t": 169, "time": "2026-10-30T09:02:49Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 57ms"}
+{"id": "L000020", "t": 170, "time": "2026-10-30T09:02:50Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 85ms"}
+{"id": "L000021", "t": 187, "time": "2026-10-30T09:03:07Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 60ms"}
+{"id": "L000022", "t": 189, "time": "2026-10-30T09:03:09Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 67ms"}
+{"id": "L000023", "t": 194, "time": "2026-10-30T09:03:14Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 35ms"}
+{"id": "L000024", "t": 201, "time": "2026-10-30T09:03:21Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 78ms"}
+{"id": "L000025", "t": 238, "time": "2026-10-30T09:03:58Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 76ms"}
+{"id": "L000026", "t": 238, "time": "2026-10-30T09:03:58Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 91ms"}
+{"id": "L000027", "t": 244, "time": "2026-10-30T09:04:04Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 51ms"}
+{"id": "L000028", "t": 250, "time": "2026-10-30T09:04:10Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 62ms"}
+{"id": "L000029", "t": 254, "time": "2026-10-30T09:04:14Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 20ms"}
+{"id": "L000030", "t": 267, "time": "2026-10-30T09:04:27Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 5ms"}
+{"id": "L000031", "t": 268, "time": "2026-10-30T09:04:28Z", "service": "inventory", "level": "WARN", "msg": "slow request GET /api/inventory/sku took 884ms"}
+{"id": "L000032", "t": 283, "time": "2026-10-30T09:04:43Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 83ms"}
+{"id": "L000033", "t": 288, "time": "2026-10-30T09:04:48Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 42ms"}
+{"id": "L000034", "t": 291, "time": "2026-10-30T09:04:51Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 93ms"}
+{"id": "L000035", "t": 308, "time": "2026-10-30T09:05:08Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 68ms"}
+{"id": "L000036", "t": 311, "time": "2026-10-30T09:05:11Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 98ms"}
+{"id": "L000037", "t": 315, "time": "2026-10-30T09:05:15Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 36ms"}
+{"id": "L000038", "t": 333, "time": "2026-10-30T09:05:33Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 52ms"}
+{"id": "L000039", "t": 333, "time": "2026-10-30T09:05:33Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 5ms"}
+{"id": "L000040", "t": 336, "time": "2026-10-30T09:05:36Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 17ms"}
+{"id": "L000041", "t": 352, "time": "2026-10-30T09:05:52Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 35ms"}
+{"id": "L000042", "t": 359, "time": "2026-10-30T09:05:59Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 39ms"}
+{"id": "L000043", "t": 380, "time": "2026-10-30T09:06:20Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 11ms"}
+{"id": "L000044", "t": 384, "time": "2026-10-30T09:06:24Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 101ms"}
+{"id": "L000045", "t": 385, "time": "2026-10-30T09:06:25Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 41ms"}
+{"id": "L000046", "t": 387, "time": "2026-10-30T09:06:27Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 29ms"}
+{"id": "L000047", "t": 388, "time": "2026-10-30T09:06:28Z", "service": "postgres", "level": "WARN", "msg": "slow request SELECT orders took 538ms"}
+{"id": "L000048", "t": 400, "time": "2026-10-30T09:06:40Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 85ms"}
+{"id": "L000049", "t": 420, "time": "2026-10-30T09:07:00Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 77ms"}
+{"id": "L000050", "t": 421, "time": "2026-10-30T09:07:01Z", "service": "orders", "level": "WARN", "msg": "slow request POST /api/orders took 481ms"}
+{"id": "L000051", "t": 430, "time": "2026-10-30T09:07:10Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 115ms"}
+{"id": "L000052", "t": 439, "time": "2026-10-30T09:07:19Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 19ms"}
+{"id": "L000053", "t": 440, "time": "2026-10-30T09:07:20Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 11ms"}
+{"id": "L000054", "t": 463, "time": "2026-10-30T09:07:43Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 64ms"}
+{"id": "L000055", "t": 474, "time": "2026-10-30T09:07:54Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 109ms"}
+{"id": "L000056", "t": 480, "time": "2026-10-30T09:08:00Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000057", "t": 481, "time": "2026-10-30T09:08:01Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 88ms"}
+{"id": "L000058", "t": 482, "time": "2026-10-30T09:08:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 102ms"}
+{"id": "L000059", "t": 489, "time": "2026-10-30T09:08:09Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 60ms"}
+{"id": "L000060", "t": 497, "time": "2026-10-30T09:08:17Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 50ms"}
+{"id": "L000061", "t": 521, "time": "2026-10-30T09:08:41Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 36ms"}
+{"id": "L000062", "t": 535, "time": "2026-10-30T09:08:55Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 101ms"}
+{"id": "L000063", "t": 537, "time": "2026-10-30T09:08:57Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 101ms"}
+{"id": "L000064", "t": 540, "time": "2026-10-30T09:09:00Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 90ms"}
+{"id": "L000065", "t": 542, "time": "2026-10-30T09:09:02Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 119ms"}
+{"id": "L000066", "t": 542, "time": "2026-10-30T09:09:02Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 23ms"}
+{"id": "L000067", "t": 591, "time": "2026-10-30T09:09:51Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 20ms"}
+{"id": "L000068", "t": 602, "time": "2026-10-30T09:10:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 25ms"}
+{"id": "L000069", "t": 606, "time": "2026-10-30T09:10:06Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 97ms"}
+{"id": "L000070", "t": 606, "time": "2026-10-30T09:10:06Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 52ms"}
+{"id": "L000071", "t": 606, "time": "2026-10-30T09:10:06Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 20ms"}
+{"id": "L000072", "t": 617, "time": "2026-10-30T09:10:17Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 108ms"}
+{"id": "L000073", "t": 636, "time": "2026-10-30T09:10:36Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 114ms"}
+{"id": "L000074", "t": 649, "time": "2026-10-30T09:10:49Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 9ms"}
+{"id": "L000075", "t": 655, "time": "2026-10-30T09:10:55Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 27ms"}
+{"id": "L000076", "t": 669, "time": "2026-10-30T09:11:09Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000077", "t": 677, "time": "2026-10-30T09:11:17Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 58ms"}
+{"id": "L000078", "t": 681, "time": "2026-10-30T09:11:21Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 106ms"}
+{"id": "L000079", "t": 688, "time": "2026-10-30T09:11:28Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 98ms"}
+{"id": "L000080", "t": 689, "time": "2026-10-30T09:11:29Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 109ms"}
+{"id": "L000081", "t": 698, "time": "2026-10-30T09:11:38Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 32ms"}
+{"id": "L000082", "t": 727, "time": "2026-10-30T09:12:07Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 106ms"}
+{"id": "L000083", "t": 730, "time": "2026-10-30T09:12:10Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 15ms"}
+{"id": "L000084", "t": 741, "time": "2026-10-30T09:12:21Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 85ms"}
+{"id": "L000085", "t": 746, "time": "2026-10-30T09:12:26Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 28ms"}
+{"id": "L000086", "t": 756, "time": "2026-10-30T09:12:36Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 110ms"}
+{"id": "L000087", "t": 762, "time": "2026-10-30T09:12:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 22ms"}
+{"id": "L000088", "t": 763, "time": "2026-10-30T09:12:43Z", "service": "redis", "level": "WARN", "msg": "slow request GET session:* took 595ms"}
+{"id": "L000089", "t": 777, "time": "2026-10-30T09:12:57Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 15ms"}
+{"id": "L000090", "t": 793, "time": "2026-10-30T09:13:13Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 116ms"}
+{"id": "L000091", "t": 795, "time": "2026-10-30T09:13:15Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 83ms"}
+{"id": "L000092", "t": 798, "time": "2026-10-30T09:13:18Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 83ms"}
+{"id": "L000093", "t": 803, "time": "2026-10-30T09:13:23Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 11ms"}
+{"id": "L000094", "t": 827, "time": "2026-10-30T09:13:47Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 15ms"}
+{"id": "L000095", "t": 848, "time": "2026-10-30T09:14:08Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 71ms"}
+{"id": "L000096", "t": 853, "time": "2026-10-30T09:14:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 41ms"}
+{"id": "L000097", "t": 859, "time": "2026-10-30T09:14:19Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 100ms"}
+{"id": "L000098", "t": 865, "time": "2026-10-30T09:14:25Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 63ms"}
+{"id": "L000099", "t": 872, "time": "2026-10-30T09:14:32Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 65ms"}
+{"id": "L000100", "t": 887, "time": "2026-10-30T09:14:47Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 34ms"}
+{"id": "L000101", "t": 895, "time": "2026-10-30T09:14:55Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 75ms"}
+{"id": "L000102", "t": 896, "time": "2026-10-30T09:14:56Z", "service": "postgres", "level": "WARN", "msg": "slow request SELECT orders took 730ms"}
+{"id": "L000103", "t": 898, "time": "2026-10-30T09:14:58Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 23ms"}
+{"id": "L000104", "t": 899, "time": "2026-10-30T09:14:59Z", "service": "payments", "level": "WARN", "msg": "slow request POST /api/payments/charge took 579ms"}
+{"id": "L000105", "t": 927, "time": "2026-10-30T09:15:27Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000106", "t": 929, "time": "2026-10-30T09:15:29Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 80ms"}
+{"id": "L000107", "t": 933, "time": "2026-10-30T09:15:33Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 73ms"}
+{"id": "L000108", "t": 934, "time": "2026-10-30T09:15:34Z", "service": "orders", "level": "WARN", "msg": "slow request POST /api/orders took 559ms"}
+{"id": "L000109", "t": 944, "time": "2026-10-30T09:15:44Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 118ms"}
+{"id": "L000110", "t": 960, "time": "2026-10-30T09:16:00Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 111ms"}
+{"id": "L000111", "t": 966, "time": "2026-10-30T09:16:06Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 36ms"}
+{"id": "L000112", "t": 967, "time": "2026-10-30T09:16:07Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 81ms"}
+{"id": "L000113", "t": 989, "time": "2026-10-30T09:16:29Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 49ms"}
+{"id": "L000114", "t": 995, "time": "2026-10-30T09:16:35Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 46ms"}
+{"id": "L000115", "t": 1009, "time": "2026-10-30T09:16:49Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 88ms"}
+{"id": "L000116", "t": 1020, "time": "2026-10-30T09:17:00Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 105ms"}
+{"id": "L000117", "t": 1021, "time": "2026-10-30T09:17:01Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 83ms"}
+{"id": "L000118", "t": 1034, "time": "2026-10-30T09:17:14Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 36ms"}
+{"id": "L000119", "t": 1034, "time": "2026-10-30T09:17:14Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 114ms"}
+{"id": "L000120", "t": 1047, "time": "2026-10-30T09:17:27Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 60ms"}
+{"id": "L000121", "t": 1058, "time": "2026-10-30T09:17:38Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 25ms"}
+{"id": "L000122", "t": 1062, "time": "2026-10-30T09:17:42Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 27ms"}
+{"id": "L000123", "t": 1083, "time": "2026-10-30T09:18:03Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 33ms"}
+{"id": "L000124", "t": 1088, "time": "2026-10-30T09:18:08Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 71ms"}
+{"id": "L000125", "t": 1092, "time": "2026-10-30T09:18:12Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 18ms"}
+{"id": "L000126", "t": 1109, "time": "2026-10-30T09:18:29Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 31ms"}
+{"id": "L000127", "t": 1114, "time": "2026-10-30T09:18:34Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 103ms"}
+{"id": "L000128", "t": 1133, "time": "2026-10-30T09:18:53Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 117ms"}
+{"id": "L000129", "t": 1134, "time": "2026-10-30T09:18:54Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 22ms"}
+{"id": "L000130", "t": 1142, "time": "2026-10-30T09:19:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 63ms"}
+{"id": "L000131", "t": 1158, "time": "2026-10-30T09:19:18Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 41ms"}
+{"id": "L000132", "t": 1163, "time": "2026-10-30T09:19:23Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 5ms"}
+{"id": "L000133", "t": 1184, "time": "2026-10-30T09:19:44Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 14ms"}
+{"id": "L000134", "t": 1203, "time": "2026-10-30T09:20:03Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 52ms"}
+{"id": "L000135", "t": 1203, "time": "2026-10-30T09:20:03Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 22ms"}
+{"id": "L000136", "t": 1207, "time": "2026-10-30T09:20:07Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 39ms"}
+{"id": "L000137", "t": 1225, "time": "2026-10-30T09:20:25Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 51ms"}
+{"id": "L000138", "t": 1226, "time": "2026-10-30T09:20:26Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 22ms"}
+{"id": "L000139", "t": 1256, "time": "2026-10-30T09:20:56Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 85ms"}
+{"id": "L000140", "t": 1259, "time": "2026-10-30T09:20:59Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000141", "t": 1260, "time": "2026-10-30T09:21:00Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 115ms"}
+{"id": "L000142", "t": 1273, "time": "2026-10-30T09:21:13Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 65ms"}
+{"id": "L000143", "t": 1277, "time": "2026-10-30T09:21:17Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 97ms"}
+{"id": "L000144", "t": 1278, "time": "2026-10-30T09:21:18Z", "service": "gateway", "level": "WARN", "msg": "slow request GET /api/cart took 622ms"}
+{"id": "L000145", "t": 1281, "time": "2026-10-30T09:21:21Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 117ms"}
+{"id": "L000146", "t": 1289, "time": "2026-10-30T09:21:29Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 72ms"}
+{"id": "L000147", "t": 1310, "time": "2026-10-30T09:21:50Z", "service": "redis", "level": "INFO", "msg": "expired 182,344 keys (ttl=3600) in one sweep"}
+{"id": "L000148", "t": 1317, "time": "2026-10-30T09:21:57Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 82ms"}
+{"id": "L000149", "t": 1323, "time": "2026-10-30T09:22:03Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 49ms"}
+{"id": "L000150", "t": 1324, "time": "2026-10-30T09:22:04Z", "service": "redis", "level": "WARN", "msg": "slow request GET session:* took 457ms"}
+{"id": "L000151", "t": 1332, "time": "2026-10-30T09:22:12Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 30ms"}
+{"id": "L000152", "t": 1335, "time": "2026-10-30T09:22:15Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 10% (baseline 94%)"}
+{"id": "L000153", "t": 1336, "time": "2026-10-30T09:22:16Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 12ms"}
+{"id": "L000154", "t": 1339, "time": "2026-10-30T09:22:19Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 20ms"}
+{"id": "L000155", "t": 1348, "time": "2026-10-30T09:22:28Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000156", "t": 1349, "time": "2026-10-30T09:22:29Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 63ms"}
+{"id": "L000157", "t": 1368, "time": "2026-10-30T09:22:48Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000158", "t": 1375, "time": "2026-10-30T09:22:55Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 39ms"}
+{"id": "L000159", "t": 1375, "time": "2026-10-30T09:22:55Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000160", "t": 1382, "time": "2026-10-30T09:23:02Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 29ms"}
+{"id": "L000161", "t": 1384, "time": "2026-10-30T09:23:04Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 110ms"}
+{"id": "L000162", "t": 1391, "time": "2026-10-30T09:23:11Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 78ms"}
+{"id": "L000163", "t": 1394, "time": "2026-10-30T09:23:14Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000164", "t": 1399, "time": "2026-10-30T09:23:19Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 23ms"}
+{"id": "L000165", "t": 1399, "time": "2026-10-30T09:23:19Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 48ms"}
+{"id": "L000166", "t": 1405, "time": "2026-10-30T09:23:25Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000167", "t": 1428, "time": "2026-10-30T09:23:48Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 116ms"}
+{"id": "L000168", "t": 1431, "time": "2026-10-30T09:23:51Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000169", "t": 1433, "time": "2026-10-30T09:23:53Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 88ms"}
+{"id": "L000170", "t": 1441, "time": "2026-10-30T09:24:01Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 7ms"}
+{"id": "L000171", "t": 1446, "time": "2026-10-30T09:24:06Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 32ms"}
+{"id": "L000172", "t": 1454, "time": "2026-10-30T09:24:14Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 107ms"}
+{"id": "L000173", "t": 1456, "time": "2026-10-30T09:24:16Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000174", "t": 1464, "time": "2026-10-30T09:24:24Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 13% (baseline 94%)"}
+{"id": "L000175", "t": 1473, "time": "2026-10-30T09:24:33Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 43ms"}
+{"id": "L000176", "t": 1481, "time": "2026-10-30T09:24:41Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 100ms"}
+{"id": "L000177", "t": 1485, "time": "2026-10-30T09:24:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 106ms"}
+{"id": "L000178", "t": 1488, "time": "2026-10-30T09:24:48Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 26ms"}
+{"id": "L000179", "t": 1491, "time": "2026-10-30T09:24:51Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 29ms"}
+{"id": "L000180", "t": 1502, "time": "2026-10-30T09:25:02Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000181", "t": 1506, "time": "2026-10-30T09:25:06Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000182", "t": 1519, "time": "2026-10-30T09:25:19Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000183", "t": 1521, "time": "2026-10-30T09:25:21Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 22ms"}
+{"id": "L000184", "t": 1521, "time": "2026-10-30T09:25:21Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 16% (baseline 94%)"}
+{"id": "L000185", "t": 1523, "time": "2026-10-30T09:25:23Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 90ms"}
+{"id": "L000186", "t": 1533, "time": "2026-10-30T09:25:33Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 38ms"}
+{"id": "L000187", "t": 1533, "time": "2026-10-30T09:25:33Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 34ms"}
+{"id": "L000188", "t": 1534, "time": "2026-10-30T09:25:34Z", "service": "orders", "level": "WARN", "msg": "slow request POST /api/orders took 815ms"}
+{"id": "L000189", "t": 1543, "time": "2026-10-30T09:25:43Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 77ms"}
+{"id": "L000190", "t": 1556, "time": "2026-10-30T09:25:56Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 85ms"}
+{"id": "L000191", "t": 1562, "time": "2026-10-30T09:26:02Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 38ms"}
+{"id": "L000192", "t": 1563, "time": "2026-10-30T09:26:03Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 16% (baseline 94%)"}
+{"id": "L000193", "t": 1584, "time": "2026-10-30T09:26:24Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000194", "t": 1586, "time": "2026-10-30T09:26:26Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 13% (baseline 94%)"}
+{"id": "L000195", "t": 1591, "time": "2026-10-30T09:26:31Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 12ms"}
+{"id": "L000196", "t": 1601, "time": "2026-10-30T09:26:41Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 34ms"}
+{"id": "L000197", "t": 1607, "time": "2026-10-30T09:26:47Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 16% (baseline 94%)"}
+{"id": "L000198", "t": 1610, "time": "2026-10-30T09:26:50Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000199", "t": 1611, "time": "2026-10-30T09:26:51Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 99ms"}
+{"id": "L000200", "t": 1611, "time": "2026-10-30T09:26:51Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 77ms"}
+{"id": "L000201", "t": 1613, "time": "2026-10-30T09:26:53Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 96ms"}
+{"id": "L000202", "t": 1621, "time": "2026-10-30T09:27:01Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 75ms"}
+{"id": "L000203", "t": 1644, "time": "2026-10-30T09:27:24Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 98ms"}
+{"id": "L000204", "t": 1645, "time": "2026-10-30T09:27:25Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000205", "t": 1648, "time": "2026-10-30T09:27:28Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000206", "t": 1655, "time": "2026-10-30T09:27:35Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 94ms"}
+{"id": "L000207", "t": 1658, "time": "2026-10-30T09:27:38Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 35ms"}
+{"id": "L000208", "t": 1665, "time": "2026-10-30T09:27:45Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 88ms"}
+{"id": "L000209", "t": 1672, "time": "2026-10-30T09:27:52Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 88ms"}
+{"id": "L000210", "t": 1682, "time": "2026-10-30T09:28:02Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000211", "t": 1684, "time": "2026-10-30T09:28:04Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000212", "t": 1687, "time": "2026-10-30T09:28:07Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 22ms"}
+{"id": "L000213", "t": 1706, "time": "2026-10-30T09:28:26Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000214", "t": 1707, "time": "2026-10-30T09:28:27Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000215", "t": 1711, "time": "2026-10-30T09:28:31Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 24ms"}
+{"id": "L000216", "t": 1712, "time": "2026-10-30T09:28:32Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000217", "t": 1717, "time": "2026-10-30T09:28:37Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 83ms"}
+{"id": "L000218", "t": 1719, "time": "2026-10-30T09:28:39Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 76ms"}
+{"id": "L000219", "t": 1720, "time": "2026-10-30T09:28:40Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 74ms"}
+{"id": "L000220", "t": 1735, "time": "2026-10-30T09:28:55Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 38ms"}
+{"id": "L000221", "t": 1746, "time": "2026-10-30T09:29:06Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 12% (baseline 94%)"}
+{"id": "L000222", "t": 1749, "time": "2026-10-30T09:29:09Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 60ms"}
+{"id": "L000223", "t": 1753, "time": "2026-10-30T09:29:13Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000224", "t": 1771, "time": "2026-10-30T09:29:31Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000225", "t": 1775, "time": "2026-10-30T09:29:35Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 107ms"}
+{"id": "L000226", "t": 1776, "time": "2026-10-30T09:29:36Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 92ms"}
+{"id": "L000227", "t": 1777, "time": "2026-10-30T09:29:37Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000228", "t": 1781, "time": "2026-10-30T09:29:41Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 11ms"}
+{"id": "L000229", "t": 1784, "time": "2026-10-30T09:29:44Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 114ms"}
+{"id": "L000230", "t": 1790, "time": "2026-10-30T09:29:50Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 76ms"}
+{"id": "L000231", "t": 1795, "time": "2026-10-30T09:29:55Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000232", "t": 1824, "time": "2026-10-30T09:30:24Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 67ms"}
+{"id": "L000233", "t": 1826, "time": "2026-10-30T09:30:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 54ms"}
+{"id": "L000234", "t": 1827, "time": "2026-10-30T09:30:27Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 118ms"}
+{"id": "L000235", "t": 1833, "time": "2026-10-30T09:30:33Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000236", "t": 1840, "time": "2026-10-30T09:30:40Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000237", "t": 1841, "time": "2026-10-30T09:30:41Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 93ms"}
+{"id": "L000238", "t": 1841, "time": "2026-10-30T09:30:41Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 65ms"}
+{"id": "L000239", "t": 1845, "time": "2026-10-30T09:30:45Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000240", "t": 1856, "time": "2026-10-30T09:30:56Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 68ms"}
+{"id": "L000241", "t": 1867, "time": "2026-10-30T09:31:07Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000242", "t": 1875, "time": "2026-10-30T09:31:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 47ms"}
+{"id": "L000243", "t": 1885, "time": "2026-10-30T09:31:25Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000244", "t": 1896, "time": "2026-10-30T09:31:36Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 81ms"}
+{"id": "L000245", "t": 1896, "time": "2026-10-30T09:31:36Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000246", "t": 1897, "time": "2026-10-30T09:31:37Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 38ms"}
+{"id": "L000247", "t": 1901, "time": "2026-10-30T09:31:41Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000248", "t": 1907, "time": "2026-10-30T09:31:47Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000249", "t": 1912, "time": "2026-10-30T09:31:52Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 81ms"}
+{"id": "L000250", "t": 1914, "time": "2026-10-30T09:31:54Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 27ms"}
+{"id": "L000251", "t": 1933, "time": "2026-10-30T09:32:13Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 68ms"}
+{"id": "L000252", "t": 1935, "time": "2026-10-30T09:32:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 31ms"}
+{"id": "L000253", "t": 1939, "time": "2026-10-30T09:32:19Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000254", "t": 1945, "time": "2026-10-30T09:32:25Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000255", "t": 1952, "time": "2026-10-30T09:32:32Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 25ms"}
+{"id": "L000256", "t": 1953, "time": "2026-10-30T09:32:33Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000257", "t": 1956, "time": "2026-10-30T09:32:36Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000258", "t": 1961, "time": "2026-10-30T09:32:41Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 93ms"}
+{"id": "L000259", "t": 1969, "time": "2026-10-30T09:32:49Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 104ms"}
+{"id": "L000260", "t": 1976, "time": "2026-10-30T09:32:56Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 57ms"}
+{"id": "L000261", "t": 1977, "time": "2026-10-30T09:32:57Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 12% (baseline 94%)"}
+{"id": "L000262", "t": 1992, "time": "2026-10-30T09:33:12Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 17ms"}
+{"id": "L000263", "t": 2000, "time": "2026-10-30T09:33:20Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000264", "t": 2008, "time": "2026-10-30T09:33:28Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 67ms"}
+{"id": "L000265", "t": 2010, "time": "2026-10-30T09:33:30Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 108ms"}
+{"id": "L000266", "t": 2013, "time": "2026-10-30T09:33:33Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 55ms"}
+{"id": "L000267", "t": 2028, "time": "2026-10-30T09:33:48Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000268", "t": 2040, "time": "2026-10-30T09:34:00Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000269", "t": 2049, "time": "2026-10-30T09:34:09Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 61ms"}
+{"id": "L000270", "t": 2049, "time": "2026-10-30T09:34:09Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 43ms"}
+{"id": "L000271", "t": 2050, "time": "2026-10-30T09:34:10Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 78ms"}
+{"id": "L000272", "t": 2055, "time": "2026-10-30T09:34:15Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 48ms"}
+{"id": "L000273", "t": 2066, "time": "2026-10-30T09:34:26Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 10% (baseline 94%)"}
+{"id": "L000274", "t": 2070, "time": "2026-10-30T09:34:30Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 27ms"}
+{"id": "L000275", "t": 2072, "time": "2026-10-30T09:34:32Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000276", "t": 2083, "time": "2026-10-30T09:34:43Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 87ms"}
+{"id": "L000277", "t": 2084, "time": "2026-10-30T09:34:44Z", "service": "payments", "level": "WARN", "msg": "slow request POST /api/payments/charge took 500ms"}
+{"id": "L000278", "t": 2092, "time": "2026-10-30T09:34:52Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 94ms"}
+{"id": "L000279", "t": 2095, "time": "2026-10-30T09:34:55Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000280", "t": 2098, "time": "2026-10-30T09:34:58Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 12% (baseline 94%)"}
+{"id": "L000281", "t": 2111, "time": "2026-10-30T09:35:11Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 20ms"}
+{"id": "L000282", "t": 2121, "time": "2026-10-30T09:35:21Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 87ms"}
+{"id": "L000283", "t": 2126, "time": "2026-10-30T09:35:26Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000284", "t": 2129, "time": "2026-10-30T09:35:29Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 109ms"}
+{"id": "L000285", "t": 2130, "time": "2026-10-30T09:35:30Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 81ms"}
+{"id": "L000286", "t": 2132, "time": "2026-10-30T09:35:32Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 49ms"}
+{"id": "L000287", "t": 2136, "time": "2026-10-30T09:35:36Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 98ms"}
+{"id": "L000288", "t": 2150, "time": "2026-10-30T09:35:50Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 12% (baseline 94%)"}
+{"id": "L000289", "t": 2173, "time": "2026-10-30T09:36:13Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 44ms"}
+{"id": "L000290", "t": 2174, "time": "2026-10-30T09:36:14Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000291", "t": 2180, "time": "2026-10-30T09:36:20Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000292", "t": 2180, "time": "2026-10-30T09:36:20Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 36ms"}
+{"id": "L000293", "t": 2183, "time": "2026-10-30T09:36:23Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000294", "t": 2185, "time": "2026-10-30T09:36:25Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 82ms"}
+{"id": "L000295", "t": 2190, "time": "2026-10-30T09:36:30Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 35ms"}
+{"id": "L000296", "t": 2197, "time": "2026-10-30T09:36:37Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 23ms"}
+{"id": "L000297", "t": 2206, "time": "2026-10-30T09:36:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 106ms"}
+{"id": "L000298", "t": 2218, "time": "2026-10-30T09:36:58Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000299", "t": 2219, "time": "2026-10-30T09:36:59Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000300", "t": 2227, "time": "2026-10-30T09:37:07Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000301", "t": 2231, "time": "2026-10-30T09:37:11Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 115ms"}
+{"id": "L000302", "t": 2233, "time": "2026-10-30T09:37:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 63ms"}
+{"id": "L000303", "t": 2240, "time": "2026-10-30T09:37:20Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 119ms"}
+{"id": "L000304", "t": 2253, "time": "2026-10-30T09:37:33Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000305", "t": 2253, "time": "2026-10-30T09:37:33Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000306", "t": 2263, "time": "2026-10-30T09:37:43Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 23ms"}
+{"id": "L000307", "t": 2264, "time": "2026-10-30T09:37:44Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 104ms"}
+{"id": "L000308", "t": 2264, "time": "2026-10-30T09:37:44Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 103ms"}
+{"id": "L000309", "t": 2279, "time": "2026-10-30T09:37:59Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 102ms"}
+{"id": "L000310", "t": 2285, "time": "2026-10-30T09:38:05Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 80ms"}
+{"id": "L000311", "t": 2285, "time": "2026-10-30T09:38:05Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000312", "t": 2301, "time": "2026-10-30T09:38:21Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000313", "t": 2309, "time": "2026-10-30T09:38:29Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 70ms"}
+{"id": "L000314", "t": 2315, "time": "2026-10-30T09:38:35Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000315", "t": 2317, "time": "2026-10-30T09:38:37Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 12% (baseline 94%)"}
+{"id": "L000316", "t": 2322, "time": "2026-10-30T09:38:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 48ms"}
+{"id": "L000317", "t": 2323, "time": "2026-10-30T09:38:43Z", "service": "redis", "level": "WARN", "msg": "slow request GET session:* took 542ms"}
+{"id": "L000318", "t": 2327, "time": "2026-10-30T09:38:47Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 83ms"}
+{"id": "L000319", "t": 2331, "time": "2026-10-30T09:38:51Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 113ms"}
+{"id": "L000320", "t": 2338, "time": "2026-10-30T09:38:58Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 34ms"}
+{"id": "L000321", "t": 2342, "time": "2026-10-30T09:39:02Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000322", "t": 2350, "time": "2026-10-30T09:39:10Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 47ms"}
+{"id": "L000323", "t": 2350, "time": "2026-10-30T09:39:10Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 22ms"}
+{"id": "L000324", "t": 2366, "time": "2026-10-30T09:39:26Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000325", "t": 2367, "time": "2026-10-30T09:39:27Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 58ms"}
+{"id": "L000326", "t": 2381, "time": "2026-10-30T09:39:41Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 73ms"}
+{"id": "L000327", "t": 2385, "time": "2026-10-30T09:39:45Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000328", "t": 2398, "time": "2026-10-30T09:39:58Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000329", "t": 2403, "time": "2026-10-30T09:40:03Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 87ms"}
+{"id": "L000330", "t": 2404, "time": "2026-10-30T09:40:04Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000331", "t": 2410, "time": "2026-10-30T09:40:10Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 40ms"}
+{"id": "L000332", "t": 2412, "time": "2026-10-30T09:40:12Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 97ms"}
+{"id": "L000333", "t": 2419, "time": "2026-10-30T09:40:19Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 76ms"}
+{"id": "L000334", "t": 2424, "time": "2026-10-30T09:40:24Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 21ms"}
+{"id": "L000335", "t": 2429, "time": "2026-10-30T09:40:29Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000336", "t": 2445, "time": "2026-10-30T09:40:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 58ms"}
+{"id": "L000337", "t": 2453, "time": "2026-10-30T09:40:53Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000338", "t": 2457, "time": "2026-10-30T09:40:57Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000339", "t": 2458, "time": "2026-10-30T09:40:58Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000340", "t": 2467, "time": "2026-10-30T09:41:07Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 16ms"}
+{"id": "L000341", "t": 2468, "time": "2026-10-30T09:41:08Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000342", "t": 2477, "time": "2026-10-30T09:41:17Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 69ms"}
+{"id": "L000343", "t": 2478, "time": "2026-10-30T09:41:18Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 15ms"}
+{"id": "L000344", "t": 2492, "time": "2026-10-30T09:41:32Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 5ms"}
+{"id": "L000345", "t": 2492, "time": "2026-10-30T09:41:32Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000346", "t": 2493, "time": "2026-10-30T09:41:33Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 9ms"}
+{"id": "L000347", "t": 2494, "time": "2026-10-30T09:41:34Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 61ms"}
+{"id": "L000348", "t": 2506, "time": "2026-10-30T09:41:46Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000349", "t": 2511, "time": "2026-10-30T09:41:51Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 34ms"}
+{"id": "L000350", "t": 2514, "time": "2026-10-30T09:41:54Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000351", "t": 2528, "time": "2026-10-30T09:42:08Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000352", "t": 2541, "time": "2026-10-30T09:42:21Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000353", "t": 2551, "time": "2026-10-30T09:42:31Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 62ms"}
+{"id": "L000354", "t": 2551, "time": "2026-10-30T09:42:31Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000355", "t": 2553, "time": "2026-10-30T09:42:33Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 118ms"}
+{"id": "L000356", "t": 2556, "time": "2026-10-30T09:42:36Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 5ms"}
+{"id": "L000357", "t": 2557, "time": "2026-10-30T09:42:37Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 72ms"}
+{"id": "L000358", "t": 2562, "time": "2026-10-30T09:42:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 75ms"}
+{"id": "L000359", "t": 2575, "time": "2026-10-30T09:42:55Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000360", "t": 2577, "time": "2026-10-30T09:42:57Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 104ms"}
+{"id": "L000361", "t": 2584, "time": "2026-10-30T09:43:04Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000362", "t": 2605, "time": "2026-10-30T09:43:25Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000363", "t": 2606, "time": "2026-10-30T09:43:26Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 85ms"}
+{"id": "L000364", "t": 2606, "time": "2026-10-30T09:43:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 99ms"}
+{"id": "L000365", "t": 2609, "time": "2026-10-30T09:43:29Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000366", "t": 2615, "time": "2026-10-30T09:43:35Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 17ms"}
+{"id": "L000367", "t": 2617, "time": "2026-10-30T09:43:37Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000368", "t": 2618, "time": "2026-10-30T09:43:38Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 48ms"}
+{"id": "L000369", "t": 2619, "time": "2026-10-30T09:43:39Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 100ms"}
+{"id": "L000370", "t": 2632, "time": "2026-10-30T09:43:52Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 48ms"}
+{"id": "L000371", "t": 2648, "time": "2026-10-30T09:44:08Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000372", "t": 2652, "time": "2026-10-30T09:44:12Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000373", "t": 2664, "time": "2026-10-30T09:44:24Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 21ms"}
+{"id": "L000374", "t": 2678, "time": "2026-10-30T09:44:38Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 51ms"}
+{"id": "L000375", "t": 2681, "time": "2026-10-30T09:44:41Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 57ms"}
+{"id": "L000376", "t": 2682, "time": "2026-10-30T09:44:42Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 45ms"}
+{"id": "L000377", "t": 2687, "time": "2026-10-30T09:44:47Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000378", "t": 2687, "time": "2026-10-30T09:44:47Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 88ms"}
+{"id": "L000379", "t": 2688, "time": "2026-10-30T09:44:48Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 10% (baseline 94%)"}
+{"id": "L000380", "t": 2691, "time": "2026-10-30T09:44:51Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 44ms"}
+{"id": "L000381", "t": 2698, "time": "2026-10-30T09:44:58Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000382", "t": 2710, "time": "2026-10-30T09:45:10Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000383", "t": 2714, "time": "2026-10-30T09:45:14Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 41ms"}
+{"id": "L000384", "t": 2727, "time": "2026-10-30T09:45:27Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 34ms"}
+{"id": "L000385", "t": 2732, "time": "2026-10-30T09:45:32Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 37ms"}
+{"id": "L000386", "t": 2738, "time": "2026-10-30T09:45:38Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 17ms"}
+{"id": "L000387", "t": 2738, "time": "2026-10-30T09:45:38Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000388", "t": 2744, "time": "2026-10-30T09:45:44Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000389", "t": 2754, "time": "2026-10-30T09:45:54Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000390", "t": 2756, "time": "2026-10-30T09:45:56Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 107ms"}
+{"id": "L000391", "t": 2764, "time": "2026-10-30T09:46:04Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 119ms"}
+{"id": "L000392", "t": 2768, "time": "2026-10-30T09:46:08Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 68ms"}
+{"id": "L000393", "t": 2770, "time": "2026-10-30T09:46:10Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 62ms"}
+{"id": "L000394", "t": 2774, "time": "2026-10-30T09:46:14Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 12% (baseline 94%)"}
+{"id": "L000395", "t": 2776, "time": "2026-10-30T09:46:16Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000396", "t": 2776, "time": "2026-10-30T09:46:16Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 44ms"}
+{"id": "L000397", "t": 2788, "time": "2026-10-30T09:46:28Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000398", "t": 2793, "time": "2026-10-30T09:46:33Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000399", "t": 2795, "time": "2026-10-30T09:46:35Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 113ms"}
+{"id": "L000400", "t": 2798, "time": "2026-10-30T09:46:38Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000401", "t": 2810, "time": "2026-10-30T09:46:50Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 16% (baseline 94%)"}
+{"id": "L000402", "t": 2827, "time": "2026-10-30T09:47:07Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 110ms"}
+{"id": "L000403", "t": 2828, "time": "2026-10-30T09:47:08Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 32ms"}
+{"id": "L000404", "t": 2839, "time": "2026-10-30T09:47:19Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 63ms"}
+{"id": "L000405", "t": 2842, "time": "2026-10-30T09:47:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 76ms"}
+{"id": "L000406", "t": 2846, "time": "2026-10-30T09:47:26Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000407", "t": 2849, "time": "2026-10-30T09:47:29Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 77ms"}
+{"id": "L000408", "t": 2853, "time": "2026-10-30T09:47:33Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 69ms"}
+{"id": "L000409", "t": 2861, "time": "2026-10-30T09:47:41Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000410", "t": 2865, "time": "2026-10-30T09:47:45Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000411", "t": 2875, "time": "2026-10-30T09:47:55Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000412", "t": 2877, "time": "2026-10-30T09:47:57Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 112ms"}
+{"id": "L000413", "t": 2884, "time": "2026-10-30T09:48:04Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 69ms"}
+{"id": "L000414", "t": 2885, "time": "2026-10-30T09:48:05Z", "service": "redis", "level": "WARN", "msg": "slow request GET session:* took 510ms"}
+{"id": "L000415", "t": 2902, "time": "2026-10-30T09:48:22Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 118ms"}
+{"id": "L000416", "t": 2902, "time": "2026-10-30T09:48:22Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000417", "t": 2904, "time": "2026-10-30T09:48:24Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 107ms"}
+{"id": "L000418", "t": 2913, "time": "2026-10-30T09:48:33Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 33ms"}
+{"id": "L000419", "t": 2925, "time": "2026-10-30T09:48:45Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 68ms"}
+{"id": "L000420", "t": 2925, "time": "2026-10-30T09:48:45Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 16% (baseline 94%)"}
+{"id": "L000421", "t": 2926, "time": "2026-10-30T09:48:46Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000422", "t": 2931, "time": "2026-10-30T09:48:51Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 80ms"}
+{"id": "L000423", "t": 2933, "time": "2026-10-30T09:48:53Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000424", "t": 2941, "time": "2026-10-30T09:49:01Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000425", "t": 2946, "time": "2026-10-30T09:49:06Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 44ms"}
+{"id": "L000426", "t": 2950, "time": "2026-10-30T09:49:10Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 115ms"}
+{"id": "L000427", "t": 2960, "time": "2026-10-30T09:49:20Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000428", "t": 2969, "time": "2026-10-30T09:49:29Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 97ms"}
+{"id": "L000429", "t": 2970, "time": "2026-10-30T09:49:30Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000430", "t": 2971, "time": "2026-10-30T09:49:31Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 56ms"}
+{"id": "L000431", "t": 2980, "time": "2026-10-30T09:49:40Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 58ms"}
+{"id": "L000432", "t": 2987, "time": "2026-10-30T09:49:47Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000433", "t": 2990, "time": "2026-10-30T09:49:50Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 15ms"}
+{"id": "L000434", "t": 2994, "time": "2026-10-30T09:49:54Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000435", "t": 3001, "time": "2026-10-30T09:50:01Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 49ms"}
+{"id": "L000436", "t": 3002, "time": "2026-10-30T09:50:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 62ms"}
+{"id": "L000437", "t": 3020, "time": "2026-10-30T09:50:20Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000438", "t": 3032, "time": "2026-10-30T09:50:32Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 79ms"}
+{"id": "L000439", "t": 3033, "time": "2026-10-30T09:50:33Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 26ms"}
+{"id": "L000440", "t": 3034, "time": "2026-10-30T09:50:34Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 89ms"}
+{"id": "L000441", "t": 3041, "time": "2026-10-30T09:50:41Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 113ms"}
+{"id": "L000442", "t": 3043, "time": "2026-10-30T09:50:43Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000443", "t": 3062, "time": "2026-10-30T09:51:02Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 19ms"}
+{"id": "L000444", "t": 3064, "time": "2026-10-30T09:51:04Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 13% (baseline 94%)"}
+{"id": "L000445", "t": 3074, "time": "2026-10-30T09:51:14Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 35ms"}
+{"id": "L000446", "t": 3075, "time": "2026-10-30T09:51:15Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000447", "t": 3081, "time": "2026-10-30T09:51:21Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 38ms"}
+{"id": "L000448", "t": 3081, "time": "2026-10-30T09:51:21Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000449", "t": 3082, "time": "2026-10-30T09:51:22Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000450", "t": 3088, "time": "2026-10-30T09:51:28Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 54ms"}
+{"id": "L000451", "t": 3102, "time": "2026-10-30T09:51:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 75ms"}
+{"id": "L000452", "t": 3103, "time": "2026-10-30T09:51:43Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 35ms"}
+{"id": "L000453", "t": 3104, "time": "2026-10-30T09:51:44Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 67ms"}
+{"id": "L000454", "t": 3108, "time": "2026-10-30T09:51:48Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 16% (baseline 94%)"}
+{"id": "L000455", "t": 3118, "time": "2026-10-30T09:51:58Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000456", "t": 3127, "time": "2026-10-30T09:52:07Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000457", "t": 3149, "time": "2026-10-30T09:52:29Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 92ms"}
+{"id": "L000458", "t": 3149, "time": "2026-10-30T09:52:29Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 22ms"}
+{"id": "L000459", "t": 3150, "time": "2026-10-30T09:52:30Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000460", "t": 3150, "time": "2026-10-30T09:52:30Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 18ms"}
+{"id": "L000461", "t": 3151, "time": "2026-10-30T09:52:31Z", "service": "inventory", "level": "WARN", "msg": "slow request GET /api/inventory/sku took 799ms"}
+{"id": "L000462", "t": 3152, "time": "2026-10-30T09:52:32Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 117ms"}
+{"id": "L000463", "t": 3157, "time": "2026-10-30T09:52:37Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 42ms"}
+{"id": "L000464", "t": 3162, "time": "2026-10-30T09:52:42Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000465", "t": 3174, "time": "2026-10-30T09:52:54Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 58ms"}
+{"id": "L000466", "t": 3200, "time": "2026-10-30T09:53:20Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000467", "t": 3202, "time": "2026-10-30T09:53:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 86ms"}
+{"id": "L000468", "t": 3202, "time": "2026-10-30T09:53:22Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000469", "t": 3203, "time": "2026-10-30T09:53:23Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 50ms"}
+{"id": "L000470", "t": 3204, "time": "2026-10-30T09:53:24Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000471", "t": 3206, "time": "2026-10-30T09:53:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 77ms"}
+{"id": "L000472", "t": 3209, "time": "2026-10-30T09:53:29Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 48ms"}
+{"id": "L000473", "t": 3210, "time": "2026-10-30T09:53:30Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 27ms"}
+{"id": "L000474", "t": 3236, "time": "2026-10-30T09:53:56Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000475", "t": 3251, "time": "2026-10-30T09:54:11Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 27ms"}
+{"id": "L000476", "t": 3259, "time": "2026-10-30T09:54:19Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 89ms"}
+{"id": "L000477", "t": 3261, "time": "2026-10-30T09:54:21Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000478", "t": 3266, "time": "2026-10-30T09:54:26Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 14ms"}
+{"id": "L000479", "t": 3266, "time": "2026-10-30T09:54:26Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 14% (baseline 94%)"}
+{"id": "L000480", "t": 3269, "time": "2026-10-30T09:54:29Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 82ms"}
+{"id": "L000481", "t": 3270, "time": "2026-10-30T09:54:30Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 17ms"}
+{"id": "L000482", "t": 3272, "time": "2026-10-30T09:54:32Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 69ms"}
+{"id": "L000483", "t": 3295, "time": "2026-10-30T09:54:55Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000484", "t": 3296, "time": "2026-10-30T09:54:56Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000485", "t": 3310, "time": "2026-10-30T09:55:10Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 15ms"}
+{"id": "L000486", "t": 3313, "time": "2026-10-30T09:55:13Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 10ms"}
+{"id": "L000487", "t": 3315, "time": "2026-10-30T09:55:15Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 99ms"}
+{"id": "L000488", "t": 3315, "time": "2026-10-30T09:55:15Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 10% (baseline 94%)"}
+{"id": "L000489", "t": 3326, "time": "2026-10-30T09:55:26Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 50ms"}
+{"id": "L000490", "t": 3329, "time": "2026-10-30T09:55:29Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000491", "t": 3336, "time": "2026-10-30T09:55:36Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 69ms"}
+{"id": "L000492", "t": 3340, "time": "2026-10-30T09:55:40Z", "service": "gateway", "level": "WARN", "msg": "config reload: deprecated key 'retry.backoff_ms' ignored"}
+{"id": "L000493", "t": 3347, "time": "2026-10-30T09:55:47Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 47ms"}
+{"id": "L000494", "t": 3349, "time": "2026-10-30T09:55:49Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 15% (baseline 94%)"}
+{"id": "L000495", "t": 3359, "time": "2026-10-30T09:55:59Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000496", "t": 3361, "time": "2026-10-30T09:56:01Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 97ms"}
+{"id": "L000497", "t": 3362, "time": "2026-10-30T09:56:02Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 13ms"}
+{"id": "L000498", "t": 3365, "time": "2026-10-30T09:56:05Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000499", "t": 3373, "time": "2026-10-30T09:56:13Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000500", "t": 3387, "time": "2026-10-30T09:56:27Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 8ms"}
+{"id": "L000501", "t": 3388, "time": "2026-10-30T09:56:28Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 96ms"}
+{"id": "L000502", "t": 3399, "time": "2026-10-30T09:56:39Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000503", "t": 3401, "time": "2026-10-30T09:56:41Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 9% (baseline 94%)"}
+{"id": "L000504", "t": 3405, "time": "2026-10-30T09:56:45Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 55ms"}
+{"id": "L000505", "t": 3410, "time": "2026-10-30T09:56:50Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 94ms"}
+{"id": "L000506", "t": 3411, "time": "2026-10-30T09:56:51Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 93ms"}
+{"id": "L000507", "t": 3415, "time": "2026-10-30T09:56:55Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 54ms"}
+{"id": "L000508", "t": 3430, "time": "2026-10-30T09:57:10Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 13% (baseline 94%)"}
+{"id": "L000509", "t": 3431, "time": "2026-10-30T09:57:11Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 98ms"}
+{"id": "L000510", "t": 3438, "time": "2026-10-30T09:57:18Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 89ms"}
+{"id": "L000511", "t": 3442, "time": "2026-10-30T09:57:22Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000512", "t": 3452, "time": "2026-10-30T09:57:32Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 107ms"}
+{"id": "L000513", "t": 3458, "time": "2026-10-30T09:57:38Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 11% (baseline 94%)"}
+{"id": "L000514", "t": 3464, "time": "2026-10-30T09:57:44Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 26ms"}
+{"id": "L000515", "t": 3470, "time": "2026-10-30T09:57:50Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000516", "t": 3474, "time": "2026-10-30T09:57:54Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 50ms"}
+{"id": "L000517", "t": 3474, "time": "2026-10-30T09:57:54Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 89ms"}
+{"id": "L000518", "t": 3476, "time": "2026-10-30T09:57:56Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 82ms"}
+{"id": "L000519", "t": 3494, "time": "2026-10-30T09:58:14Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000520", "t": 3508, "time": "2026-10-30T09:58:28Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000521", "t": 3516, "time": "2026-10-30T09:58:36Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 16ms"}
+{"id": "L000522", "t": 3517, "time": "2026-10-30T09:58:37Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000523", "t": 3518, "time": "2026-10-30T09:58:38Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 12ms"}
+{"id": "L000524", "t": 3523, "time": "2026-10-30T09:58:43Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 82ms"}
+{"id": "L000525", "t": 3528, "time": "2026-10-30T09:58:48Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 38ms"}
+{"id": "L000526", "t": 3532, "time": "2026-10-30T09:58:52Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 46ms"}
+{"id": "L000527", "t": 3535, "time": "2026-10-30T09:58:55Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000528", "t": 3545, "time": "2026-10-30T09:59:05Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 12% (baseline 94%)"}
+{"id": "L000529", "t": 3554, "time": "2026-10-30T09:59:14Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 62ms"}
+{"id": "L000530", "t": 3560, "time": "2026-10-30T09:59:20Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 88ms"}
+{"id": "L000531", "t": 3568, "time": "2026-10-30T09:59:28Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 17% (baseline 94%)"}
+{"id": "L000532", "t": 3576, "time": "2026-10-30T09:59:36Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 11ms"}
+{"id": "L000533", "t": 3579, "time": "2026-10-30T09:59:39Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 102ms"}
+{"id": "L000534", "t": 3585, "time": "2026-10-30T09:59:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 8ms"}
+{"id": "L000535", "t": 3589, "time": "2026-10-30T09:59:49Z", "service": "orders", "level": "ERROR", "msg": "call to redis failed: 502 Bad Gateway"}
+{"id": "L000536", "t": 3594, "time": "2026-10-30T09:59:54Z", "service": "redis", "level": "WARN", "msg": "cache miss storm: hit ratio dropped to 8% (baseline 94%)"}
+{"id": "L000537", "t": 3596, "time": "2026-10-30T09:59:56Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 58ms"}

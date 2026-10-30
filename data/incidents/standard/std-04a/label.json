@@ -1,0 +1,13 @@
+{
+  "fault": "memory_leak",
+  "service": "payments",
+  "onset_ts": 900,
+  "key_evidence_ids": [
+    "L000174",
+    "L000182",
+    "L000283",
+    "L000289",
+    "L000387",
+    "L000398"
+  ]
+}
