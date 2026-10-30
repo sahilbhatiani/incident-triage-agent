@@ -1,0 +1,113 @@
+{
+  "failures": [
+    "std-01b: truth bad_deploy on payments; multi said downstream_timeout on payments",
+    "std-01c: truth bad_deploy on inventory; multi said downstream_timeout on inventory",
+    "std-02a: truth db_pool_saturation on postgres; multi said downstream_timeout on postgres",
+    "std-02a: truth db_pool_saturation on postgres; single said downstream_timeout on postgres",
+    "std-02b: truth db_pool_saturation on postgres; multi said downstream_timeout on postgres",
+    "std-02b: truth db_pool_saturation on postgres; multi said downstream_timeout on postgres",
+    "std-02b: truth db_pool_saturation on postgres; single said downstream_timeout on postgres",
+    "std-02c: truth db_pool_saturation on postgres; multi said downstream_timeout on payments",
+    "std-02c: truth db_pool_saturation on postgres; multi said downstream_timeout on payments",
+    "std-03a: truth downstream_timeout on payments; multi said db_pool_saturation on postgres"
+  ],
+  "accepted": [],
+  "rejected": [
+    {
+      "proposal": {
+        "fault": "bad_deploy",
+        "service": "payments",
+        "onset_min": 22,
+        "severity": 0.18,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "payments",
+            "at_min": 14
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec"
+    },
+    {
+      "proposal": {
+        "fault": "bad_deploy",
+        "service": "inventory",
+        "onset_min": 27,
+        "severity": 0.16,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "inventory",
+            "at_min": 18
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec"
+    },
+    {
+      "proposal": {
+        "fault": "db_pool_saturation",
+        "service": "postgres",
+        "onset_min": 30,
+        "severity": 0.15,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "payments",
+            "at_min": 20
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec"
+    },
+    {
+      "proposal": {
+        "fault": "db_pool_saturation",
+        "service": "postgres",
+        "onset_min": 35,
+        "severity": 0.13,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "inventory",
+            "at_min": 23
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec"
+    },
+    {
+      "proposal": {
+        "fault": "db_pool_saturation",
+        "service": "postgres",
+        "onset_min": 41,
+        "severity": 0.14,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "postgres",
+            "at_min": 28
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec"
+    },
+    {
+      "proposal": {
+        "fault": "downstream_timeout",
+        "service": "payments",
+        "onset_min": 25,
+        "severity": 0.19,
+        "red_herrings": [
+          {
+            "kind": "db_pool_saturation",
+            "service": "postgres",
+            "at_min": 15
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec"
+    }
+  ]
+}

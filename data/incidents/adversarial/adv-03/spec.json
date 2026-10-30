@@ -1,0 +1,16 @@
+{
+  "incident_id": "adv-03",
+  "fault": "db_pool_saturation",
+  "service": "postgres",
+  "onset_min": 41,
+  "severity": 0.14,
+  "red_herrings": [
+    {
+      "kind": "noisy_warning",
+      "service": "payments",
+      "at_min": 28
+    }
+  ],
+  "noise": 0.1,
+  "seed": 903
+}

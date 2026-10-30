@@ -1,0 +1,216 @@
+{
+  "failures": [
+    "std-01b: truth bad_deploy on payments; multi said downstream_timeout on payments",
+    "std-01c: truth bad_deploy on inventory; multi said downstream_timeout on inventory",
+    "std-02a: truth db_pool_saturation on postgres; multi said downstream_timeout on postgres",
+    "std-02a: truth db_pool_saturation on postgres; single said downstream_timeout on postgres",
+    "std-02b: truth db_pool_saturation on postgres; multi said downstream_timeout on postgres",
+    "std-02b: truth db_pool_saturation on postgres; multi said downstream_timeout on postgres",
+    "std-02b: truth db_pool_saturation on postgres; single said downstream_timeout on postgres",
+    "std-02c: truth db_pool_saturation on postgres; multi said downstream_timeout on payments",
+    "std-02c: truth db_pool_saturation on postgres; multi said downstream_timeout on payments",
+    "std-03a: truth downstream_timeout on payments; multi said db_pool_saturation on postgres"
+  ],
+  "accepted": [
+    {
+      "incident_id": "adv-01",
+      "fault": "bad_deploy",
+      "service": "payments",
+      "onset_min": 32,
+      "severity": 0.18,
+      "red_herrings": [
+        {
+          "kind": "cpu_spike",
+          "service": "payments",
+          "at_min": 20
+        }
+      ],
+      "noise": 0.1,
+      "seed": 901
+    },
+    {
+      "incident_id": "adv-02",
+      "fault": "bad_deploy",
+      "service": "inventory",
+      "onset_min": 29,
+      "severity": 0.16,
+      "red_herrings": [
+        {
+          "kind": "cpu_spike",
+          "service": "inventory",
+          "at_min": 17
+        }
+      ],
+      "noise": 0.1,
+      "seed": 902
+    },
+    {
+      "incident_id": "adv-03",
+      "fault": "db_pool_saturation",
+      "service": "postgres",
+      "onset_min": 41,
+      "severity": 0.14,
+      "red_herrings": [
+        {
+          "kind": "noisy_warning",
+          "service": "payments",
+          "at_min": 28
+        }
+      ],
+      "noise": 0.1,
+      "seed": 903
+    },
+    {
+      "incident_id": "adv-04",
+      "fault": "db_pool_saturation",
+      "service": "postgres",
+      "onset_min": 38,
+      "severity": 0.13,
+      "red_herrings": [
+        {
+          "kind": "noisy_warning",
+          "service": "inventory",
+          "at_min": 24
+        }
+      ],
+      "noise": 0.1,
+      "seed": 904
+    },
+    {
+      "incident_id": "adv-05",
+      "fault": "db_pool_saturation",
+      "service": "postgres",
+      "onset_min": 44,
+      "severity": 0.15,
+      "red_herrings": [
+        {
+          "kind": "unrelated_deploy",
+          "service": "payments",
+          "at_min": 30
+        }
+      ],
+      "noise": 0.1,
+      "seed": 905
+    },
+    {
+      "incident_id": "adv-06",
+      "fault": "downstream_timeout",
+      "service": "payments",
+      "onset_min": 36,
+      "severity": 0.19,
+      "red_herrings": [
+        {
+          "kind": "disk_warning",
+          "service": "postgres",
+          "at_min": 22
+        }
+      ],
+      "noise": 0.1,
+      "seed": 906
+    }
+  ],
+  "rejected": [
+    {
+      "attempt": 1,
+      "proposal": {
+        "fault": "bad_deploy",
+        "service": "payments",
+        "onset_min": 32,
+        "severity": 0.18,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "payments",
+            "at_min": 20
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec red_herrings.0.kind Input should be 'cpu_spike', 'noisy_warning', 'unrelated_deploy', 'gc_logs' or 'disk_warning' [type=literal_error, input_value='downstream_timeout', input_type=str] For further information visit https://errors.pydantic.dev/2.14/v/literal_error"
+    },
+    {
+      "attempt": 1,
+      "proposal": {
+        "fault": "bad_deploy",
+        "service": "inventory",
+        "onset_min": 29,
+        "severity": 0.16,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "inventory",
+            "at_min": 17
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec red_herrings.0.kind Input should be 'cpu_spike', 'noisy_warning', 'unrelated_deploy', 'gc_logs' or 'disk_warning' [type=literal_error, input_value='downstream_timeout', input_type=str] For further information visit https://errors.pydantic.dev/2.14/v/literal_error"
+    },
+    {
+      "attempt": 1,
+      "proposal": {
+        "fault": "db_pool_saturation",
+        "service": "postgres",
+        "onset_min": 41,
+        "severity": 0.14,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "payments",
+            "at_min": 28
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec red_herrings.0.kind Input should be 'cpu_spike', 'noisy_warning', 'unrelated_deploy', 'gc_logs' or 'disk_warning' [type=literal_error, input_value='downstream_timeout', input_type=str] For further information visit https://errors.pydantic.dev/2.14/v/literal_error"
+    },
+    {
+      "attempt": 1,
+      "proposal": {
+        "fault": "db_pool_saturation",
+        "service": "postgres",
+        "onset_min": 38,
+        "severity": 0.13,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "inventory",
+            "at_min": 24
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec red_herrings.0.kind Input should be 'cpu_spike', 'noisy_warning', 'unrelated_deploy', 'gc_logs' or 'disk_warning' [type=literal_error, input_value='downstream_timeout', input_type=str] For further information visit https://errors.pydantic.dev/2.14/v/literal_error"
+    },
+    {
+      "attempt": 1,
+      "proposal": {
+        "fault": "db_pool_saturation",
+        "service": "postgres",
+        "onset_min": 44,
+        "severity": 0.15,
+        "red_herrings": [
+          {
+            "kind": "downstream_timeout",
+            "service": "payments",
+            "at_min": 30
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec red_herrings.0.kind Input should be 'cpu_spike', 'noisy_warning', 'unrelated_deploy', 'gc_logs' or 'disk_warning' [type=literal_error, input_value='downstream_timeout', input_type=str] For further information visit https://errors.pydantic.dev/2.14/v/literal_error"
+    },
+    {
+      "attempt": 1,
+      "proposal": {
+        "fault": "downstream_timeout",
+        "service": "payments",
+        "onset_min": 36,
+        "severity": 0.19,
+        "red_herrings": [
+          {
+            "kind": "db_pool_saturation",
+            "service": "postgres",
+            "at_min": 22
+          }
+        ]
+      },
+      "reason": "1 validation error for ChaosSpec red_herrings.0.kind Input should be 'cpu_spike', 'noisy_warning', 'unrelated_deploy', 'gc_logs' or 'disk_warning' [type=literal_error, input_value='db_pool_saturation', input_type=str] For further information visit https://errors.pydantic.dev/2.14/v/literal_error"
+    }
+  ]
+}

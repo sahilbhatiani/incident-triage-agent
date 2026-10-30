@@ -1,0 +1,16 @@
+{
+  "incident_id": "adv-01",
+  "fault": "bad_deploy",
+  "service": "payments",
+  "onset_min": 32,
+  "severity": 0.18,
+  "red_herrings": [
+    {
+      "kind": "cpu_spike",
+      "service": "payments",
+      "at_min": 20
+    }
+  ],
+  "noise": 0.1,
+  "seed": 901
+}

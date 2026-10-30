@@ -1,0 +1,16 @@
+{
+  "incident_id": "std-03b",
+  "fault": "downstream_timeout",
+  "service": "inventory",
+  "onset_min": 22,
+  "severity": 0.7,
+  "red_herrings": [
+    {
+      "kind": "noisy_warning",
+      "service": "gateway",
+      "at_min": 8
+    }
+  ],
+  "noise": 0.15,
+  "seed": 121
+}
