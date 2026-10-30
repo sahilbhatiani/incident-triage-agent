@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import os
+import threading
 import uuid
 from pathlib import Path
 
@@ -33,14 +34,16 @@ def make_llm(model: str | None = None, seed: int | None = None):
 
 
 _retriever = None
+_retriever_lock = threading.Lock()
 
 
 def default_retriever():
     global _retriever
-    if _retriever is None:
-        from triage.rag import HybridRetriever, OpenAIEmbedder
+    with _retriever_lock:
+        if _retriever is None:
+            from triage.rag import HybridRetriever, OpenAIEmbedder
 
-        _retriever = HybridRetriever.from_dir("kb", OpenAIEmbedder(os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")))
+            _retriever = HybridRetriever.from_dir("kb", OpenAIEmbedder(os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")))
     return _retriever
 
 

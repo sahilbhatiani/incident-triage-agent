@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import threading
 import uuid
 from pathlib import Path
 
@@ -151,8 +152,12 @@ class HybridRetriever:
         order = np.argsort(-scores, kind="stable")[:n]
         return [self.ids[i] for i in order if scores[i] > 0]
 
+    _lock = threading.Lock()  # Chroma's local client is not safe under concurrent queries
+
     def vector_rank(self, query: str, n: int = CANDIDATES) -> list[str]:
-        res = self.col.query(query_embeddings=self.embedder([query]), n_results=min(n, len(self.ids)))
+        emb = self.embedder([query])
+        with self._lock:
+            res = self.col.query(query_embeddings=emb, n_results=min(n, len(self.ids)))
         return res["ids"][0]
 
     def search(self, query: str, k: int = 5) -> list[dict]:

@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import pandas as pd
+from dotenv import load_dotenv
 
 from eval.judge import judge, judge_model
 from eval.score import is_correct
@@ -98,6 +99,7 @@ def run_matrix(incident_dirs, approaches, seeds, cache_dir, agent_fn=None, judge
 
 
 def main():
+    load_dotenv()
     p = argparse.ArgumentParser(description="Run the comparative evaluation")
     p.add_argument("--splits", default="standard")
     p.add_argument("--approaches", default="single,multi")
@@ -114,6 +116,8 @@ def main():
         dirs += ds[: args.n] if args.n else ds
     df = run_matrix(dirs, args.approaches.split(","), [int(s) for s in args.seeds.split(",")], ".cache/eval",
                     judge_llm=None if args.no_judge else judge_model(), workers=args.workers, out_csv=args.out)
+    if df.empty:
+        raise SystemExit("no successful runs")
     print(df.groupby(["split", "approach"])["correct"].agg(["sum", "count"]))
 
 
