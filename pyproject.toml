@@ -1,0 +1,35 @@
+[project]
+name = "incident-triage-agent"
+version = "0.1.0"
+description = "Chaos Arena: single-agent vs multi-agent incident triage over a fault-injection simulator"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.2",
+    "langchain-openai>=0.2",
+    "langchain-core>=0.3",
+    "pydantic>=2.7",
+    "chromadb>=0.5",
+    "rank-bm25>=0.2.2",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "pyarrow>=16",
+    "plotly>=5.22",
+    "graphviz>=0.20",
+    "streamlit>=1.38",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-bdd>=7"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sim*", "triage*", "chaos*", "eval*", "app*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+bdd_features_base_dir = "tests/features"
+markers = ["live: hits the real OpenAI API (skipped unless OPENAI_API_KEY is set)"]
