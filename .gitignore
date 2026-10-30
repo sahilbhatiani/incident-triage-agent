@@ -21,3 +21,4 @@ traces/
 .DS_Store
 .idea/
 .vscode/
+data/incidents/live/
