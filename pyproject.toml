@@ -17,6 +17,7 @@ dependencies = [
     "graphviz>=0.20",
     "streamlit>=1.38",
     "python-dotenv>=1.0",
+    "tabulate>=0.9",
 ]
 
 [project.optional-dependencies]
