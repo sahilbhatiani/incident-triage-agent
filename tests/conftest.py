@@ -29,7 +29,7 @@ class ScriptedChatModel(BaseChatModel):
         return "scripted"
 
     def bind_tools(self, tools, tool_choice=None, **kwargs):
-        return self.model_copy(update={"bound": [t.name for t in tools]})
+        return self.model_copy(update={"bound": [getattr(t, "name", getattr(t, "__name__", str(t))) for t in tools]})
 
     def _generate(self, messages, stop=None, run_manager=None, **kwargs: Any) -> ChatResult:
         if self.delay:
