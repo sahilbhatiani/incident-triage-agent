@@ -1,0 +1,23 @@
+# Design / brief files (kept local for now)
+*.pdf
+docs/design/
+
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Generated artefacts
+chroma_db/
+.cache/
+traces/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
