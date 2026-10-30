@@ -70,7 +70,7 @@ def n_valid(ctx, n):
 
 @then("that proposal is dropped and reported as rejected")
 def dropped(ctx):
-    assert ctx["specs"] == [] and len(ctx["rejected"]) == 1
+    assert ctx["specs"] == [] and len(ctx["rejected"]) >= 1
 
 
 @then("its label equals the spec's fault and service")

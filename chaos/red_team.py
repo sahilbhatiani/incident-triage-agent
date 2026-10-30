@@ -10,9 +10,10 @@ import argparse
 import json
 import os
 from pathlib import Path
+from typing import Literal
 
 import pandas as pd
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage, ToolMessage
 from langchain_core.tools import StructuredTool
 from pydantic import BaseModel, Field, ValidationError
 
@@ -42,12 +43,18 @@ Propose {n} incidents that exploit these weaknesses: plant red herrings that mim
 place them earlier than the real onset, keep the real fault subtle. Call propose_incidents once."""
 
 
+class HerringProposal(BaseModel):
+    kind: Literal["cpu_spike", "noisy_warning", "unrelated_deploy", "gc_logs", "disk_warning"]
+    service: str
+    at_min: int = Field(description="minute 0-59 when it appears")
+
+
 class Proposal(BaseModel):
     fault: str
     service: str
     onset_min: int
     severity: float
-    red_herrings: list[dict] = []
+    red_herrings: list[HerringProposal] = []
     noise: float = 0.2
     rationale: str = ""
 
@@ -71,18 +78,27 @@ def propose_specs(llm, failures: list[str], n: int = 6, start_index: int = 1):
                                         description="Submit incident designs.")
     prompt = RED_TEAM_PROMPT.format(edges=", ".join(f"{a}->{b}" for a, b in EDGES),
                                     failures="\n".join(f"- {f}" for f in failures) or "- none recorded yet", n=n)
-    msg = llm.bind_tools([tool], tool_choice="propose_incidents").invoke(
-        [SystemMessage(content="You design adversarial test incidents."), HumanMessage(content=prompt)])
-    raw = next((tc["args"].get("proposals", []) for tc in msg.tool_calls if tc["name"] == "propose_incidents"), [])
+    bound = llm.bind_tools([tool], tool_choice="propose_incidents")
+    messages = [SystemMessage(content="You design adversarial test incidents."), HumanMessage(content=prompt)]
     specs, rejected = [], []
-    for i, p in enumerate(raw[:n]):
-        try:
-            p = dict(p)
-            p.pop("rationale", None)
-            idx = start_index + len(specs)
-            specs.append(ChaosSpec(incident_id=f"adv-{idx:02d}", seed=900 + idx, **p))
-        except (ValidationError, TypeError) as e:
-            rejected.append({"proposal": p, "reason": str(e).splitlines()[0]})
+    for attempt in range(2):  # one revision round: the model fixes its own invalid designs; we never patch them
+        msg = bound.invoke(messages)
+        raw = next((tc["args"].get("proposals", []) for tc in msg.tool_calls if tc["name"] == "propose_incidents"), [])
+        errors = []
+        for p in raw[: n - len(specs)]:
+            try:
+                p = dict(p)
+                p.pop("rationale", None)
+                idx = start_index + len(specs)
+                specs.append(ChaosSpec(incident_id=f"adv-{idx:02d}", seed=900 + idx, **p))
+            except (ValidationError, TypeError) as e:
+                reason = " ".join(str(e).split())[:300]
+                rejected.append({"attempt": attempt + 1, "proposal": p, "reason": reason})
+                errors.append(reason)
+        if len(specs) >= n or not errors:
+            break
+        messages += [msg, ToolMessage(content="Rejected designs:\n" + "\n".join(errors) + f"\nPropose {n - len(specs)} "
+                                      "more using only the allowed values.", tool_call_id=msg.tool_calls[0]["id"])]
     return specs, rejected, prompt
 
 
