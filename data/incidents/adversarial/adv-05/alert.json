@@ -1,0 +1,12 @@
+{
+  "alert_id": "ALRT-adv-05",
+  "title": "gateway: 5xx error rate and p95 latency above SLO",
+  "service": "gateway",
+  "severity": "P2",
+  "fired_at": "2026-10-30T09:47:45Z",
+  "fired_at_t": 2865,
+  "window": {
+    "t0": 0,
+    "t1": 3600
+  }
+}

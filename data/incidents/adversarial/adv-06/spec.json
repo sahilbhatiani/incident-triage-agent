@@ -1,0 +1,16 @@
+{
+  "incident_id": "adv-06",
+  "fault": "downstream_timeout",
+  "service": "payments",
+  "onset_min": 36,
+  "severity": 0.19,
+  "red_herrings": [
+    {
+      "kind": "disk_warning",
+      "service": "postgres",
+      "at_min": 22
+    }
+  ],
+  "noise": 0.1,
+  "seed": 906
+}

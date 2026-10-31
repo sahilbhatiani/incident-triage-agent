@@ -60,3 +60,63 @@ class Diagnosis(BaseModel):
     confidence: float = Field(ge=0.0, le=1.0)
     operator_checks: list[str] = []
     safe_next_steps: list[str] = []
+
+
+# --- agent submission contracts ----------------------------------------------------------------
+
+FAULTS = ["bad_deploy", "db_pool_saturation", "downstream_timeout", "memory_leak", "cache_stampede"]
+SERVICES = ["gateway", "orders", "payments", "inventory", "redis", "postgres"]
+
+
+class FindingIn(BaseModel):
+    claim: str
+    citations: list[Citation] = []
+    confidence: float = Field(ge=0.0, le=1.0)
+
+
+class FindingsSubmission(BaseModel):
+    findings: list[FindingIn] = Field(max_length=5)
+
+
+class FollowupRequest(BaseModel):
+    specialist: Literal["logs", "metrics", "knowledge"]
+    question: str
+
+
+def _citations(raw) -> list[Citation]:
+    out = []
+    for c in raw or []:
+        try:
+            out.append(Citation.model_validate(c))
+        except Exception:
+            continue
+    return out
+
+
+def coerce_diagnosis(args: dict | None) -> Diagnosis:
+    """Validate a submitted diagnosis; out-of-taxonomy values become "unknown" instead of failing."""
+    if not args:
+        return Diagnosis(fault="unknown", service="unknown", explanation="no diagnosis submitted", confidence=0.0)
+    a = dict(args)
+    a["fault"] = a.get("fault") if a.get("fault") in FAULTS else "unknown"
+    a["service"] = a.get("service") if a.get("service") in SERVICES else "unknown"
+    a["citations"] = _citations(a.get("citations"))
+    try:
+        a["confidence"] = min(1.0, max(0.0, float(a.get("confidence", 0.0))))
+    except (TypeError, ValueError):
+        a["confidence"] = 0.0
+    a.setdefault("explanation", "")
+    a["operator_checks"] = [str(x) for x in a.get("operator_checks") or []]
+    a["safe_next_steps"] = [str(x) for x in a.get("safe_next_steps") or []]
+    return Diagnosis.model_validate(a)
+
+
+def coerce_findings(args: dict | None, agent: str, limit: int = 5) -> list[Finding]:
+    out = []
+    for f in (args or {}).get("findings", [])[:limit]:
+        try:
+            out.append(Finding(agent=agent, claim=str(f["claim"]), citations=_citations(f.get("citations")),
+                               confidence=min(1.0, max(0.0, float(f.get("confidence", 0.5))))))
+        except Exception:
+            continue
+    return out

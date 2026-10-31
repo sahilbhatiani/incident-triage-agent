@@ -1,0 +1,492 @@
+{"id": "L000001", "t": 2, "time": "2026-10-30T09:00:02Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 101ms"}
+{"id": "L000002", "t": 12, "time": "2026-10-30T09:00:12Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 6ms"}
+{"id": "L000003", "t": 15, "time": "2026-10-30T09:00:15Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 85ms"}
+{"id": "L000004", "t": 21, "time": "2026-10-30T09:00:21Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 37ms"}
+{"id": "L000005", "t": 22, "time": "2026-10-30T09:00:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 95ms"}
+{"id": "L000006", "t": 29, "time": "2026-10-30T09:00:29Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 70ms"}
+{"id": "L000007", "t": 62, "time": "2026-10-30T09:01:02Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 34ms"}
+{"id": "L000008", "t": 70, "time": "2026-10-30T09:01:10Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 35ms"}
+{"id": "L000009", "t": 76, "time": "2026-10-30T09:01:16Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 34ms"}
+{"id": "L000010", "t": 87, "time": "2026-10-30T09:01:27Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 53ms"}
+{"id": "L000011", "t": 98, "time": "2026-10-30T09:01:38Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 7ms"}
+{"id": "L000012", "t": 101, "time": "2026-10-30T09:01:41Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 107ms"}
+{"id": "L000013", "t": 113, "time": "2026-10-30T09:01:53Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 98ms"}
+{"id": "L000014", "t": 133, "time": "2026-10-30T09:02:13Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 105ms"}
+{"id": "L000015", "t": 147, "time": "2026-10-30T09:02:27Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 116ms"}
+{"id": "L000016", "t": 148, "time": "2026-10-30T09:02:28Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 119ms"}
+{"id": "L000017", "t": 151, "time": "2026-10-30T09:02:31Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 93ms"}
+{"id": "L000018", "t": 153, "time": "2026-10-30T09:02:33Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 26ms"}
+{"id": "L000019", "t": 169, "time": "2026-10-30T09:02:49Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 93ms"}
+{"id": "L000020", "t": 185, "time": "2026-10-30T09:03:05Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 95ms"}
+{"id": "L000021", "t": 195, "time": "2026-10-30T09:03:15Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 38ms"}
+{"id": "L000022", "t": 211, "time": "2026-10-30T09:03:31Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 48ms"}
+{"id": "L000023", "t": 212, "time": "2026-10-30T09:03:32Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 13ms"}
+{"id": "L000024", "t": 219, "time": "2026-10-30T09:03:39Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 12ms"}
+{"id": "L000025", "t": 223, "time": "2026-10-30T09:03:43Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 69ms"}
+{"id": "L000026", "t": 253, "time": "2026-10-30T09:04:13Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 73ms"}
+{"id": "L000027", "t": 268, "time": "2026-10-30T09:04:28Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 7ms"}
+{"id": "L000028", "t": 275, "time": "2026-10-30T09:04:35Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 8ms"}
+{"id": "L000029", "t": 281, "time": "2026-10-30T09:04:41Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 70ms"}
+{"id": "L000030", "t": 291, "time": "2026-10-30T09:04:51Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 57ms"}
+{"id": "L000031", "t": 291, "time": "2026-10-30T09:04:51Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 32ms"}
+{"id": "L000032", "t": 320, "time": "2026-10-30T09:05:20Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 78ms"}
+{"id": "L000033", "t": 334, "time": "2026-10-30T09:05:34Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 62ms"}
+{"id": "L000034", "t": 339, "time": "2026-10-30T09:05:39Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 23ms"}
+{"id": "L000035", "t": 341, "time": "2026-10-30T09:05:41Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 101ms"}
+{"id": "L000036", "t": 364, "time": "2026-10-30T09:06:04Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 55ms"}
+{"id": "L000037", "t": 365, "time": "2026-10-30T09:06:05Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 80ms"}
+{"id": "L000038", "t": 375, "time": "2026-10-30T09:06:15Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 95ms"}
+{"id": "L000039", "t": 395, "time": "2026-10-30T09:06:35Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 73ms"}
+{"id": "L000040", "t": 409, "time": "2026-10-30T09:06:49Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 53ms"}
+{"id": "L000041", "t": 421, "time": "2026-10-30T09:07:01Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 67ms"}
+{"id": "L000042", "t": 427, "time": "2026-10-30T09:07:07Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 58ms"}
+{"id": "L000043", "t": 439, "time": "2026-10-30T09:07:19Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 26ms"}
+{"id": "L000044", "t": 454, "time": "2026-10-30T09:07:34Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 74ms"}
+{"id": "L000045", "t": 454, "time": "2026-10-30T09:07:34Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 65ms"}
+{"id": "L000046", "t": 467, "time": "2026-10-30T09:07:47Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 5ms"}
+{"id": "L000047", "t": 469, "time": "2026-10-30T09:07:49Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 72ms"}
+{"id": "L000048", "t": 484, "time": "2026-10-30T09:08:04Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 91ms"}
+{"id": "L000049", "t": 495, "time": "2026-10-30T09:08:15Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 79ms"}
+{"id": "L000050", "t": 500, "time": "2026-10-30T09:08:20Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 22ms"}
+{"id": "L000051", "t": 509, "time": "2026-10-30T09:08:29Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 48ms"}
+{"id": "L000052", "t": 526, "time": "2026-10-30T09:08:46Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 29ms"}
+{"id": "L000053", "t": 539, "time": "2026-10-30T09:08:59Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 82ms"}
+{"id": "L000054", "t": 545, "time": "2026-10-30T09:09:05Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 38ms"}
+{"id": "L000055", "t": 546, "time": "2026-10-30T09:09:06Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 23ms"}
+{"id": "L000056", "t": 549, "time": "2026-10-30T09:09:09Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 48ms"}
+{"id": "L000057", "t": 550, "time": "2026-10-30T09:09:10Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 89ms"}
+{"id": "L000058", "t": 586, "time": "2026-10-30T09:09:46Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 43ms"}
+{"id": "L000059", "t": 593, "time": "2026-10-30T09:09:53Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 80ms"}
+{"id": "L000060", "t": 594, "time": "2026-10-30T09:09:54Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 8ms"}
+{"id": "L000061", "t": 597, "time": "2026-10-30T09:09:57Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 87ms"}
+{"id": "L000062", "t": 600, "time": "2026-10-30T09:10:00Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 56ms"}
+{"id": "L000063", "t": 601, "time": "2026-10-30T09:10:01Z", "service": "redis", "level": "WARN", "msg": "slow request GET session:* took 801ms"}
+{"id": "L000064", "t": 610, "time": "2026-10-30T09:10:10Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 20ms"}
+{"id": "L000065", "t": 640, "time": "2026-10-30T09:10:40Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 118ms"}
+{"id": "L000066", "t": 642, "time": "2026-10-30T09:10:42Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 115ms"}
+{"id": "L000067", "t": 646, "time": "2026-10-30T09:10:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 83ms"}
+{"id": "L000068", "t": 646, "time": "2026-10-30T09:10:46Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 32ms"}
+{"id": "L000069", "t": 664, "time": "2026-10-30T09:11:04Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 63ms"}
+{"id": "L000070", "t": 677, "time": "2026-10-30T09:11:17Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 73ms"}
+{"id": "L000071", "t": 684, "time": "2026-10-30T09:11:24Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 18ms"}
+{"id": "L000072", "t": 687, "time": "2026-10-30T09:11:27Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 12ms"}
+{"id": "L000073", "t": 707, "time": "2026-10-30T09:11:47Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 12ms"}
+{"id": "L000074", "t": 710, "time": "2026-10-30T09:11:50Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 68ms"}
+{"id": "L000075", "t": 726, "time": "2026-10-30T09:12:06Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 98ms"}
+{"id": "L000076", "t": 740, "time": "2026-10-30T09:12:20Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 82ms"}
+{"id": "L000077", "t": 745, "time": "2026-10-30T09:12:25Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 59ms"}
+{"id": "L000078", "t": 745, "time": "2026-10-30T09:12:25Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 37ms"}
+{"id": "L000079", "t": 760, "time": "2026-10-30T09:12:40Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 45ms"}
+{"id": "L000080", "t": 772, "time": "2026-10-30T09:12:52Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 48ms"}
+{"id": "L000081", "t": 786, "time": "2026-10-30T09:13:06Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 79ms"}
+{"id": "L000082", "t": 793, "time": "2026-10-30T09:13:13Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 36ms"}
+{"id": "L000083", "t": 800, "time": "2026-10-30T09:13:20Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 61ms"}
+{"id": "L000084", "t": 803, "time": "2026-10-30T09:13:23Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 118ms"}
+{"id": "L000085", "t": 813, "time": "2026-10-30T09:13:33Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 105ms"}
+{"id": "L000086", "t": 819, "time": "2026-10-30T09:13:39Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 58ms"}
+{"id": "L000087", "t": 841, "time": "2026-10-30T09:14:01Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 12ms"}
+{"id": "L000088", "t": 843, "time": "2026-10-30T09:14:03Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 99ms"}
+{"id": "L000089", "t": 853, "time": "2026-10-30T09:14:13Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 44ms"}
+{"id": "L000090", "t": 857, "time": "2026-10-30T09:14:17Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 110ms"}
+{"id": "L000091", "t": 882, "time": "2026-10-30T09:14:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 78ms"}
+{"id": "L000092", "t": 887, "time": "2026-10-30T09:14:47Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 13ms"}
+{"id": "L000093", "t": 896, "time": "2026-10-30T09:14:56Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 74ms"}
+{"id": "L000094", "t": 912, "time": "2026-10-30T09:15:12Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 5ms"}
+{"id": "L000095", "t": 915, "time": "2026-10-30T09:15:15Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 71ms"}
+{"id": "L000096", "t": 922, "time": "2026-10-30T09:15:22Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 63ms"}
+{"id": "L000097", "t": 927, "time": "2026-10-30T09:15:27Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 66ms"}
+{"id": "L000098", "t": 937, "time": "2026-10-30T09:15:37Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 87ms"}
+{"id": "L000099", "t": 959, "time": "2026-10-30T09:15:59Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 12ms"}
+{"id": "L000100", "t": 965, "time": "2026-10-30T09:16:05Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 97ms"}
+{"id": "L000101", "t": 969, "time": "2026-10-30T09:16:09Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 86ms"}
+{"id": "L000102", "t": 986, "time": "2026-10-30T09:16:26Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 14ms"}
+{"id": "L000103", "t": 998, "time": "2026-10-30T09:16:38Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 72ms"}
+{"id": "L000104", "t": 998, "time": "2026-10-30T09:16:38Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 90ms"}
+{"id": "L000105", "t": 1021, "time": "2026-10-30T09:17:01Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 48ms"}
+{"id": "L000106", "t": 1025, "time": "2026-10-30T09:17:05Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 8ms"}
+{"id": "L000107", "t": 1026, "time": "2026-10-30T09:17:06Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 96ms"}
+{"id": "L000108", "t": 1050, "time": "2026-10-30T09:17:30Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 101ms"}
+{"id": "L000109", "t": 1063, "time": "2026-10-30T09:17:43Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 111ms"}
+{"id": "L000110", "t": 1066, "time": "2026-10-30T09:17:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 37ms"}
+{"id": "L000111", "t": 1078, "time": "2026-10-30T09:17:58Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 72ms"}
+{"id": "L000112", "t": 1080, "time": "2026-10-30T09:18:00Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 89ms"}
+{"id": "L000113", "t": 1102, "time": "2026-10-30T09:18:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 11ms"}
+{"id": "L000114", "t": 1105, "time": "2026-10-30T09:18:25Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 51ms"}
+{"id": "L000115", "t": 1119, "time": "2026-10-30T09:18:39Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 89ms"}
+{"id": "L000116", "t": 1121, "time": "2026-10-30T09:18:41Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 55ms"}
+{"id": "L000117", "t": 1126, "time": "2026-10-30T09:18:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 31ms"}
+{"id": "L000118", "t": 1130, "time": "2026-10-30T09:18:50Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 8ms"}
+{"id": "L000119", "t": 1144, "time": "2026-10-30T09:19:04Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 83ms"}
+{"id": "L000120", "t": 1168, "time": "2026-10-30T09:19:28Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 75ms"}
+{"id": "L000121", "t": 1176, "time": "2026-10-30T09:19:36Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 46ms"}
+{"id": "L000122", "t": 1177, "time": "2026-10-30T09:19:37Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 38ms"}
+{"id": "L000123", "t": 1182, "time": "2026-10-30T09:19:42Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 80ms"}
+{"id": "L000124", "t": 1189, "time": "2026-10-30T09:19:49Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 59ms"}
+{"id": "L000125", "t": 1200, "time": "2026-10-30T09:20:00Z", "service": "payments", "level": "INFO", "msg": "cron job nightly-report-export started"}
+{"id": "L000126", "t": 1210, "time": "2026-10-30T09:20:10Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 109ms"}
+{"id": "L000127", "t": 1220, "time": "2026-10-30T09:20:20Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 54ms"}
+{"id": "L000128", "t": 1229, "time": "2026-10-30T09:20:29Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 106ms"}
+{"id": "L000129", "t": 1233, "time": "2026-10-30T09:20:33Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 99ms"}
+{"id": "L000130", "t": 1251, "time": "2026-10-30T09:20:51Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 46ms"}
+{"id": "L000131", "t": 1252, "time": "2026-10-30T09:20:52Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 109ms"}
+{"id": "L000132", "t": 1270, "time": "2026-10-30T09:21:10Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 111ms"}
+{"id": "L000133", "t": 1273, "time": "2026-10-30T09:21:13Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 83ms"}
+{"id": "L000134", "t": 1276, "time": "2026-10-30T09:21:16Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 40ms"}
+{"id": "L000135", "t": 1297, "time": "2026-10-30T09:21:37Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 38ms"}
+{"id": "L000136", "t": 1304, "time": "2026-10-30T09:21:44Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 106ms"}
+{"id": "L000137", "t": 1313, "time": "2026-10-30T09:21:53Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 80ms"}
+{"id": "L000138", "t": 1325, "time": "2026-10-30T09:22:05Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 68ms"}
+{"id": "L000139", "t": 1329, "time": "2026-10-30T09:22:09Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 27ms"}
+{"id": "L000140", "t": 1329, "time": "2026-10-30T09:22:09Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 45ms"}
+{"id": "L000141", "t": 1344, "time": "2026-10-30T09:22:24Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 29ms"}
+{"id": "L000142", "t": 1361, "time": "2026-10-30T09:22:41Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 93ms"}
+{"id": "L000143", "t": 1375, "time": "2026-10-30T09:22:55Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 111ms"}
+{"id": "L000144", "t": 1376, "time": "2026-10-30T09:22:56Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 81ms"}
+{"id": "L000145", "t": 1380, "time": "2026-10-30T09:23:00Z", "service": "payments", "level": "INFO", "msg": "cron job nightly-report-export finished in 178s"}
+{"id": "L000146", "t": 1382, "time": "2026-10-30T09:23:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 47ms"}
+{"id": "L000147", "t": 1385, "time": "2026-10-30T09:23:05Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 6ms"}
+{"id": "L000148", "t": 1392, "time": "2026-10-30T09:23:12Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 17ms"}
+{"id": "L000149", "t": 1434, "time": "2026-10-30T09:23:54Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 21ms"}
+{"id": "L000150", "t": 1439, "time": "2026-10-30T09:23:59Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 71ms"}
+{"id": "L000151", "t": 1444, "time": "2026-10-30T09:24:04Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 16ms"}
+{"id": "L000152", "t": 1449, "time": "2026-10-30T09:24:09Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 13ms"}
+{"id": "L000153", "t": 1450, "time": "2026-10-30T09:24:10Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 104ms"}
+{"id": "L000154", "t": 1454, "time": "2026-10-30T09:24:14Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 8ms"}
+{"id": "L000155", "t": 1488, "time": "2026-10-30T09:24:48Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 99ms"}
+{"id": "L000156", "t": 1493, "time": "2026-10-30T09:24:53Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 117ms"}
+{"id": "L000157", "t": 1495, "time": "2026-10-30T09:24:55Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 92ms"}
+{"id": "L000158", "t": 1498, "time": "2026-10-30T09:24:58Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 57ms"}
+{"id": "L000159", "t": 1523, "time": "2026-10-30T09:25:23Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 59ms"}
+{"id": "L000160", "t": 1532, "time": "2026-10-30T09:25:32Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 60ms"}
+{"id": "L000161", "t": 1534, "time": "2026-10-30T09:25:34Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 92ms"}
+{"id": "L000162", "t": 1534, "time": "2026-10-30T09:25:34Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 54ms"}
+{"id": "L000163", "t": 1543, "time": "2026-10-30T09:25:43Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 29ms"}
+{"id": "L000164", "t": 1553, "time": "2026-10-30T09:25:53Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 21ms"}
+{"id": "L000165", "t": 1576, "time": "2026-10-30T09:26:16Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 25ms"}
+{"id": "L000166", "t": 1576, "time": "2026-10-30T09:26:16Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 19ms"}
+{"id": "L000167", "t": 1586, "time": "2026-10-30T09:26:26Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 49ms"}
+{"id": "L000168", "t": 1590, "time": "2026-10-30T09:26:30Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 75ms"}
+{"id": "L000169", "t": 1593, "time": "2026-10-30T09:26:33Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 30ms"}
+{"id": "L000170", "t": 1622, "time": "2026-10-30T09:27:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 62ms"}
+{"id": "L000171", "t": 1637, "time": "2026-10-30T09:27:17Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 115ms"}
+{"id": "L000172", "t": 1641, "time": "2026-10-30T09:27:21Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 88ms"}
+{"id": "L000173", "t": 1645, "time": "2026-10-30T09:27:25Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 7ms"}
+{"id": "L000174", "t": 1646, "time": "2026-10-30T09:27:26Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 104ms"}
+{"id": "L000175", "t": 1650, "time": "2026-10-30T09:27:30Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 48ms"}
+{"id": "L000176", "t": 1668, "time": "2026-10-30T09:27:48Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 36ms"}
+{"id": "L000177", "t": 1691, "time": "2026-10-30T09:28:11Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 38ms"}
+{"id": "L000178", "t": 1693, "time": "2026-10-30T09:28:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 101ms"}
+{"id": "L000179", "t": 1705, "time": "2026-10-30T09:28:25Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 93ms"}
+{"id": "L000180", "t": 1709, "time": "2026-10-30T09:28:29Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 61ms"}
+{"id": "L000181", "t": 1711, "time": "2026-10-30T09:28:31Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 43ms"}
+{"id": "L000182", "t": 1724, "time": "2026-10-30T09:28:44Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 50ms"}
+{"id": "L000183", "t": 1735, "time": "2026-10-30T09:28:55Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 60ms"}
+{"id": "L000184", "t": 1748, "time": "2026-10-30T09:29:08Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 68ms"}
+{"id": "L000185", "t": 1749, "time": "2026-10-30T09:29:09Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 102ms"}
+{"id": "L000186", "t": 1762, "time": "2026-10-30T09:29:22Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 53ms"}
+{"id": "L000187", "t": 1775, "time": "2026-10-30T09:29:35Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 109ms"}
+{"id": "L000188", "t": 1799, "time": "2026-10-30T09:29:59Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 53ms"}
+{"id": "L000189", "t": 1802, "time": "2026-10-30T09:30:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 57ms"}
+{"id": "L000190", "t": 1802, "time": "2026-10-30T09:30:02Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 10ms"}
+{"id": "L000191", "t": 1810, "time": "2026-10-30T09:30:10Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 82ms"}
+{"id": "L000192", "t": 1818, "time": "2026-10-30T09:30:18Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 58ms"}
+{"id": "L000193", "t": 1836, "time": "2026-10-30T09:30:36Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 79ms"}
+{"id": "L000194", "t": 1851, "time": "2026-10-30T09:30:51Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 18ms"}
+{"id": "L000195", "t": 1855, "time": "2026-10-30T09:30:55Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 114ms"}
+{"id": "L000196", "t": 1856, "time": "2026-10-30T09:30:56Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 83ms"}
+{"id": "L000197", "t": 1859, "time": "2026-10-30T09:30:59Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 23ms"}
+{"id": "L000198", "t": 1894, "time": "2026-10-30T09:31:34Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 51ms"}
+{"id": "L000199", "t": 1896, "time": "2026-10-30T09:31:36Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 61ms"}
+{"id": "L000200", "t": 1900, "time": "2026-10-30T09:31:40Z", "service": "payments", "level": "INFO", "msg": "Deployment payments@v2.39.8 rolled out (3/3 pods ready)"}
+{"id": "L000201", "t": 1911, "time": "2026-10-30T09:31:51Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 73ms"}
+{"id": "L000202", "t": 1915, "time": "2026-10-30T09:31:55Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 12ms"}
+{"id": "L000203", "t": 1922, "time": "2026-10-30T09:32:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 84ms"}
+{"id": "L000204", "t": 1924, "time": "2026-10-30T09:32:04Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 33ms"}
+{"id": "L000205", "t": 1925, "time": "2026-10-30T09:32:05Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000206", "t": 1952, "time": "2026-10-30T09:32:32Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 67ms"}
+{"id": "L000207", "t": 1952, "time": "2026-10-30T09:32:32Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000208", "t": 1960, "time": "2026-10-30T09:32:40Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000209", "t": 1966, "time": "2026-10-30T09:32:46Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 56ms"}
+{"id": "L000210", "t": 1968, "time": "2026-10-30T09:32:48Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 28ms"}
+{"id": "L000211", "t": 1969, "time": "2026-10-30T09:32:49Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 55ms"}
+{"id": "L000212", "t": 1971, "time": "2026-10-30T09:32:51Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000213", "t": 1981, "time": "2026-10-30T09:33:01Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 80ms"}
+{"id": "L000214", "t": 1990, "time": "2026-10-30T09:33:10Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000215", "t": 1994, "time": "2026-10-30T09:33:14Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 62ms"}
+{"id": "L000216", "t": 1995, "time": "2026-10-30T09:33:15Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000217", "t": 1999, "time": "2026-10-30T09:33:19Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 107ms"}
+{"id": "L000218", "t": 2018, "time": "2026-10-30T09:33:38Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000219", "t": 2023, "time": "2026-10-30T09:33:43Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000220", "t": 2030, "time": "2026-10-30T09:33:50Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 70ms"}
+{"id": "L000221", "t": 2040, "time": "2026-10-30T09:34:00Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 74ms"}
+{"id": "L000222", "t": 2040, "time": "2026-10-30T09:34:00Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000223", "t": 2040, "time": "2026-10-30T09:34:00Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 77ms"}
+{"id": "L000224", "t": 2045, "time": "2026-10-30T09:34:05Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 106ms"}
+{"id": "L000225", "t": 2048, "time": "2026-10-30T09:34:08Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000226", "t": 2058, "time": "2026-10-30T09:34:18Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 85ms"}
+{"id": "L000227", "t": 2075, "time": "2026-10-30T09:34:35Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 117ms"}
+{"id": "L000228", "t": 2075, "time": "2026-10-30T09:34:35Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000229", "t": 2076, "time": "2026-10-30T09:34:36Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000230", "t": 2085, "time": "2026-10-30T09:34:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 114ms"}
+{"id": "L000231", "t": 2096, "time": "2026-10-30T09:34:56Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 109ms"}
+{"id": "L000232", "t": 2103, "time": "2026-10-30T09:35:03Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000233", "t": 2110, "time": "2026-10-30T09:35:10Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 68ms"}
+{"id": "L000234", "t": 2115, "time": "2026-10-30T09:35:15Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 102ms"}
+{"id": "L000235", "t": 2118, "time": "2026-10-30T09:35:18Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000236", "t": 2118, "time": "2026-10-30T09:35:18Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 116ms"}
+{"id": "L000237", "t": 2119, "time": "2026-10-30T09:35:19Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 56ms"}
+{"id": "L000238", "t": 2125, "time": "2026-10-30T09:35:25Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000239", "t": 2137, "time": "2026-10-30T09:35:37Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000240", "t": 2145, "time": "2026-10-30T09:35:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 113ms"}
+{"id": "L000241", "t": 2156, "time": "2026-10-30T09:35:56Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 12ms"}
+{"id": "L000242", "t": 2158, "time": "2026-10-30T09:35:58Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000243", "t": 2161, "time": "2026-10-30T09:36:01Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 35ms"}
+{"id": "L000244", "t": 2167, "time": "2026-10-30T09:36:07Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000245", "t": 2167, "time": "2026-10-30T09:36:07Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 44ms"}
+{"id": "L000246", "t": 2176, "time": "2026-10-30T09:36:16Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 66ms"}
+{"id": "L000247", "t": 2180, "time": "2026-10-30T09:36:20Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000248", "t": 2183, "time": "2026-10-30T09:36:23Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 87ms"}
+{"id": "L000249", "t": 2194, "time": "2026-10-30T09:36:34Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000250", "t": 2209, "time": "2026-10-30T09:36:49Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 73ms"}
+{"id": "L000251", "t": 2209, "time": "2026-10-30T09:36:49Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 37ms"}
+{"id": "L000252", "t": 2209, "time": "2026-10-30T09:36:49Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 54ms"}
+{"id": "L000253", "t": 2219, "time": "2026-10-30T09:36:59Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000254", "t": 2222, "time": "2026-10-30T09:37:02Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000255", "t": 2227, "time": "2026-10-30T09:37:07Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 74ms"}
+{"id": "L000256", "t": 2243, "time": "2026-10-30T09:37:23Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000257", "t": 2251, "time": "2026-10-30T09:37:31Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000258", "t": 2251, "time": "2026-10-30T09:37:31Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 100ms"}
+{"id": "L000259", "t": 2255, "time": "2026-10-30T09:37:35Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 78ms"}
+{"id": "L000260", "t": 2260, "time": "2026-10-30T09:37:40Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 62ms"}
+{"id": "L000261", "t": 2262, "time": "2026-10-30T09:37:42Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000262", "t": 2267, "time": "2026-10-30T09:37:47Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 114ms"}
+{"id": "L000263", "t": 2276, "time": "2026-10-30T09:37:56Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 67ms"}
+{"id": "L000264", "t": 2286, "time": "2026-10-30T09:38:06Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000265", "t": 2295, "time": "2026-10-30T09:38:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 107ms"}
+{"id": "L000266", "t": 2303, "time": "2026-10-30T09:38:23Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000267", "t": 2306, "time": "2026-10-30T09:38:26Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000268", "t": 2309, "time": "2026-10-30T09:38:29Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000269", "t": 2312, "time": "2026-10-30T09:38:32Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 41ms"}
+{"id": "L000270", "t": 2319, "time": "2026-10-30T09:38:39Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 77ms"}
+{"id": "L000271", "t": 2322, "time": "2026-10-30T09:38:42Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000272", "t": 2328, "time": "2026-10-30T09:38:48Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000273", "t": 2328, "time": "2026-10-30T09:38:48Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 112ms"}
+{"id": "L000274", "t": 2343, "time": "2026-10-30T09:39:03Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 99ms"}
+{"id": "L000275", "t": 2354, "time": "2026-10-30T09:39:14Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000276", "t": 2355, "time": "2026-10-30T09:39:15Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 66ms"}
+{"id": "L000277", "t": 2362, "time": "2026-10-30T09:39:22Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 58ms"}
+{"id": "L000278", "t": 2367, "time": "2026-10-30T09:39:27Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000279", "t": 2372, "time": "2026-10-30T09:39:32Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 108ms"}
+{"id": "L000280", "t": 2378, "time": "2026-10-30T09:39:38Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000281", "t": 2386, "time": "2026-10-30T09:39:46Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000282", "t": 2387, "time": "2026-10-30T09:39:47Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 53ms"}
+{"id": "L000283", "t": 2400, "time": "2026-10-30T09:40:00Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000284", "t": 2400, "time": "2026-10-30T09:40:00Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 81ms"}
+{"id": "L000285", "t": 2402, "time": "2026-10-30T09:40:02Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 23ms"}
+{"id": "L000286", "t": 2416, "time": "2026-10-30T09:40:16Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 33ms"}
+{"id": "L000287", "t": 2417, "time": "2026-10-30T09:40:17Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000288", "t": 2426, "time": "2026-10-30T09:40:26Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 39ms"}
+{"id": "L000289", "t": 2427, "time": "2026-10-30T09:40:27Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000290", "t": 2429, "time": "2026-10-30T09:40:29Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000291", "t": 2431, "time": "2026-10-30T09:40:31Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 7ms"}
+{"id": "L000292", "t": 2448, "time": "2026-10-30T09:40:48Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 98ms"}
+{"id": "L000293", "t": 2450, "time": "2026-10-30T09:40:50Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000294", "t": 2459, "time": "2026-10-30T09:40:59Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000295", "t": 2466, "time": "2026-10-30T09:41:06Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 99ms"}
+{"id": "L000296", "t": 2469, "time": "2026-10-30T09:41:09Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 83ms"}
+{"id": "L000297", "t": 2470, "time": "2026-10-30T09:41:10Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000298", "t": 2473, "time": "2026-10-30T09:41:13Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000299", "t": 2484, "time": "2026-10-30T09:41:24Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 88ms"}
+{"id": "L000300", "t": 2488, "time": "2026-10-30T09:41:28Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 23ms"}
+{"id": "L000301", "t": 2488, "time": "2026-10-30T09:41:28Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 7ms"}
+{"id": "L000302", "t": 2494, "time": "2026-10-30T09:41:34Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 45ms"}
+{"id": "L000303", "t": 2500, "time": "2026-10-30T09:41:40Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000304", "t": 2514, "time": "2026-10-30T09:41:54Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 95ms"}
+{"id": "L000305", "t": 2529, "time": "2026-10-30T09:42:09Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000306", "t": 2531, "time": "2026-10-30T09:42:11Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000307", "t": 2540, "time": "2026-10-30T09:42:20Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 14ms"}
+{"id": "L000308", "t": 2545, "time": "2026-10-30T09:42:25Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 114ms"}
+{"id": "L000309", "t": 2550, "time": "2026-10-30T09:42:30Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 119ms"}
+{"id": "L000310", "t": 2550, "time": "2026-10-30T09:42:30Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000311", "t": 2550, "time": "2026-10-30T09:42:30Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 49ms"}
+{"id": "L000312", "t": 2559, "time": "2026-10-30T09:42:39Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000313", "t": 2562, "time": "2026-10-30T09:42:42Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 44ms"}
+{"id": "L000314", "t": 2582, "time": "2026-10-30T09:43:02Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 80ms"}
+{"id": "L000315", "t": 2586, "time": "2026-10-30T09:43:06Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000316", "t": 2587, "time": "2026-10-30T09:43:07Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000317", "t": 2609, "time": "2026-10-30T09:43:29Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000318", "t": 2610, "time": "2026-10-30T09:43:30Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 108ms"}
+{"id": "L000319", "t": 2615, "time": "2026-10-30T09:43:35Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 111ms"}
+{"id": "L000320", "t": 2619, "time": "2026-10-30T09:43:39Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 58ms"}
+{"id": "L000321", "t": 2626, "time": "2026-10-30T09:43:46Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 116ms"}
+{"id": "L000322", "t": 2626, "time": "2026-10-30T09:43:46Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000323", "t": 2627, "time": "2026-10-30T09:43:47Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 81ms"}
+{"id": "L000324", "t": 2628, "time": "2026-10-30T09:43:48Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 50ms"}
+{"id": "L000325", "t": 2641, "time": "2026-10-30T09:44:01Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000326", "t": 2643, "time": "2026-10-30T09:44:03Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000327", "t": 2645, "time": "2026-10-30T09:44:05Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000328", "t": 2657, "time": "2026-10-30T09:44:17Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 101ms"}
+{"id": "L000329", "t": 2667, "time": "2026-10-30T09:44:27Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000330", "t": 2689, "time": "2026-10-30T09:44:49Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 62ms"}
+{"id": "L000331", "t": 2689, "time": "2026-10-30T09:44:49Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 58ms"}
+{"id": "L000332", "t": 2692, "time": "2026-10-30T09:44:52Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 101ms"}
+{"id": "L000333", "t": 2694, "time": "2026-10-30T09:44:54Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 90ms"}
+{"id": "L000334", "t": 2698, "time": "2026-10-30T09:44:58Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000335", "t": 2701, "time": "2026-10-30T09:45:01Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000336", "t": 2702, "time": "2026-10-30T09:45:02Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 112ms"}
+{"id": "L000337", "t": 2704, "time": "2026-10-30T09:45:04Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 78ms"}
+{"id": "L000338", "t": 2722, "time": "2026-10-30T09:45:22Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000339", "t": 2722, "time": "2026-10-30T09:45:22Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000340", "t": 2730, "time": "2026-10-30T09:45:30Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 20ms"}
+{"id": "L000341", "t": 2730, "time": "2026-10-30T09:45:30Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 41ms"}
+{"id": "L000342", "t": 2744, "time": "2026-10-30T09:45:44Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000343", "t": 2746, "time": "2026-10-30T09:45:46Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 118ms"}
+{"id": "L000344", "t": 2749, "time": "2026-10-30T09:45:49Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 42ms"}
+{"id": "L000345", "t": 2763, "time": "2026-10-30T09:46:03Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 89ms"}
+{"id": "L000346", "t": 2769, "time": "2026-10-30T09:46:09Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000347", "t": 2772, "time": "2026-10-30T09:46:12Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 25ms"}
+{"id": "L000348", "t": 2776, "time": "2026-10-30T09:46:16Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000349", "t": 2779, "time": "2026-10-30T09:46:19Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 110ms"}
+{"id": "L000350", "t": 2781, "time": "2026-10-30T09:46:21Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000351", "t": 2793, "time": "2026-10-30T09:46:33Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000352", "t": 2800, "time": "2026-10-30T09:46:40Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000353", "t": 2803, "time": "2026-10-30T09:46:43Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 30ms"}
+{"id": "L000354", "t": 2807, "time": "2026-10-30T09:46:47Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 6ms"}
+{"id": "L000355", "t": 2810, "time": "2026-10-30T09:46:50Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 113ms"}
+{"id": "L000356", "t": 2811, "time": "2026-10-30T09:46:51Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000357", "t": 2818, "time": "2026-10-30T09:46:58Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 83ms"}
+{"id": "L000358", "t": 2823, "time": "2026-10-30T09:47:03Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 7ms"}
+{"id": "L000359", "t": 2835, "time": "2026-10-30T09:47:15Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 27ms"}
+{"id": "L000360", "t": 2842, "time": "2026-10-30T09:47:22Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000361", "t": 2851, "time": "2026-10-30T09:47:31Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000362", "t": 2858, "time": "2026-10-30T09:47:38Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 38ms"}
+{"id": "L000363", "t": 2868, "time": "2026-10-30T09:47:48Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000364", "t": 2869, "time": "2026-10-30T09:47:49Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000365", "t": 2869, "time": "2026-10-30T09:47:49Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 89ms"}
+{"id": "L000366", "t": 2870, "time": "2026-10-30T09:47:50Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 60ms"}
+{"id": "L000367", "t": 2884, "time": "2026-10-30T09:48:04Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 51ms"}
+{"id": "L000368", "t": 2886, "time": "2026-10-30T09:48:06Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 102ms"}
+{"id": "L000369", "t": 2886, "time": "2026-10-30T09:48:06Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 27ms"}
+{"id": "L000370", "t": 2903, "time": "2026-10-30T09:48:23Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000371", "t": 2905, "time": "2026-10-30T09:48:25Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 27ms"}
+{"id": "L000372", "t": 2914, "time": "2026-10-30T09:48:34Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000373", "t": 2934, "time": "2026-10-30T09:48:54Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 24ms"}
+{"id": "L000374", "t": 2934, "time": "2026-10-30T09:48:54Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000375", "t": 2934, "time": "2026-10-30T09:48:54Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 26ms"}
+{"id": "L000376", "t": 2936, "time": "2026-10-30T09:48:56Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 111ms"}
+{"id": "L000377", "t": 2939, "time": "2026-10-30T09:48:59Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 62ms"}
+{"id": "L000378", "t": 2945, "time": "2026-10-30T09:49:05Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000379", "t": 2948, "time": "2026-10-30T09:49:08Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 116ms"}
+{"id": "L000380", "t": 2954, "time": "2026-10-30T09:49:14Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000381", "t": 2964, "time": "2026-10-30T09:49:24Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 12ms"}
+{"id": "L000382", "t": 2965, "time": "2026-10-30T09:49:25Z", "service": "inventory", "level": "WARN", "msg": "slow request GET /api/inventory/sku took 627ms"}
+{"id": "L000383", "t": 2975, "time": "2026-10-30T09:49:35Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000384", "t": 2986, "time": "2026-10-30T09:49:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 65ms"}
+{"id": "L000385", "t": 2993, "time": "2026-10-30T09:49:53Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 56ms"}
+{"id": "L000386", "t": 2999, "time": "2026-10-30T09:49:59Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000387", "t": 3000, "time": "2026-10-30T09:50:00Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 91ms"}
+{"id": "L000388", "t": 3003, "time": "2026-10-30T09:50:03Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 102ms"}
+{"id": "L000389", "t": 3004, "time": "2026-10-30T09:50:04Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000390", "t": 3004, "time": "2026-10-30T09:50:04Z", "service": "postgres", "level": "WARN", "msg": "slow request SELECT orders took 439ms"}
+{"id": "L000391", "t": 3023, "time": "2026-10-30T09:50:23Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 24ms"}
+{"id": "L000392", "t": 3035, "time": "2026-10-30T09:50:35Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 101ms"}
+{"id": "L000393", "t": 3035, "time": "2026-10-30T09:50:35Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 93ms"}
+{"id": "L000394", "t": 3043, "time": "2026-10-30T09:50:43Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000395", "t": 3046, "time": "2026-10-30T09:50:46Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 15ms"}
+{"id": "L000396", "t": 3047, "time": "2026-10-30T09:50:47Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 27ms"}
+{"id": "L000397", "t": 3055, "time": "2026-10-30T09:50:55Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000398", "t": 3061, "time": "2026-10-30T09:51:01Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000399", "t": 3063, "time": "2026-10-30T09:51:03Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000400", "t": 3070, "time": "2026-10-30T09:51:10Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 52ms"}
+{"id": "L000401", "t": 3074, "time": "2026-10-30T09:51:14Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000402", "t": 3083, "time": "2026-10-30T09:51:23Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 109ms"}
+{"id": "L000403", "t": 3085, "time": "2026-10-30T09:51:25Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 89ms"}
+{"id": "L000404", "t": 3088, "time": "2026-10-30T09:51:28Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 103ms"}
+{"id": "L000405", "t": 3095, "time": "2026-10-30T09:51:35Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000406", "t": 3109, "time": "2026-10-30T09:51:49Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 51ms"}
+{"id": "L000407", "t": 3112, "time": "2026-10-30T09:51:52Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 79ms"}
+{"id": "L000408", "t": 3114, "time": "2026-10-30T09:51:54Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000409", "t": 3124, "time": "2026-10-30T09:52:04Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 85ms"}
+{"id": "L000410", "t": 3131, "time": "2026-10-30T09:52:11Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000411", "t": 3133, "time": "2026-10-30T09:52:13Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000412", "t": 3133, "time": "2026-10-30T09:52:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 96ms"}
+{"id": "L000413", "t": 3135, "time": "2026-10-30T09:52:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 35ms"}
+{"id": "L000414", "t": 3147, "time": "2026-10-30T09:52:27Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000415", "t": 3149, "time": "2026-10-30T09:52:29Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 36ms"}
+{"id": "L000416", "t": 3158, "time": "2026-10-30T09:52:38Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000417", "t": 3166, "time": "2026-10-30T09:52:46Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 115ms"}
+{"id": "L000418", "t": 3174, "time": "2026-10-30T09:52:54Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 49ms"}
+{"id": "L000419", "t": 3176, "time": "2026-10-30T09:52:56Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000420", "t": 3183, "time": "2026-10-30T09:53:03Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 35ms"}
+{"id": "L000421", "t": 3185, "time": "2026-10-30T09:53:05Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000422", "t": 3187, "time": "2026-10-30T09:53:07Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 38ms"}
+{"id": "L000423", "t": 3195, "time": "2026-10-30T09:53:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 63ms"}
+{"id": "L000424", "t": 3197, "time": "2026-10-30T09:53:17Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 107ms"}
+{"id": "L000425", "t": 3216, "time": "2026-10-30T09:53:36Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000426", "t": 3220, "time": "2026-10-30T09:53:40Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000427", "t": 3235, "time": "2026-10-30T09:53:55Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 86ms"}
+{"id": "L000428", "t": 3240, "time": "2026-10-30T09:54:00Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 90ms"}
+{"id": "L000429", "t": 3241, "time": "2026-10-30T09:54:01Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 13ms"}
+{"id": "L000430", "t": 3243, "time": "2026-10-30T09:54:03Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 119ms"}
+{"id": "L000431", "t": 3253, "time": "2026-10-30T09:54:13Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 67ms"}
+{"id": "L000432", "t": 3255, "time": "2026-10-30T09:54:15Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 35ms"}
+{"id": "L000433", "t": 3261, "time": "2026-10-30T09:54:21Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000434", "t": 3273, "time": "2026-10-30T09:54:33Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000435", "t": 3282, "time": "2026-10-30T09:54:42Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000436", "t": 3285, "time": "2026-10-30T09:54:45Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 84ms"}
+{"id": "L000437", "t": 3286, "time": "2026-10-30T09:54:46Z", "service": "gateway", "level": "WARN", "msg": "slow request GET /api/cart took 728ms"}
+{"id": "L000438", "t": 3287, "time": "2026-10-30T09:54:47Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000439", "t": 3310, "time": "2026-10-30T09:55:10Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000440", "t": 3313, "time": "2026-10-30T09:55:13Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 88ms"}
+{"id": "L000441", "t": 3315, "time": "2026-10-30T09:55:15Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 86ms"}
+{"id": "L000442", "t": 3319, "time": "2026-10-30T09:55:19Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 105ms"}
+{"id": "L000443", "t": 3319, "time": "2026-10-30T09:55:19Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000444", "t": 3325, "time": "2026-10-30T09:55:25Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 48ms"}
+{"id": "L000445", "t": 3335, "time": "2026-10-30T09:55:35Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 62ms"}
+{"id": "L000446", "t": 3339, "time": "2026-10-30T09:55:39Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000447", "t": 3347, "time": "2026-10-30T09:55:47Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 27ms"}
+{"id": "L000448", "t": 3348, "time": "2026-10-30T09:55:48Z", "service": "gateway", "level": "WARN", "msg": "slow request GET /api/cart took 429ms"}
+{"id": "L000449", "t": 3352, "time": "2026-10-30T09:55:52Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000450", "t": 3357, "time": "2026-10-30T09:55:57Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000451", "t": 3367, "time": "2026-10-30T09:56:07Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 15ms"}
+{"id": "L000452", "t": 3371, "time": "2026-10-30T09:56:11Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000453", "t": 3374, "time": "2026-10-30T09:56:14Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 71ms"}
+{"id": "L000454", "t": 3378, "time": "2026-10-30T09:56:18Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 29ms"}
+{"id": "L000455", "t": 3384, "time": "2026-10-30T09:56:24Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 8ms"}
+{"id": "L000456", "t": 3387, "time": "2026-10-30T09:56:27Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 29ms"}
+{"id": "L000457", "t": 3394, "time": "2026-10-30T09:56:34Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000458", "t": 3397, "time": "2026-10-30T09:56:37Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 96ms"}
+{"id": "L000459", "t": 3403, "time": "2026-10-30T09:56:43Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000460", "t": 3410, "time": "2026-10-30T09:56:50Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 25ms"}
+{"id": "L000461", "t": 3412, "time": "2026-10-30T09:56:52Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000462", "t": 3414, "time": "2026-10-30T09:56:54Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000463", "t": 3421, "time": "2026-10-30T09:57:01Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000464", "t": 3436, "time": "2026-10-30T09:57:16Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000465", "t": 3441, "time": "2026-10-30T09:57:21Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 58ms"}
+{"id": "L000466", "t": 3448, "time": "2026-10-30T09:57:28Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 101ms"}
+{"id": "L000467", "t": 3453, "time": "2026-10-30T09:57:33Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000468", "t": 3459, "time": "2026-10-30T09:57:39Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 97ms"}
+{"id": "L000469", "t": 3464, "time": "2026-10-30T09:57:44Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 69ms"}
+{"id": "L000470", "t": 3464, "time": "2026-10-30T09:57:44Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 11ms"}
+{"id": "L000471", "t": 3477, "time": "2026-10-30T09:57:57Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000472", "t": 3483, "time": "2026-10-30T09:58:03Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000473", "t": 3487, "time": "2026-10-30T09:58:07Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 47ms"}
+{"id": "L000474", "t": 3507, "time": "2026-10-30T09:58:27Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000475", "t": 3508, "time": "2026-10-30T09:58:28Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 40ms"}
+{"id": "L000476", "t": 3513, "time": "2026-10-30T09:58:33Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 77ms"}
+{"id": "L000477", "t": 3517, "time": "2026-10-30T09:58:37Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 26ms"}
+{"id": "L000478", "t": 3518, "time": "2026-10-30T09:58:38Z", "service": "payments", "level": "WARN", "msg": "slow request POST /api/payments/charge took 708ms"}
+{"id": "L000479", "t": 3523, "time": "2026-10-30T09:58:43Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 30ms"}
+{"id": "L000480", "t": 3525, "time": "2026-10-30T09:58:45Z", "service": "gateway", "level": "ERROR", "msg": "call to orders failed: 502 Bad Gateway"}
+{"id": "L000481", "t": 3526, "time": "2026-10-30T09:58:46Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 62ms"}
+{"id": "L000482", "t": 3548, "time": "2026-10-30T09:59:08Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000483", "t": 3556, "time": "2026-10-30T09:59:16Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 7ms"}
+{"id": "L000484", "t": 3558, "time": "2026-10-30T09:59:18Z", "service": "orders", "level": "ERROR", "msg": "call to payments failed: 502 Bad Gateway"}
+{"id": "L000485", "t": 3563, "time": "2026-10-30T09:59:23Z", "service": "gateway", "level": "INFO", "msg": "GET /api/cart 200 in 64ms"}
+{"id": "L000486", "t": 3569, "time": "2026-10-30T09:59:29Z", "service": "postgres", "level": "INFO", "msg": "SELECT orders 200 in 97ms"}
+{"id": "L000487", "t": 3571, "time": "2026-10-30T09:59:31Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000488", "t": 3575, "time": "2026-10-30T09:59:35Z", "service": "payments", "level": "INFO", "msg": "POST /api/payments/charge 200 in 90ms"}
+{"id": "L000489", "t": 3581, "time": "2026-10-30T09:59:41Z", "service": "payments", "level": "ERROR", "msg": "Unhandled exception in POST /api/payments/checkout: NullPointerException at CheckoutHandler.java:142 (v2.39.8)"}
+{"id": "L000490", "t": 3582, "time": "2026-10-30T09:59:42Z", "service": "redis", "level": "INFO", "msg": "GET session:* 200 in 48ms"}
+{"id": "L000491", "t": 3595, "time": "2026-10-30T09:59:55Z", "service": "inventory", "level": "INFO", "msg": "GET /api/inventory/sku 200 in 56ms"}
+{"id": "L000492", "t": 3597, "time": "2026-10-30T09:59:57Z", "service": "orders", "level": "INFO", "msg": "POST /api/orders 200 in 31ms"}

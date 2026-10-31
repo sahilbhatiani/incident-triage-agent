@@ -1,0 +1,16 @@
+{
+  "incident_id": "adv-02",
+  "fault": "bad_deploy",
+  "service": "inventory",
+  "onset_min": 29,
+  "severity": 0.16,
+  "red_herrings": [
+    {
+      "kind": "cpu_spike",
+      "service": "inventory",
+      "at_min": 17
+    }
+  ],
+  "noise": 0.1,
+  "seed": 902
+}

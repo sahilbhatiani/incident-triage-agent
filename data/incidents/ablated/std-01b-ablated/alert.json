@@ -1,0 +1,12 @@
+{
+  "alert_id": "ALRT-std-01b-ablated",
+  "title": "gateway: 5xx error rate and p95 latency above SLO",
+  "service": "gateway",
+  "severity": "P2",
+  "fired_at": "2026-10-30T09:24:45Z",
+  "fired_at_t": 1485,
+  "window": {
+    "t0": 0,
+    "t1": 3600
+  }
+}
