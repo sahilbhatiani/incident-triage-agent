@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 340" font-family="Helvetica,Arial,sans-serif" font-size="12">
+<rect width="760" height="340" fill="#ffffff"/>
+<text x="50" y="24" font-size="15" font-weight="bold" fill="#222">Root-cause accuracy by split</text>
+<line x1="50" x2="740" y1="280.0" y2="280.0" stroke="#e5e5e5"/><text x="44" y="284.0" text-anchor="end" fill="#666">0%</text>
+<line x1="50" x2="740" y1="222.5" y2="222.5" stroke="#e5e5e5"/><text x="44" y="226.5" text-anchor="end" fill="#666">25%</text>
+<line x1="50" x2="740" y1="165.0" y2="165.0" stroke="#e5e5e5"/><text x="44" y="169.0" text-anchor="end" fill="#666">50%</text>
+<line x1="50" x2="740" y1="107.5" y2="107.5" stroke="#e5e5e5"/><text x="44" y="111.5" text-anchor="end" fill="#666">75%</text>
+<line x1="50" x2="740" y1="50.0" y2="50.0" stroke="#e5e5e5"/><text x="44" y="54.0" text-anchor="end" fill="#666">100%</text>
+<rect x="67.2" y="96.0" width="66.0" height="184.0" fill="#2a6fdb"/><text x="100.2" y="92.0" text-anchor="middle" fill="#333">36/45</text>
+<rect x="136.2" y="136.9" width="66.0" height="143.1" fill="#e8833a"/><text x="169.2" y="132.9" text-anchor="middle" fill="#333">28/45</text>
+<text x="136.2" y="298" text-anchor="middle" fill="#333">standard</text>
+<rect x="239.8" y="50.0" width="66.0" height="230.0" fill="#2a6fdb"/><text x="272.8" y="46.0" text-anchor="middle" fill="#333">18/18</text>
+<rect x="308.8" y="113.9" width="66.0" height="166.1" fill="#e8833a"/><text x="341.8" y="109.9" text-anchor="middle" fill="#333">13/18</text>
+<text x="308.8" y="298" text-anchor="middle" fill="#333">adversarial</text>
+<rect x="412.2" y="50.0" width="66.0" height="230.0" fill="#2a6fdb"/><text x="445.2" y="46.0" text-anchor="middle" fill="#333">100%</text>
+<rect x="481.2" y="142.0" width="66.0" height="138.0" fill="#e8833a"/><text x="514.2" y="138.0" text-anchor="middle" fill="#333">60%</text>
+<text x="481.2" y="298" text-anchor="middle" fill="#333">ablation: full</text>
+<rect x="584.8" y="188.0" width="66.0" height="92.0" fill="#2a6fdb"/><text x="617.8" y="184.0" text-anchor="middle" fill="#333">40%</text>
+<rect x="653.8" y="188.0" width="66.0" height="92.0" fill="#e8833a"/><text x="686.8" y="184.0" text-anchor="middle" fill="#333">40%</text>
+<text x="653.8" y="298" text-anchor="middle" fill="#333">ablation: evidence removed</text>
+<rect x="50" y="318" width="12" height="12" fill="#2a6fdb"/><text x="68" y="328" fill="#333">single</text>
+<rect x="180" y="318" width="12" height="12" fill="#e8833a"/><text x="198" y="328" fill="#333">multi</text>
+</svg>

@@ -2,7 +2,7 @@
 
 **Question.** When a production alert fires, does a coordinator plus three specialist agents (Logs, Metrics, Knowledge) diagnose the root cause more accurately or more cheaply than one agent holding the same tools?
 
-**Answer (measured, see [Results](#results)).** No. On 90 runs over 15 simulated incidents, the **single agent was more accurate (36/45, 80%) than the coordinator + specialists (28/45, 62%)**, with better calibration, at about 20% higher cost. The multi-agent team localised the failing service almost as well (93% vs 100%) but lost the fault *mechanism* at the handoff. We therefore choose **Approach A (single agent)**, and document below where B fails and what would fix it.
+**Answer (measured, see [Results](#results) and the full [Results and Observations report](REPORT.md)).** No. On 90 runs over 15 simulated incidents, the **single agent was more accurate (36/45, 80%) than the coordinator + specialists (28/45, 62%)**, with better calibration, at about 20% higher cost. The multi-agent team localised the failing service almost as well (93% vs 100%) but lost the fault *mechanism* at the handoff. We therefore choose **Approach A (single agent)**, and document below where B fails and what would fix it.
 
 Scope: read-only triage of simulated backend incidents. There is no remediation and no real infrastructure.
 
