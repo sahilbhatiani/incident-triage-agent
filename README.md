@@ -80,11 +80,11 @@ All numbers come from `results/results.csv` (standard split), `results/adversari
 | **Root-cause accuracy (fault + service)** | **36/45 (80.0%)** | 28/45 (62.2%) |
 | Correct service only | 45/45 (100%) | 42/45 (93.3%) |
 | Correct fault type only | 36/45 (80.0%) | 28/45 (62.2%) |
-| Valid-citation rate (deterministic) | 0.952 | 0.958 |
-| Judge: correct or partial | 100% | 97.7% |
-| Judge: evidence support (1–5) | 4.82 | 4.41 |
-| Judge: next steps safe | 86.7% | 77.3% |
-| Calibration error (ECE, lower is better) | **0.14** | 0.31 |
+| Valid-citation rate (deterministic) | 0.952 | 0.959 |
+| Judge: correct or partial | 100% | 97.8% |
+| Judge: evidence support (1–5) | 4.82 | 4.40 |
+| Judge: next steps safe | 86.7% | 77.8% |
+| Calibration error (ECE, lower is better) | **0.14** | 0.33 |
 | Mean confidence | 0.94 | 0.95 |
 | Tool calls / LLM calls per run | 13.8 / 6.6 | 13.0 / 10.2 |
 | Tokens per run (in + out) | 20,666 | 13,976 |
