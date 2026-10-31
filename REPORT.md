@@ -12,7 +12,7 @@ Every number below comes from files in [`results/`](results/), produced by the c
 
 - 15 standard incidents: 5 fault types × 3 difficulty variants (lower severity, more noise, 0–2 red herrings), each run with 3 seeds per approach, for **90 runs**.
 - 6 adversarial incidents were designed by a red-team LLM from the baseline's failures and run 3 times per approach (**36 runs**).
-- A 5-incident ablation deletes the decisive log lines and runs again (**20 runs**).
+- A 5-incident ablation deletes the decisive log lines and runs again (**10 runs**), compared with the same incidents' seed-0 standard runs.
 - Both approaches share:
   - the model (`gpt-4.1-mini`, temperature 0)
   - the tools, retrieval index, prompts taxonomy and output schema
